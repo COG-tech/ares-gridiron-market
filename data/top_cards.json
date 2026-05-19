@@ -1,0 +1,43 @@
+{
+  "is_placeholder": true,
+  "top_ares_player": {
+    "player_id": "locked_nfl_01",
+    "player_name": "Locked ARES Player",
+    "position": "NFL",
+    "team_or_school": "Paid Preview",
+    "score": "Locked",
+    "metric_label": "ARES Score",
+    "trend": "Flat",
+    "is_placeholder": true
+  },
+  "top_market_asset": {
+    "player_id": "locked_nfl_02",
+    "player_name": "Locked Market Asset",
+    "position": "NFL",
+    "team_or_school": "Paid Preview",
+    "score": "Locked",
+    "metric_label": "Market Score",
+    "trend": "Flat",
+    "is_placeholder": true
+  },
+  "top_college_asset": {
+    "player_id": "locked_college_01",
+    "player_name": "Locked College Asset",
+    "position": "College",
+    "team_or_school": "Paid Preview",
+    "score": "Locked",
+    "metric_label": "College Market Score",
+    "trend": "Flat",
+    "is_placeholder": true
+  },
+  "top_watchlist_riser": {
+    "player_id": "locked_watchlist_01",
+    "player_name": "Locked Watchlist Riser",
+    "position": "Tracked",
+    "team_or_school": "Paid Preview",
+    "score": "Locked",
+    "metric_label": "Tracked Only",
+    "trend": "Flat",
+    "is_placeholder": true
+  }
+}

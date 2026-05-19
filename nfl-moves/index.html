@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NFL Trades & Roster Moves | ARES Gridiron Market</title>
+  <link rel="shortcut icon" href="../assets/media/logos/favicon.ico">
+  <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/ares-theme.css?v=20260519-graphics1" rel="stylesheet">
+  <link href="../assets/css/ares-components.css?v=20260519-graphics1" rel="stylesheet">
+  <style>
+    .page-main{width:min(100%,1320px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
+    .move-tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
+    .move-tabs button{border:1px solid var(--ares-border);background:#fff;border-radius:8px;padding:.55rem .8rem;font-weight:800;color:var(--ares-text)}
+    .move-tabs button.active{border-color:var(--ares-gold);background:rgba(247,201,72,.16)}
+    .move-toolbar{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1rem}
+    .source-note{color:var(--ares-muted);font-size:.85rem;margin:.75rem 0 0}
+    .empty-state{display:none;margin:0 0 1rem;padding:1rem;background:#F8FAFC;border:1px solid var(--ares-border);border-left:4px solid var(--ares-gold);border-radius:8px}
+    .empty-state.is-visible{display:block}
+    .empty-state strong{display:block;color:var(--ares-text);font-size:1rem}
+    .empty-state span{display:block;color:var(--ares-muted);font-size:.88rem;line-height:1.45}
+    @media(max-width:760px){.move-toolbar{align-items:stretch;flex-direction:column}}
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar">
+    <a class="ares-brand" href="../index.html">ARES Gridiron Market</a>
+    <nav class="ares-nav" aria-label="Primary navigation">
+      <a href="../index.html">Home</a>
+      <a href="../rankings/ares.html">ARES Rankings</a>
+      <a href="../rankings/market.html">Market Rankings</a>
+      <a href="../college/index.html">College</a>
+      <a href="../high-school/index.html">High School</a>
+      <a href="../scores/index.html">Scores</a>
+      <a class="active" href="index.html">NFL Moves</a>
+      <a href="../players/index.html">Players</a>
+      <a href="../teams/index.html">Teams</a>
+      <a href="../leagues/index.html">Leagues</a>
+      <a href="../movements/index.html">Movements</a>
+      <a href="../watchlist/index.html">Watchlist</a>
+      <a href="../methodology.html">Methodology</a>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="ares-page-title">
+      <h1>NFL Trades & Roster Moves</h1>
+      <p>Trades, signings, releases, waivers, practice squad moves, and roster changes.</p>
+    </section>
+    <section class="ares-card ares-section">
+      <div class="move-toolbar">
+        <label class="visually-hidden" for="move-search">Search NFL moves</label>
+        <div class="ares-search"><input id="move-search" type="search" placeholder="Search player, team, or move type..." autocomplete="off"></div>
+        <span id="move-count" class="ares-tier-chip">Loading</span>
+      </div>
+      <div class="move-tabs" aria-label="Move sections">
+        <button class="active" data-section="all" type="button">Latest Moves</button>
+        <button data-section="trade" type="button">Trades</button>
+        <button data-section="sign" type="button">Signings</button>
+        <button data-section="release" type="button">Releases</button>
+        <button data-section="waiver" type="button">Waivers</button>
+        <button data-section="practice" type="button">Practice Squad</button>
+        <button data-section="reserve" type="button">Injured Reserve / Reserve List</button>
+      </div>
+      <div id="moves-empty" class="empty-state">
+        <strong>No approved NFL transaction feed is connected yet.</strong>
+        <span>Trades, signings, releases, waivers, practice squad moves, and roster status changes will appear after SportsDataIO, Sportradar, or manual transaction CSV rows are exported.</span>
+        <span>Manual files: data_raw/transactions/nfl/manual_nfl_transactions.csv and data_raw/transactions/nfl/manual_nfl_roster_moves.csv.</span>
+      </div>
+      <div class="table-responsive">
+        <table id="moves-table" class="ares-table">
+          <thead>
+            <tr><th>Date</th><th>Team</th><th>Player</th><th>Position</th><th>Move Type</th><th>From</th><th>To</th><th>ARES Impact</th><th>Market Impact</th><th>Source</th><th>Conf.</th></tr>
+          </thead>
+          <tbody id="moves-body">
+            <tr><td colspan="11" class="text-muted">No approved NFL transaction feed has been connected yet.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p id="moves-status" class="source-note">Live-ish feed. Updated every 3 hours.</p>
+    </section>
+    <section class="ares-card ares-section">
+      <h2>Source Conf.</h2>
+      <p class="mb-0">NFL moves use approved APIs, licensed feeds, or manual files. NFL.com, ESPN, Spotrac, and other restricted pages are reference URLs only unless an approved API or explicit permission is connected.</p>
+    </section>
+  </main>
+  <footer class="ares-footer"><strong>ARES Gridiron Market</strong><span class="d-block">Static transaction feed. Updated every 3 hours.</span></footer>
+  <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260519-graphics1"></script>
+  <script>
+    (function(){
+      "use strict";
+      let rows = [];
+      let section = "all";
+      let query = "";
+      function source(row){
+        const name = window.AresData.safeText(row.source_name || "Manual");
+        const url = row.source_url ? window.AresData.safeText(row.source_url) : "";
+        return url ? '<a href="' + url + '" rel="noreferrer">' + name + "</a>" : name;
+      }
+      function keep(row){
+        const text = [row.player_name,row.team,row.position,row.move_type,row.from,row.to,row.source_name].join(" ").toLowerCase();
+        if (query && !text.includes(query)) return false;
+        if (section === "all") return true;
+        const type = String(row.move_type || "").toLowerCase();
+        if (section === "release") return type.includes("release") || type.includes("cut");
+        if (section === "reserve") return type.includes("reserve") || type.includes("injured");
+        return type.includes(section);
+      }
+      function render(){
+        const visible = rows.filter(keep).slice(0, 200);
+        const body = document.getElementById("moves-body");
+        if (!visible.length) {
+          body.innerHTML = '<tr><td colspan="11" class="text-muted">No approved NFL transaction feed has been connected yet.</td></tr>';
+          document.getElementById("moves-empty").classList.add("is-visible");
+          document.getElementById("moves-status").textContent = "No rows match the current section. Updated every 3 hours.";
+          document.getElementById("move-count").textContent = "0 rows";
+          return;
+        }
+        document.getElementById("moves-empty").classList.remove("is-visible");
+        body.innerHTML = visible.map(function(row){
+          return "<tr><td>" + window.AresData.safeText(row.date) + "</td><td>" + window.AresData.safeText(row.team) + "</td><td class=\"fw-bold\">" + window.AresData.safeText(row.player_name) + "</td><td>" + window.AresData.safeText(row.position) + "</td><td>" + window.AresTables.renderTierChip(row.move_type || "Move") + "</td><td>" + window.AresData.safeText(row.from) + "</td><td>" + window.AresData.safeText(row.to) + "</td><td>" + window.AresData.safeText(row.ares_impact) + "</td><td>" + window.AresData.safeText(row.market_impact) + "</td><td>" + source(row) + "</td><td>" + window.AresTables.renderConfidenceChip(row.confidence) + "</td></tr>";
+        }).join("");
+        document.getElementById("moves-status").textContent = visible.length + " rows shown. Updated every 3 hours.";
+        document.getElementById("move-count").textContent = visible.length + " rows";
+      }
+      document.addEventListener("DOMContentLoaded", async function(){
+        try {
+          const payload = await window.AresData.loadJson("../data/transactions/nfl_front_page_moves.json");
+          rows = Array.isArray(payload) ? payload : (payload.items || []);
+        } catch (error) {
+          rows = [];
+        }
+        document.getElementById("move-search").addEventListener("input", function(){
+          query = this.value.trim().toLowerCase();
+          render();
+        });
+        document.querySelectorAll("[data-section]").forEach(function(button){
+          button.addEventListener("click", function(){
+            document.querySelectorAll("[data-section]").forEach(function(item){ item.classList.remove("active"); });
+            button.classList.add("active");
+            section = button.dataset.section;
+            render();
+          });
+        });
+        render();
+      });
+    }());
+  </script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+</body>
+</html>
+
+
+
+

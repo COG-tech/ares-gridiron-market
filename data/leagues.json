@@ -1,0 +1,16 @@
+[
+  {
+    "league_id": "locked_nfl",
+    "league_name": "NFL",
+    "league_level": "Pro",
+    "ranked_or_tracked": "Locked public preview",
+    "teams": "Locked",
+    "players_tracked": "Locked",
+    "average_age": "--",
+    "average_ares_score": "Locked",
+    "average_market_score": "Locked",
+    "top_player": "Paid Preview",
+    "total_roster_value_score": "Locked",
+    "is_placeholder": true
+  }
+]

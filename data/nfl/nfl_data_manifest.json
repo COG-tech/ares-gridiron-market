@@ -1,0 +1,6 @@
+{
+  "public_preview": "locked",
+  "player_detail_files": 0,
+  "note": "Set ARES_PUBLISH_REAL_SITE_DATA=1 only when publishing to a protected paid surface.",
+  "is_placeholder": true
+}

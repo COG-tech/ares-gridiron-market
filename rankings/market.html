@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Market Rankings | ARES Gridiron Market</title>
+  <meta name="description" content="ARES Gridiron Market football asset value rankings.">
+  <link rel="shortcut icon" href="../assets/media/logos/favicon.ico">
+  <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
+  <link href="../assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
+  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
+  <link href="../assets/css/ares-theme.css?v=20260519-graphics1" rel="stylesheet" type="text/css">
+  <link href="../assets/css/ares-components.css?v=20260519-graphics1" rel="stylesheet" type="text/css">
+  <style>
+    .page-main {
+      width: min(100%, 1480px);
+      margin: 0 auto;
+      padding: clamp(1rem, 2.4vw, 2rem);
+    }
+
+    .ranking-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .ranking-note {
+      margin-bottom: 1rem;
+      padding: 0.9rem 1rem;
+      color: var(--ares-muted);
+      background: #FFFFFF;
+      border: 1px solid var(--ares-border);
+      border-left: 4px solid var(--ares-gold);
+      border-radius: 8px;
+    }
+
+    .sort-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0;
+      color: inherit;
+      background: transparent;
+      border: 0;
+      font: inherit;
+      font-weight: 850;
+      text-transform: inherit;
+      cursor: pointer;
+    }
+
+    .sort-button::after {
+      content: "^v";
+      color: var(--ares-muted);
+      font-size: 0.75rem;
+    }
+
+    @media (max-width: 768px) {
+      .ranking-toolbar {
+        align-items: stretch;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar">
+    <a class="ares-brand" href="../index.html">ARES Gridiron Market</a>
+    <nav class="ares-nav" aria-label="Primary navigation">
+      <a href="../index.html">Home</a>
+      <a href="ares.html">ARES Rankings</a>
+      <a class="active" href="market.html">Market Rankings</a>
+      <a href="../college/index.html">College</a>
+      <a href="../high-school/index.html">High School</a>
+      <a href="../scores/index.html">Scores</a>
+      <a href="../nfl-moves/index.html">NFL Moves</a>
+      <a href="../players/index.html">Players</a>
+      <a href="../teams/index.html">Teams</a>
+      <a href="../leagues/index.html">Leagues</a>
+      <a href="../movements/index.html">Movements</a>
+      <a href="../watchlist/index.html">Watchlist</a>
+      <a href="../methodology.html">Methodology</a>
+      
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="ares-page-title">
+      <h1>Market Rankings</h1>
+      <p>Football asset value rankings.</p>
+    </section>
+
+    <p class="ranking-note">Placeholder data shown until real model pipeline is connected. High school, FCS, JUCO, UFL, CFL, and transfer portal players are tracked in the Watchlist and are not ranked against pro or college players yet.</p>
+
+    <section class="ares-section ares-dashboard-grid" aria-label="Market ranking analytics">
+      <article class="ares-chart-card">
+        <div class="section-heading"><div><h2>Market Distribution</h2><span>Market score bands across the current NFL board.</span></div></div>
+        <div id="ranking-market-chart" class="ares-chart"></div>
+      </article>
+      <article class="ares-chart-card">
+        <div class="section-heading"><div><h2>Market Tiers</h2><span>Asset tier concentration across the board.</span></div></div>
+        <div id="ranking-tier-chart" class="ares-chart"></div>
+      </article>
+      <article class="ares-chart-card">
+        <div class="section-heading"><div><h2>Position Mix</h2><span>Most represented positions in market value rows.</span></div></div>
+        <div id="ranking-position-chart" class="ares-chart"></div>
+      </article>
+    </section>
+
+    <section class="ares-card">
+      <div class="ranking-toolbar">
+        <label class="visually-hidden" for="ranking-search">Search Market Rankings</label>
+        <div class="ares-search">
+          <input id="ranking-search" type="search" placeholder="Search market rankings..." autocomplete="off">
+        </div>
+        <span id="ranking-count" class="ares-tier-chip">Loading</span>
+      </div>
+
+      <div class="table-responsive">
+        <table id="ranking-table" class="ares-table" data-count-id="ranking-count">
+          <thead>
+            <tr>
+              <th><button class="sort-button" data-sort="rank" data-type="number">Rank</button></th>
+              <th><button class="sort-button" data-sort="player_name">Player</button></th>
+              <th><button class="sort-button" data-sort="position">Position</button></th>
+              <th><button class="sort-button" data-sort="team">Team</button></th>
+              <th><button class="sort-button" data-sort="league">League</button></th>
+              <th><button class="sort-button" data-sort="age" data-type="number">Age</button></th>
+              <th><button class="sort-button" data-sort="market_score" data-type="number">Market Score</button></th>
+              <th><button class="sort-button" data-sort="market_tier">Market Tier</button></th>
+              <th><button class="sort-button" data-sort="ares_score" data-type="number">ARES Score</button></th>
+              <th><button class="sort-button" data-sort="trend">Trend</button></th>
+              <th><button class="sort-button" data-sort="confidence">Conf.</button></th>
+            </tr>
+          </thead>
+          <tbody id="ranking-body">
+            <tr>
+              <td>1</td>
+              <td><a class="fw-bold" href="../players/player-template.html?player_id=locked_nfl_01">Locked Player</a></td>
+              <td>CB</td>
+              <td>Locked</td>
+              <td>NFL</td>
+              <td></td>
+              <td><span class="ares-market-chip">Locked</span></td>
+              <td><span class="ares-tier-chip">Paid</span></td>
+              <td><span class="ares-score-chip">Locked</span></td>
+              <td><span class="ares-trend-flat">Flat</span></td>
+              <td><span class="ares-confidence-medium" title="Medium" aria-label="Medium confidence">M</span></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><a class="fw-bold" href="../players/player-template.html?player_id=locked_nfl_01">Locked Player</a></td>
+              <td>CB</td>
+              <td>Locked</td>
+              <td>NFL</td>
+              <td></td>
+              <td><span class="ares-market-chip">Locked</span></td>
+              <td><span class="ares-tier-chip">Paid</span></td>
+              <td><span class="ares-score-chip">Locked</span></td>
+              <td><span class="ares-trend-flat">Flat</span></td>
+              <td><span class="ares-confidence-medium" title="Medium" aria-label="Medium confidence">M</span></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><a class="fw-bold" href="../players/player-template.html?player_id=locked_nfl_01">Locked Player</a></td>
+              <td>CB</td>
+              <td>Locked</td>
+              <td>NFL</td>
+              <td></td>
+              <td><span class="ares-market-chip">Locked</span></td>
+              <td><span class="ares-tier-chip">Paid</span></td>
+              <td><span class="ares-score-chip">Locked</span></td>
+              <td><span class="ares-trend-flat">Flat</span></td>
+              <td><span class="ares-confidence-medium" title="Medium" aria-label="Medium confidence">M</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ares-footer">
+    <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+      <div>
+        <strong>ARES Gridiron Market</strong>
+        <span class="d-block">Independent analytical database. Placeholder data shown until real model outputs are connected.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-charts.js?v=20260519-graphics1"></script>
+  <script>
+    (function () {
+      "use strict";
+
+      const dataPath = "../data/market_rankings.json";
+      const columns =       [
+        { key: "rank" },
+        { key: "player_name", render: "player", basePath: "../players/" },
+        { key: "position" },
+        { key: "team" },
+        { key: "league" },
+        { key: "age" },
+        { key: "market_score", render: "score", scoreType: "market" },
+        { key: "market_tier", render: "tier" },
+        { key: "ares_score", render: "score", scoreType: "ares" },
+        { key: "trend", render: "trend" },
+        { key: "confidence", render: "confidence" }
+      ];
+
+      function setFallback(error) {
+        const count = document.getElementById("ranking-count");
+        if (count) {
+          count.textContent = "Fallback rows";
+        }
+        if (window.console) {
+          console.warn(error);
+        }
+      }
+
+      function init() {
+        window.AresData.loadJson(dataPath)
+          .then(function (rows) {
+            window.AresCharts.renderScoreDistribution("ranking-market-chart", rows, "market_score", "Market score rows");
+            window.AresCharts.renderCountBy("ranking-tier-chart", rows, "market_tier", { limit: 8, type: "donut", seriesName: "Players" });
+            window.AresCharts.renderCountBy("ranking-position-chart", rows, "position", { limit: 8, type: "donut", seriesName: "Players" });
+            window.AresTables.renderTable("ranking-body", rows, columns);
+            window.AresTables.makeTableSortable("ranking-table");
+            window.AresTables.makeTableSearchable("ranking-search", "ranking-table");
+          })
+          .catch(setFallback);
+      }
+
+      document.addEventListener("DOMContentLoaded", init);
+    }());
+  </script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+</body>
+</html>
+
+
+
+
+

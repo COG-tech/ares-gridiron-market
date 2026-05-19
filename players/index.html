@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Players | ARES Gridiron Market</title>
+  <link rel="shortcut icon" href="../assets/media/logos/favicon.ico">
+  <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
+  <link href="../assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
+  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
+  <link href="../assets/css/ares-theme.css?v=20260519-graphics1" rel="stylesheet" type="text/css">
+  <link href="../assets/css/ares-components.css?v=20260519-graphics1" rel="stylesheet" type="text/css">
+  <style>
+    .page-main { width: min(100%, 1480px); margin: 0 auto; padding: clamp(1rem, 2.4vw, 2rem); }
+    .filter-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0; }
+    .filter-card { padding: 1rem; }
+    .sort-button { padding: 0; color: inherit; background: transparent; border: 0; font: inherit; font-weight: 850; cursor: pointer; }
+    .sort-button::after { content: "^v"; margin-left: .25rem; color: var(--ares-muted); font-size: .75rem; }
+    @media (max-width: 900px) { .filter-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar">
+    <a class="ares-brand" href="../index.html">ARES Gridiron Market</a>
+    <nav class="ares-nav" aria-label="Primary navigation">
+      <a href="../index.html">Home</a>
+      <a href="../rankings/ares.html">ARES Rankings</a>
+      <a href="../rankings/market.html">Market Rankings</a>
+      <a href="../college/index.html">College</a>
+      <a href="../high-school/index.html">High School</a>
+      <a href="../scores/index.html">Scores</a>
+      <a href="../nfl-moves/index.html">NFL Moves</a>
+      <a class="active" href="index.html">Players</a>
+      <a href="../teams/index.html">Teams</a>
+      <a href="../leagues/index.html">Leagues</a>
+      <a href="../movements/index.html">Movements</a>
+      <a href="../watchlist/index.html">Watchlist</a>
+      <a href="../methodology.html">Methodology</a>
+      
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="ares-page-title">
+      <h1>Players</h1>
+      <p>Search NFL player records exported from the local ARES data pipeline.</p>
+    </section>
+
+    <section class="filter-grid">
+      <div class="ares-card filter-card">
+        <strong>Position</strong>
+        <p class="mb-0 text-muted">Use the search box for QB, WR, EDGE, OT, CB, and other positions.</p>
+      </div>
+      <div class="ares-card filter-card">
+        <strong>League</strong>
+        <p class="mb-0 text-muted">Pro and college records are ranked. Development levels remain tracked-only.</p>
+      </div>
+      <div class="ares-card filter-card">
+        <strong>Team / School</strong>
+        <p class="mb-0 text-muted">NFL team codes link into the current static player profile system.</p>
+      </div>
+    </section>
+
+    <section class="ares-section ares-dashboard-grid" aria-label="Player database analytics">
+      <article class="ares-chart-card"><div class="section-heading"><div><h2>Position Mix</h2><span>NFL player records by listed position.</span></div></div><div id="players-position-chart" class="ares-chart"></div></article>
+      <article class="ares-chart-card"><div class="section-heading"><div><h2>Team Mix</h2><span>Largest team groups in the player search file.</span></div></div><div id="players-team-chart" class="ares-chart"></div></article>
+      <article class="ares-chart-card"><div class="section-heading"><div><h2>League Mix</h2><span>Current player records by league label.</span></div></div><div id="players-league-chart" class="ares-chart"></div></article>
+    </section>
+
+    <section class="ares-card">
+      <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4">
+        <label class="visually-hidden" for="player-search">Search players</label>
+        <div class="ares-search"><input id="player-search" type="search" placeholder="Search player, team, school, or league..." autocomplete="off"></div>
+        <span id="player-count" class="ares-tier-chip">Loading</span>
+      </div>
+      <div class="table-responsive">
+        <table id="player-table" class="ares-table" data-count-id="player-count">
+          <thead>
+            <tr>
+              <th><button class="sort-button" data-sort="player_name">Player</button></th>
+              <th><button class="sort-button" data-sort="position">Position</button></th>
+              <th><button class="sort-button" data-sort="team">Team</button></th>
+              <th><button class="sort-button" data-sort="school">School</button></th>
+              <th><button class="sort-button" data-sort="league">League</button></th>
+              <th>Profile</th>
+            </tr>
+          </thead>
+          <tbody id="player-body">
+            <tr><td>Locked Player</td><td>CB</td><td>Locked</td><td></td><td>NFL</td><td><a href="player-template.html?player_id=locked_nfl_01">Open</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-muted mt-3 mb-0">NFL rows are exported static JSON. College and development profiles appear as their source pipelines are connected.</p>
+    </section>
+  </main>
+
+  <footer class="ares-footer"><strong>ARES Gridiron Market</strong><span class="d-block">Independent analytical database.</span></footer>
+  <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-charts.js?v=20260519-graphics1"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const columns = [
+        { key: "player_name", render: function(value,row) {
+          const target = row.url && row.url.indexOf("players/") === 0 ? row.url.replace("players/", "") : "player-template.html?player_id=" + encodeURIComponent(row.player_id || "");
+          return '<a class="fw-bold" href="' + window.AresData.safeText(target) + '">' + window.AresData.safeText(value) + "</a>";
+        } },
+        { key: "position" },
+        { key: "team" },
+        { key: "school" },
+        { key: "league" },
+        { key: "url", render: function (value) {
+          const target = value && value.indexOf("players/") === 0 ? value.replace("players/", "") : (value || "sample-player.html");
+          return '<a href="' + window.AresData.safeText(target) + '">Open</a>';
+        } }
+      ];
+      window.AresData.loadJson("../data/player_search.json").then(function (rows) {
+        const players = rows.filter(function (row) { return row.type === "player"; });
+        window.AresCharts.renderCountBy("players-position-chart", players, "position", { limit: 10, type: "donut", seriesName: "Players" });
+        window.AresCharts.renderCountBy("players-team-chart", players, "team", { limit: 10, type: "bar", seriesName: "Players" });
+        window.AresCharts.renderCountBy("players-league-chart", players, "league", { limit: 8, type: "donut", seriesName: "Players" });
+        window.AresTables.renderTable("player-body", players, columns);
+        window.AresTables.makeTableSortable("player-table");
+        window.AresTables.makeTableSearchable("player-search", "player-table");
+      }).catch(function (error) {
+        document.getElementById("player-count").textContent = "Fallback rows";
+        if (window.console) console.warn(error);
+      });
+    });
+  </script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+</body>
+</html>
+
+
+
+
+
+

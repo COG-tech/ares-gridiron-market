@@ -1,0 +1,21 @@
+{
+  "player_id": "locked_nfl_01",
+  "player_name": "Paid ARES Player Profile",
+  "position": "NFL",
+  "team": "Paid Preview",
+  "school": "",
+  "league": "NFL",
+  "level": "Pro",
+  "age": "--",
+  "height": "--",
+  "weight": "--",
+  "ares_score": "Locked",
+  "market_score": "Locked",
+  "value_tier": "Paid",
+  "trend": "Flat",
+  "confidence": "L",
+  "source_confidence": "L",
+  "has_nfl_detail": false,
+  "nfl_detail_url": "",
+  "is_placeholder": true
+}

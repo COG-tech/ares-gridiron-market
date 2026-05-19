@@ -1,0 +1,122 @@
+[
+  {
+    "type": "player",
+    "player_id": "locked_nfl_01",
+    "player_name": "Locked Player 1",
+    "position": "QB",
+    "team": "Locked NFL Team 1",
+    "school": "",
+    "league": "NFL",
+    "level": "Pro",
+    "url": "players/player-template.html?player_id=locked_nfl_01",
+    "is_placeholder": true
+  },
+  {
+    "type": "player",
+    "player_id": "locked_nfl_02",
+    "player_name": "Locked Player 2",
+    "position": "WR",
+    "team": "Locked NFL Team 2",
+    "school": "",
+    "league": "NFL",
+    "level": "Pro",
+    "url": "players/player-template.html?player_id=locked_nfl_02",
+    "is_placeholder": true
+  },
+  {
+    "type": "player",
+    "player_id": "locked_nfl_03",
+    "player_name": "Locked Player 3",
+    "position": "RB",
+    "team": "Locked NFL Team 3",
+    "school": "",
+    "league": "NFL",
+    "level": "Pro",
+    "url": "players/player-template.html?player_id=locked_nfl_03",
+    "is_placeholder": true
+  },
+  {
+    "type": "player",
+    "player_id": "locked_nfl_04",
+    "player_name": "Locked Player 4",
+    "position": "EDGE",
+    "team": "Locked NFL Team 4",
+    "school": "",
+    "league": "NFL",
+    "level": "Pro",
+    "url": "players/player-template.html?player_id=locked_nfl_04",
+    "is_placeholder": true
+  },
+  {
+    "type": "player",
+    "player_id": "locked_nfl_05",
+    "player_name": "Locked Player 5",
+    "position": "CB",
+    "team": "Locked NFL Team 5",
+    "school": "",
+    "league": "NFL",
+    "level": "Pro",
+    "url": "players/player-template.html?player_id=locked_nfl_05",
+    "is_placeholder": true
+  },
+  {
+    "type": "player",
+    "player_id": "locked_nfl_06",
+    "player_name": "Locked Player 6",
+    "position": "LB",
+    "team": "Locked NFL Team 6",
+    "school": "",
+    "league": "NFL",
+    "level": "Pro",
+    "url": "players/player-template.html?player_id=locked_nfl_06",
+    "is_placeholder": true
+  },
+  {
+    "type": "player",
+    "player_id": "locked_nfl_07",
+    "player_name": "Locked Player 7",
+    "position": "OT",
+    "team": "Locked NFL Team 7",
+    "school": "",
+    "league": "NFL",
+    "level": "Pro",
+    "url": "players/player-template.html?player_id=locked_nfl_07",
+    "is_placeholder": true
+  },
+  {
+    "type": "player",
+    "player_id": "locked_nfl_08",
+    "player_name": "Locked Player 8",
+    "position": "S",
+    "team": "Locked NFL Team 8",
+    "school": "",
+    "league": "NFL",
+    "level": "Pro",
+    "url": "players/player-template.html?player_id=locked_nfl_08",
+    "is_placeholder": true
+  },
+  {
+    "type": "player",
+    "player_id": "locked_nfl_09",
+    "player_name": "Locked Player 9",
+    "position": "TE",
+    "team": "Locked NFL Team 9",
+    "school": "",
+    "league": "NFL",
+    "level": "Pro",
+    "url": "players/player-template.html?player_id=locked_nfl_09",
+    "is_placeholder": true
+  },
+  {
+    "type": "player",
+    "player_id": "locked_nfl_10",
+    "player_name": "Locked Player 10",
+    "position": "DL",
+    "team": "Locked NFL Team 10",
+    "school": "",
+    "league": "NFL",
+    "level": "Pro",
+    "url": "players/player-template.html?player_id=locked_nfl_10",
+    "is_placeholder": true
+  }
+]

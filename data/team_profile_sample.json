@@ -1,0 +1,19 @@
+{
+  "team_id": "locked_team_01",
+  "team_name": "Locked NFL Team 1",
+  "league": "NFL",
+  "conference": "Locked",
+  "roster_size": "--",
+  "average_age": "--",
+  "average_ares_score": "Locked",
+  "average_market_score": "Locked",
+  "total_roster_value_score": "Locked",
+  "top_ares_player": "Paid Preview",
+  "top_ares_player_id": "locked_nfl_01",
+  "top_market_asset": "Paid Preview",
+  "top_market_asset_id": "locked_nfl_02",
+  "top_young_asset": "Paid Preview",
+  "top_young_asset_id": "locked_nfl_03",
+  "source_confidence": "L",
+  "is_placeholder": true
+}

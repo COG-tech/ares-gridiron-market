@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scores | ARES Gridiron Market</title>
+  <link rel="shortcut icon" href="../assets/media/logos/favicon.ico">
+  <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/ares-theme.css?v=20260519-graphics1" rel="stylesheet">
+  <link href="../assets/css/ares-components.css?v=20260519-graphics1" rel="stylesheet">
+  <style>
+    .page-main{width:min(100%,1320px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
+    .filter-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.75rem;margin-bottom:1rem}
+    .filter-grid input,.filter-grid select{width:100%;min-height:2.65rem;border:1px solid var(--ares-border);border-radius:8px;padding:.55rem .7rem;color:var(--ares-text);background:#fff}
+    .score-tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
+    .score-tabs button{border:1px solid var(--ares-border);background:#fff;border-radius:8px;padding:.55rem .8rem;font-weight:800;color:var(--ares-text)}
+    .score-tabs button.active{border-color:var(--ares-gold);background:rgba(247,201,72,.16)}
+    .source-note{color:var(--ares-muted);font-size:.85rem;margin:.75rem 0 0}
+    .empty-state{display:none;margin:0 0 1rem;padding:1rem;background:#F8FAFC;border:1px solid var(--ares-border);border-left:4px solid var(--ares-gold);border-radius:8px}
+    .empty-state.is-visible{display:block}
+    .empty-state strong{display:block;color:var(--ares-text);font-size:1rem}
+    .empty-state span{display:block;color:var(--ares-muted);font-size:.88rem;line-height:1.45}
+    @media(max-width:960px){.filter-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:620px){.filter-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar">
+    <a class="ares-brand" href="../index.html">ARES Gridiron Market</a>
+    <nav class="ares-nav" aria-label="Primary navigation">
+      <a href="../index.html">Home</a>
+      <a href="../rankings/ares.html">ARES Rankings</a>
+      <a href="../rankings/market.html">Market Rankings</a>
+      <a href="../college/index.html">College</a>
+      <a href="../high-school/index.html">High School</a>
+      <a class="active" href="index.html">Scores</a>
+      <a href="../nfl-moves/index.html">NFL Moves</a>
+      <a href="../players/index.html">Players</a>
+      <a href="../teams/index.html">Teams</a>
+      <a href="../leagues/index.html">Leagues</a>
+      <a href="../movements/index.html">Movements</a>
+      <a href="../watchlist/index.html">Watchlist</a>
+      <a href="../methodology.html">Methodology</a>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="ares-page-title">
+      <h1>Scores</h1>
+      <p>NFL, college, and high school football scoreboard. Updated every 3 hours when approved sources are connected.</p>
+    </section>
+
+    <section class="ares-card ares-section">
+      <div class="filter-grid" aria-label="Score filters">
+        <select id="level-filter"><option value="">All levels</option><option>NFL</option><option>College</option><option>High School</option></select>
+        <input id="league-filter" type="search" placeholder="League / conference">
+        <input id="state-filter" type="search" placeholder="State">
+        <input id="date-filter" type="date">
+        <select id="status-filter"><option value="">All statuses</option><option>Scheduled</option><option>In Progress</option><option>Final</option></select>
+      </div>
+      <div class="score-tabs" aria-label="Score sections">
+        <button class="active" data-section="all" type="button">All Scores</button>
+        <button data-section="nfl" type="button">NFL Scores</button>
+        <button data-section="college" type="button">College Scores</button>
+        <button data-section="high-school" type="button">High School Scores</button>
+        <button data-section="finals" type="button">Recent Finals</button>
+        <button data-section="upcoming" type="button">Upcoming Games</button>
+      </div>
+      <div id="scores-empty" class="empty-state">
+        <strong>No approved score feed is connected yet.</strong>
+        <span>NFL season data, college scores, and high school scores will appear here after an approved API feed or manual score CSV is populated. Static GitHub Pages will read exported JSON only.</span>
+        <span>Manual files: data_raw/scores/nfl/manual_nfl_scores.csv, data_raw/scores/college/manual_college_scores.csv, data_raw/scores/high_school/manual_high_school_scores.csv.</span>
+      </div>
+      <div class="table-responsive">
+        <table id="scores-table" class="ares-table">
+          <thead>
+            <tr>
+              <th>Date</th><th>Time</th><th>Level</th><th>League/Conference</th><th>State</th><th>Away</th><th>Home</th><th>Score</th><th>Status</th><th>Source</th><th>Conf.</th><th>Updated</th>
+            </tr>
+          </thead>
+          <tbody id="scores-body">
+            <tr><td colspan="12" class="text-muted">No approved score feed has been connected yet.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p id="scores-status" class="source-note">Live-ish feed. Updated every 3 hours.</p>
+    </section>
+
+    <section class="ares-card ares-section">
+      <h2>Source Conf.</h2>
+      <p class="mb-0">Scores use approved APIs, licensed feeds, manual score files, coach/school submissions, or allowlisted school/state sources. Commercial platforms that restrict scraping are not bulk collected.</p>
+    </section>
+  </main>
+  <footer class="ares-footer"><strong>ARES Gridiron Market</strong><span class="d-block">Static GitHub Pages scoreboard data. Updated every 3 hours.</span></footer>
+  <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260519-graphics1"></script>
+  <script>
+    (function(){
+      "use strict";
+      let allRows = [];
+      let section = "all";
+      const filters = ["level-filter","league-filter","state-filter","date-filter","status-filter"];
+
+      function score(row){
+        const away = window.AresData.safeText(row.away_score);
+        const home = window.AresData.safeText(row.home_score);
+        if (!away && !home) return "";
+        return away + " - " + home;
+      }
+      function source(row){
+        const name = window.AresData.safeText(row.source_name || "Manual");
+        const url = row.source_url ? window.AresData.safeText(row.source_url) : "";
+        return url ? '<a href="' + url + '" rel="noreferrer">' + name + "</a>" : name;
+      }
+      function matches(row){
+        const level = document.getElementById("level-filter").value.toLowerCase();
+        const league = document.getElementById("league-filter").value.trim().toLowerCase();
+        const state = document.getElementById("state-filter").value.trim().toLowerCase();
+        const date = document.getElementById("date-filter").value;
+        const status = document.getElementById("status-filter").value.toLowerCase();
+        if (section === "nfl" && String(row.level).toLowerCase() !== "nfl") return false;
+        if (section === "college" && String(row.level).toLowerCase() !== "college") return false;
+        if (section === "high-school" && String(row.level).toLowerCase() !== "high school") return false;
+        if (section === "finals" && !String(row.game_status).toLowerCase().includes("final")) return false;
+        if (section === "upcoming" && !["scheduled","upcoming","pre","pregame"].includes(String(row.game_status).toLowerCase())) return false;
+        if (level && String(row.level).toLowerCase() !== level) return false;
+        if (league && !String(row.league_or_conference || "").toLowerCase().includes(league)) return false;
+        if (state && !String(row.state || "").toLowerCase().includes(state)) return false;
+        if (date && row.game_date !== date) return false;
+        if (status && !String(row.game_status || "").toLowerCase().includes(status)) return false;
+        return true;
+      }
+      function render(){
+        const rows = allRows.filter(matches).slice(0, 200);
+        const body = document.getElementById("scores-body");
+        if (!rows.length) {
+          body.innerHTML = '<tr><td colspan="12" class="text-muted">No approved score feed has been connected yet.</td></tr>';
+          document.getElementById("scores-empty").classList.add("is-visible");
+          document.getElementById("scores-status").textContent = "No rows match the current filters. Updated every 3 hours.";
+          return;
+        }
+        document.getElementById("scores-empty").classList.remove("is-visible");
+        body.innerHTML = rows.map(function(row){
+          return "<tr><td>" + window.AresData.safeText(row.game_date) + "</td><td>" + window.AresData.safeText(row.game_time) + "</td><td>" + window.AresData.safeText(row.level) + "</td><td>" + window.AresData.safeText(row.league_or_conference) + "</td><td>" + window.AresData.safeText(row.state) + "</td><td>" + window.AresData.safeText(row.away_team) + "</td><td>" + window.AresData.safeText(row.home_team) + "</td><td>" + score(row) + "</td><td>" + window.AresTables.renderTierChip(row.game_status || "Scheduled") + "</td><td>" + source(row) + "</td><td>" + window.AresTables.renderConfidenceChip(row.confidence) + "</td><td>" + window.AresData.safeText(row.last_updated) + "</td></tr>";
+        }).join("");
+        document.getElementById("scores-status").textContent = rows.length + " rows shown. Updated every 3 hours.";
+      }
+      document.addEventListener("DOMContentLoaded", async function(){
+        try {
+          allRows = await window.AresData.loadJson("../data/scores/unified_scoreboard.json");
+        } catch (error) {
+          allRows = [];
+        }
+        filters.forEach(function(id){ document.getElementById(id).addEventListener("input", render); });
+        document.querySelectorAll("[data-section]").forEach(function(button){
+          button.addEventListener("click", function(){
+            document.querySelectorAll("[data-section]").forEach(function(item){ item.classList.remove("active"); });
+            button.classList.add("active");
+            section = button.dataset.section;
+            render();
+          });
+        });
+        render();
+      });
+    }());
+  </script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+</body>
+</html>
+
+
+
+

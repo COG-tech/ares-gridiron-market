@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>High School Football | ARES Gridiron Market</title>
+  <link rel="shortcut icon" href="../assets/media/logos/favicon.ico">
+  <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/ares-theme.css?v=20260519-graphics1" rel="stylesheet">
+  <link href="../assets/css/ares-components.css?v=20260519-graphics1" rel="stylesheet">
+  <style>
+    .home-main{width:min(100%,1480px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(18rem,.55fr);gap:1.25rem;align-items:end}
+    .hero-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+    .hero-kpi{padding:.85rem;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);border-radius:8px}
+    .hero-kpi span{display:block;color:rgba(255,255,255,.72);font-size:.75rem;font-weight:750;text-transform:uppercase}
+    .hero-kpi strong{display:block;color:#fff;font-size:1.35rem;font-weight:850;line-height:1.2}
+    .top-card-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
+    .board-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+    .board-grid .wide{grid-column:1/-1}
+    .feed-list{display:grid;gap:.65rem;margin:0;padding:0;list-style:none}
+    .feed-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.75rem;align-items:center;padding:.72rem 0;border-bottom:1px solid rgba(201,207,216,.72)}
+    .feed-title{display:block;color:var(--ares-text);font-size:.88rem;font-weight:850;line-height:1.25}
+    .feed-meta{display:block;color:var(--ares-muted);font-size:.76rem;font-weight:700;line-height:1.25}
+    .feed-score{color:var(--ares-navy);font-size:.85rem;font-weight:850;white-space:nowrap}
+    .section-heading{display:flex;align-items:end;justify-content:space-between;gap:1rem;margin-bottom:.75rem}
+    .section-heading h2{margin:0;color:var(--ares-text);font-size:1.15rem;font-weight:850}
+    .section-heading a{color:var(--ares-muted);font-size:.85rem;font-weight:750;text-decoration:none}
+    .status-note{margin:.75rem 0 0;color:var(--ares-muted);font-size:.8rem}
+    @media(max-width:1100px){.hero-grid,.board-grid{grid-template-columns:1fr}.top-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:680px){.top-card-grid,.hero-kpis{grid-template-columns:1fr}}
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar">
+    <a class="ares-brand" href="../index.html">ARES Gridiron Market</a>
+    <nav class="ares-nav" aria-label="Primary navigation">
+      <a href="../index.html">Home</a><a href="../rankings/ares.html">ARES Rankings</a><a href="../rankings/market.html">Market Rankings</a><a href="../college/index.html">College</a><a class="active" href="index.html">High School</a><a href="../scores/index.html">Scores</a><a href="../nfl-moves/index.html">NFL Moves</a><a href="../players/index.html">Players</a><a href="../teams/index.html">Teams</a><a href="../leagues/index.html">Leagues</a><a href="../methodology.html">Methodology</a>
+    </nav>
+  </header>
+
+  <main class="home-main">
+    <section class="ares-hero ares-section">
+      <div class="hero-grid">
+        <div>
+          <p class="fw-bold text-uppercase mb-2" style="letter-spacing:0;">High school development board.</p>
+          <h1>High School Football</h1>
+          <p>Tracked-only recruits, schools, score feeds, commitments, and source confidence.</p>
+        </div>
+        <div class="hero-kpis">
+          <div class="hero-kpi"><span>Watchlist</span><strong id="hs-watch-count">Loading</strong></div>
+          <div class="hero-kpi"><span>Schools</span><strong id="hs-school-count">Loading</strong></div>
+          <div class="hero-kpi"><span>Scores</span><strong>3 hour feed</strong></div>
+          <div class="hero-kpi"><span>Status</span><strong>Tracked only</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ares-section top-card-grid">
+      <article id="top-hs-player" class="ares-stat-card"><span class="label">Top Tracking Score</span><span class="value">Loading</span></article>
+      <article id="top-hs-commit" class="ares-stat-card"><span class="label">Latest Commitment Signal</span><span class="value">Loading</span></article>
+      <article id="top-hs-school" class="ares-stat-card"><span class="label">Most Tracked School</span><span class="value">Loading</span></article>
+      <article id="latest-hs-score" class="ares-stat-card"><span class="label">Latest High School Score</span><span class="value">Pending</span></article>
+    </section>
+
+    <section class="ares-section ares-dashboard-grid" aria-label="High school analytics charts">
+      <article class="ares-chart-card">
+        <div class="section-heading"><div><h2>Tracking Score Bands</h2><span>Development tracking scores for high school rows only.</span></div></div>
+        <div id="hs-tracking-chart" class="ares-chart"></div>
+      </article>
+      <article class="ares-chart-card">
+        <div class="section-heading"><div><h2>State Mix</h2><span>Where current high school watchlist rows are coming from.</span></div></div>
+        <div id="hs-state-chart" class="ares-chart"></div>
+      </article>
+      <article class="ares-chart-card">
+        <div class="section-heading"><div><h2>Commitment Signals</h2><span>Signed, committed, and tracked-only status mix.</span></div></div>
+        <div id="hs-commit-chart" class="ares-chart"></div>
+      </article>
+    </section>
+
+    <section class="ares-section board-grid">
+      <article class="ares-card wide">
+        <div class="section-heading"><h2>High School Scores</h2><a href="../scores/index.html">All scores</a></div>
+        <ul id="hs-scores-list" class="feed-list"><li class="feed-item"><span><span class="feed-title">No approved high school score feed has been connected yet.</span><span class="feed-meta">Updated every 3 hours</span></span></li></ul>
+        <p id="hs-scores-status" class="status-note">High school scores only. Updated every 3 hours.</p>
+      </article>
+
+      <article class="ares-card wide">
+        <div class="section-heading"><h2>High School Watchlist</h2><a href="../watchlist/index.html#high-school">Full watchlist</a></div>
+        <div class="table-responsive"><table class="ares-table"><thead><tr><th>Player</th><th>Pos</th><th>School</th><th>State</th><th>Class</th><th>Committed</th><th>Score</th><th>Conf.</th></tr></thead><tbody id="hs-watch-body"><tr><td colspan="8" class="text-muted">Loading high school watchlist.</td></tr></tbody></table></div>
+      </article>
+
+      <article class="ares-card wide">
+        <div class="section-heading"><h2>High School School Board</h2><a href="school-template.html">School template</a></div>
+        <div class="table-responsive"><table class="ares-table"><thead><tr><th>School</th><th>City</th><th>State</th><th>Tracked Players</th><th>Top Player</th><th>Commit Signals</th></tr></thead><tbody id="hs-schools-body"><tr><td colspan="6" class="text-muted">Loading high school schools.</td></tr></tbody></table></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="ares-footer"><strong>ARES Gridiron Market</strong><span class="d-block">High school names and schools link to high school template pages. Players are tracked only.</span></footer>
+  <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-charts.js?v=20260519-graphics1"></script>
+  <script>
+    (function(){
+      "use strict";
+      const safe=window.AresData.safeText;
+      function playerHref(row){return "player-template.html?player_id="+encodeURIComponent(row.player_id||"")+"&player_name="+encodeURIComponent(row.player_name||"");}
+      function schoolName(row){return String(row.team_or_school||"").split(",")[0].trim();}
+      function schoolHref(name){return "school-template.html?school="+encodeURIComponent(name||"");}
+      function link(text,href){return '<a class="fw-bold" href="'+href+'">'+safe(text)+'</a>';}
+      function playerLink(v,r){return link(v||"Player",playerHref(r||{}));}
+      function schoolLink(v){return link(v||"School",schoolHref(v));}
+      function scoreLine(row){const score=row.away_score||row.home_score?safe(row.away_score)+" - "+safe(row.home_score):safe(row.game_status||"Scheduled");return '<li class="feed-item"><span><span class="feed-title">'+schoolLink(row.away_team||"Away")+' at '+schoolLink(row.home_team||"Home")+'</span><span class="feed-meta">'+safe(row.game_date)+" "+safe(row.state)+" "+safe(row.classification)+'</span></span><span class="feed-score">'+score+'</span></li>';}
+      function buildSchools(players,scores){const map={};function get(name){if(!name)return null;map[name]=map[name]||{school:name,city:"",state:"",players:0,top:"",top_id:"",commits:0};return map[name];}players.forEach(function(p){const name=schoolName(p);const s=get(name);if(s){s.city=s.city||p.city;s.state=s.state||p.state;s.players+=1;if(!s.top || Number(p.tracking_score||0)>Number(s.score||0)){s.top=p.player_name;s.top_id=p.player_id;s.score=p.tracking_score;}if(p.committed_school)s.commits+=1;}});scores.forEach(function(r){const h=get(r.home_team);const a=get(r.away_team);if(h)h.state=h.state||r.state;if(a)a.state=a.state||r.state;});return Object.keys(map).map(k=>map[k]);}
+      function renderTopCards(players,schools,scores){
+        const sorted=players.slice().sort((a,b)=>Number(b.tracking_score||0)-Number(a.tracking_score||0));
+        const top=sorted[0]||{};
+        const commit=players.find(p=>p.committed_school)||{};
+        const school=schools.slice().sort((a,b)=>b.players-a.players)[0]||{};
+        const score=scores[0]||{};
+        document.getElementById("top-hs-player").innerHTML=`<span class="label">Top Tracking Score</span><span class="value">${playerLink(top.player_name||"Pending",top)}</span><span class="meta">${safe(top.position)} | ${schoolLink(schoolName(top)||"")}</span><span>${window.AresTables.renderScoreChip(top.tracking_score||"","ares")}</span>`;
+        document.getElementById("top-hs-commit").innerHTML=`<span class="label">Latest Commitment Signal</span><span class="value">${playerLink(commit.player_name||"Pending",commit)}</span><span class="meta">${safe(commit.status||"No connected signal")}</span><span>${window.AresTables.renderConfidenceChip(commit.confidence)}</span>`;
+        document.getElementById("top-hs-school").innerHTML=`<span class="label">Most Tracked School</span><span class="value">${schoolLink(school.school||"Pending")}</span><span class="meta">${safe(school.players||0)} tracked players</span><span>${window.AresTables.renderTierChip(school.state||"")}</span>`;
+        document.getElementById("latest-hs-score").innerHTML=`<span class="label">Latest High School Score</span><span class="value">${score.home_team?schoolLink(score.home_team):"Pending"}</span><span class="meta">${safe(score.game_status||"No connected feed")}</span><span>${window.AresTables.renderConfidenceChip(score.confidence)}</span>`;
+      }
+      function renderWatch(players){window.AresTables.renderTable("hs-watch-body",players.slice().sort((a,b)=>Number(b.tracking_score||0)-Number(a.tracking_score||0)).slice(0,25),[{key:"player_name",render:playerLink},{key:"position"},{key:"team_or_school",render:function(v,r){return schoolLink(schoolName(r));}},{key:"state"},{key:"class_year"},{key:"committed_school",render:schoolLink},{key:"tracking_score",render:"score",scoreType:"ares"},{key:"confidence",render:"confidence"}]);}
+      function renderSchools(schools){window.AresTables.renderTable("hs-schools-body",schools.slice(0,25),[{key:"school",render:schoolLink},{key:"city"},{key:"state"},{key:"players"},{key:"top",render:function(v,r){return link(v,"player-template.html?player_id="+encodeURIComponent(r.top_id||""));}},{key:"commits"}]);}
+      function commitBucket(player){const status=String(player.status||"").toLowerCase();if(status.includes("signed"))return "Signed";if(status.includes("commit")||player.committed_school)return "Committed";return "Tracked";}
+      document.addEventListener("DOMContentLoaded",async function(){try{const [watch,scores]=await Promise.all([window.AresData.loadJson("../data/tracked_players.json"),window.AresData.loadJson("../data/scores/high_school_scoreboard.json")]);const players=watch.filter(p=>String(p.level||"").toLowerCase()==="high school").map(function(p){return Object.assign({commit_bucket:commitBucket(p)},p);});const schools=buildSchools(players,scores);renderTopCards(players,schools,scores);window.AresCharts.renderScoreDistribution("hs-tracking-chart",players,"tracking_score","Tracking score rows");window.AresCharts.renderCountBy("hs-state-chart",players,"state",{limit:8,type:"donut",seriesName:"Players"});window.AresCharts.renderCountBy("hs-commit-chart",players,"commit_bucket",{limit:5,type:"donut",seriesName:"Players"});renderWatch(players);renderSchools(schools);document.getElementById("hs-scores-list").innerHTML=scores.length?scores.slice(0,6).map(scoreLine).join(""):'<li class="feed-item"><span><span class="feed-title">No approved high school score feed has been connected yet.</span><span class="feed-meta">Updated every 3 hours</span></span></li>';document.getElementById("hs-watch-count").textContent=players.length+" players";document.getElementById("hs-school-count").textContent=schools.length+" schools";document.getElementById("hs-scores-status").textContent="High school score rows shown: "+scores.length+". Updated every 3 hours.";}catch(error){if(window.console)console.warn(error);}});
+    }());
+  </script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARES Gridiron Market | NFL</title>
+  <meta name="description" content="ARES Gridiron Market NFL board with rankings, team value, scores, trades, and roster moves.">
+  <link rel="shortcut icon" href="assets/media/logos/favicon.ico">
+  <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
+  <link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
+  <link href="assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
+  <link href="assets/css/ares-theme.css?v=20260519-graphics1" rel="stylesheet" type="text/css">
+  <link href="assets/css/ares-components.css?v=20260519-graphics1" rel="stylesheet" type="text/css">
+  <style>
+    .home-main{width:min(100%,1480px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(18rem,.55fr);gap:1.25rem;align-items:end}
+    .hero-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+    .hero-kpi{padding:.85rem;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);border-radius:8px}
+    .hero-kpi span{display:block;color:rgba(255,255,255,.72);font-size:.75rem;font-weight:750;text-transform:uppercase}
+    .hero-kpi strong{display:block;color:#fff;font-size:1.35rem;font-weight:850;line-height:1.2}
+    .top-card-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
+    .board-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+    .board-grid .wide{grid-column:1/-1}
+    .feed-list{display:grid;gap:.65rem;margin:0;padding:0;list-style:none}
+    .feed-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.75rem;align-items:center;padding:.72rem 0;border-bottom:1px solid rgba(201,207,216,.72)}
+    .feed-item:last-child{border-bottom:0}
+    .feed-title{display:block;color:var(--ares-text);font-size:.88rem;font-weight:850;line-height:1.25}
+    .feed-meta{display:block;color:var(--ares-muted);font-size:.76rem;font-weight:700;line-height:1.25}
+    .feed-score{color:var(--ares-navy);font-size:.85rem;font-weight:850;white-space:nowrap}
+    .section-heading{display:flex;align-items:end;justify-content:space-between;gap:1rem;margin-bottom:.75rem}
+    .section-heading h2{margin:0;color:var(--ares-text);font-size:1.15rem;font-weight:850;line-height:1.2}
+    .section-heading a{color:var(--ares-muted);font-size:.85rem;font-weight:750;text-decoration:none}
+    .status-note{margin:.75rem 0 0;color:var(--ares-muted);font-size:.8rem}
+    .search-panel{position:relative;width:min(100%,46rem)}
+    .search-results{position:absolute;top:calc(100% + .4rem);left:0;right:0;z-index:30;display:none;overflow:hidden;background:var(--ares-white);border:1px solid var(--ares-border);border-radius:8px;box-shadow:var(--ares-shadow)}
+    .search-results.is-open{display:block}
+    .search-results a,.search-results div{display:block;padding:.75rem .9rem;color:var(--ares-text);border-bottom:1px solid rgba(201,207,216,.7);text-decoration:none}
+    .search-results a:last-child,.search-results div:last-child{border-bottom:0}
+    .search-results small{display:block;color:var(--ares-muted);font-size:.75rem;line-height:1.35}
+    @media(max-width:1100px){.hero-grid,.board-grid{grid-template-columns:1fr}.top-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:680px){.top-card-grid,.hero-kpis{grid-template-columns:1fr}}
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar">
+    <a class="ares-brand" href="index.html">ARES Gridiron Market</a>
+    <nav class="ares-nav" aria-label="Primary navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="rankings/ares.html">ARES Rankings</a>
+      <a href="rankings/market.html">Market Rankings</a>
+      <a href="college/index.html">College</a>
+      <a href="high-school/index.html">High School</a>
+      <a href="scores/index.html">Scores</a>
+      <a href="nfl-moves/index.html">NFL Moves</a>
+      <a href="players/index.html">Players</a>
+      <a href="teams/index.html">Teams</a>
+      <a href="leagues/index.html">Leagues</a>
+      <a href="methodology.html">Methodology</a>
+      
+    </nav>
+  </header>
+
+  <main class="home-main">
+    <section class="ares-hero ares-section">
+      <div class="hero-grid">
+        <div>
+          <p class="fw-bold text-uppercase mb-2" style="letter-spacing:0;">NFL market board.</p>
+          <h1>ARES Gridiron Market</h1>
+          <p>NFL player quality, asset value, team value, scores, trades, and roster moves.</p>
+          <div class="search-panel mt-6">
+            <label class="visually-hidden" for="global-search">Search NFL players and teams</label>
+            <div class="ares-search"><input id="global-search" type="search" placeholder="Search NFL player, team, or league..." autocomplete="off"></div>
+            <div id="search-results" class="search-results" aria-live="polite"></div>
+          </div>
+        </div>
+        <div class="hero-kpis" aria-label="NFL summary">
+          <div class="hero-kpi"><span>NFL rankings</span><strong id="hero-ranking-count">Top 10</strong></div>
+          <div class="hero-kpi"><span>NFL teams</span><strong id="hero-team-count">Loading</strong></div>
+          <div class="hero-kpi"><span>Scores</span><strong>3 hour feed</strong></div>
+          <div class="hero-kpi"><span>Moves</span><strong>Tracked</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ares-section top-card-grid" aria-label="NFL headline cards">
+      <article id="top-ares-player" class="ares-stat-card"><span class="label">Top NFL ARES Player</span><span class="value">Loading</span></article>
+      <article id="top-market-asset" class="ares-stat-card"><span class="label">Top NFL Market Asset</span><span class="value">Loading</span></article>
+      <article id="top-nfl-team" class="ares-stat-card"><span class="label">Top NFL Team Value</span><span class="value">Loading</span></article>
+      <article id="latest-nfl-move" class="ares-stat-card"><span class="label">Latest NFL Move</span><span class="value">Pending</span></article>
+    </section>
+
+    <section class="ares-section ares-dashboard-grid" aria-label="NFL analytics charts">
+      <article class="ares-chart-card">
+        <div class="section-heading">
+          <div><h2>NFL ARES Distribution</h2><span>Pipeline output by score band.</span></div>
+        </div>
+        <div id="home-ares-score-chart" class="ares-chart"></div>
+      </article>
+      <article class="ares-chart-card">
+        <div class="section-heading">
+          <div><h2>NFL Market Distribution</h2><span>Asset score concentration across active board rows.</span></div>
+        </div>
+        <div id="home-market-score-chart" class="ares-chart"></div>
+      </article>
+      <article class="ares-chart-card">
+        <div class="section-heading">
+          <div><h2>Position Mix</h2><span>Top position groups represented in the NFL database.</span></div>
+        </div>
+        <div id="home-position-chart" class="ares-chart"></div>
+      </article>
+    </section>
+
+    <section class="ares-section board-grid">
+      <article class="ares-card">
+        <div class="section-heading"><h2>NFL Scores</h2><a href="scores/index.html">Full scoreboard</a></div>
+        <ul id="nfl-scores-list" class="feed-list"><li class="feed-item"><span><span class="feed-title">No approved NFL score feed has been connected yet.</span><span class="feed-meta">Updated every 3 hours</span></span></li></ul>
+        <p id="nfl-scores-status" class="status-note">NFL scores only. Updated every 3 hours.</p>
+      </article>
+
+      <article class="ares-card">
+        <div class="section-heading"><h2>NFL Trades &amp; Roster Moves</h2><a href="nfl-moves/index.html">NFL moves</a></div>
+        <ul id="nfl-moves-list" class="feed-list"><li class="feed-item"><span><span class="feed-title">No approved NFL transaction feed has been connected yet.</span><span class="feed-meta">Updated every 3 hours</span></span></li></ul>
+        <p id="nfl-moves-status" class="status-note">Trades, signings, releases, waivers, practice squad, and roster status changes.</p>
+      </article>
+
+      <article class="ares-card">
+        <div class="section-heading"><h2>Top 10 NFL ARES Rankings</h2><a href="rankings/ares.html">Full board</a></div>
+        <div class="table-responsive"><table class="ares-table"><thead><tr><th>Rank</th><th>Player</th><th>Pos</th><th>Team</th><th>ARES</th><th>Tier</th><th>Conf.</th></tr></thead><tbody id="ares-rankings-body"><tr><td colspan="7" class="text-muted">Loading NFL rankings.</td></tr></tbody></table></div>
+      </article>
+
+      <article class="ares-card">
+        <div class="section-heading"><h2>Top 10 NFL Market Rankings</h2><a href="rankings/market.html">Full board</a></div>
+        <div class="table-responsive"><table class="ares-table"><thead><tr><th>Rank</th><th>Player</th><th>Pos</th><th>Team</th><th>Market</th><th>ARES</th><th>Tier</th></tr></thead><tbody id="market-rankings-body"><tr><td colspan="7" class="text-muted">Loading NFL market rankings.</td></tr></tbody></table></div>
+      </article>
+
+      <article class="ares-card wide">
+        <div class="section-heading"><h2>NFL Team Board</h2><a href="teams/index.html">All teams</a></div>
+        <div class="table-responsive"><table class="ares-table"><thead><tr><th>Team</th><th>Conf</th><th>Roster</th><th>Avg ARES</th><th>Avg Market</th><th>Top ARES Player</th><th>Top Market Asset</th></tr></thead><tbody id="team-board-body"><tr><td colspan="7" class="text-muted">Loading NFL teams.</td></tr></tbody></table></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="ares-footer">
+    <strong>ARES Gridiron Market</strong>
+    <span class="d-block">NFL homepage only. College and high school boards live on their own index pages.</span>
+  </footer>
+  <script src="assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
+  <script src="assets/js/ares-tables.js?v=20260519-graphics1"></script>
+  <script src="assets/js/ares-search.js?v=20260519-graphics1"></script>
+  <script src="assets/js/ares-charts.js?v=20260519-graphics1"></script>
+  <script>
+    (function(){
+      "use strict";
+      const safe = window.AresData.safeText;
+      function playerHref(row){return row && row.player_id ? "players/player-template.html?player_id=" + encodeURIComponent(row.player_id) : "players/player-template.html";}
+      function teamHref(teamId){return "teams/team-template.html?team_id=" + encodeURIComponent(teamId || "");}
+      function link(text, href){return '<a class="fw-bold" href="' + href + '">' + safe(text) + "</a>";}
+      function playerLink(value,row){return link(value, playerHref(row));}
+      function teamLink(value,row){return link(value, teamHref(row.team_id || row.team || value));}
+      function renderStatus(id,text){const el=document.getElementById(id);if(el)el.textContent=text;}
+      function scoreLine(row){const score=row.away_score || row.home_score ? safe(row.away_score)+" - "+safe(row.home_score) : safe(row.game_status || "Scheduled");return '<li class="feed-item"><span><span class="feed-title">'+link(row.away_team || "Away", teamHref(row.away_team))+' at '+link(row.home_team || "Home", teamHref(row.home_team))+'</span><span class="feed-meta">'+safe(row.game_date)+" "+safe(row.game_time)+" "+safe(row.league_or_conference)+'</span></span><span class="feed-score">'+score+'</span></li>';}
+      function moveLine(row){return '<li class="feed-item"><span><span class="feed-title">'+playerLink(row.player_name || "Pending move", row)+'</span><span class="feed-meta">'+link(row.team || "Team", teamHref(row.team))+" "+safe(row.move_type || "Move")+" "+safe(row.date || "")+'</span></span>'+window.AresTables.renderConfidenceChip(row.confidence)+'</li>';}
+      function renderTopCards(ares,market,teams,moves){
+        const topAres=ares[0]||{};const topMarket=market[0]||{};const topTeam=teams[0]||{};const topMove=moves[0]||{};
+        document.getElementById("top-ares-player").innerHTML='<span class="label">Top NFL ARES Player</span><span class="value">'+playerLink(topAres.player_name||"Pending",topAres)+'</span><span class="meta">'+safe(topAres.position)+" | "+teamLink(topAres.team||"",topAres)+'</span><span>'+window.AresTables.renderScoreChip(topAres.ares_score||"", "ares")+'</span>';
+        document.getElementById("top-market-asset").innerHTML='<span class="label">Top NFL Market Asset</span><span class="value">'+playerLink(topMarket.player_name||"Pending",topMarket)+'</span><span class="meta">'+safe(topMarket.position)+" | "+teamLink(topMarket.team||"",topMarket)+'</span><span>'+window.AresTables.renderScoreChip(topMarket.market_score||"", "market")+'</span>';
+        document.getElementById("top-nfl-team").innerHTML='<span class="label">Top NFL Team Value</span><span class="value">'+teamLink(topTeam.team_name||"Pending",topTeam)+'</span><span class="meta">Roster value '+safe(topTeam.total_roster_value_score||"")+'</span><span>'+window.AresTables.renderScoreChip(topTeam.average_market_score||"", "market")+'</span>';
+        document.getElementById("latest-nfl-move").innerHTML='<span class="label">Latest NFL Move</span><span class="value">'+playerLink(topMove.player_name||"Pending",topMove)+'</span><span class="meta">'+safe(topMove.move_type||"No connected feed")+'</span><span>'+window.AresTables.renderConfidenceChip(topMove.confidence)+'</span>';
+      }
+      function renderRankings(rows,tbody,market){
+        const columns=market
+          ? [{key:"rank"},{key:"player_name",render:playerLink},{key:"position"},{key:"team",render:teamLink},{key:"market_score",render:"market"},{key:"ares_score",render:"score",scoreType:"ares"},{key:"market_tier",render:"tier"}]
+          : [{key:"rank"},{key:"player_name",render:playerLink},{key:"position"},{key:"team",render:teamLink},{key:"ares_score",render:"score",scoreType:"ares"},{key:"ares_tier",render:"tier"},{key:"confidence",render:"confidence"}];
+        window.AresTables.renderTable(tbody, rows.slice(0,10), columns);
+      }
+      function renderTeams(rows){
+        window.AresTables.renderTable("team-board-body", rows.slice(0,12), [
+          {key:"team_name",render:teamLink},{key:"conference"},{key:"roster_size"},{key:"average_ares_score",render:"score",scoreType:"ares"},{key:"average_market_score",render:"market"},
+          {key:"top_ares_player",render:function(v,r){return link(v,"players/player-template.html?player_id="+encodeURIComponent(r.top_ares_player_id||""));}},
+          {key:"top_market_asset",render:function(v,r){return link(v,"players/player-template.html?player_id="+encodeURIComponent(r.top_market_asset_id||""));}}
+        ]);
+        document.getElementById("hero-team-count").textContent=rows.length ? rows.length+" teams" : "Pending";
+      }
+      document.addEventListener("DOMContentLoaded",async function(){
+        try{
+          const [ares,market,teams,scores,movesPayload,search]=await Promise.all([
+            window.AresData.loadJson("data/ares_rankings.json"),
+            window.AresData.loadJson("data/market_rankings.json"),
+            window.AresData.loadJson("data/teams.json"),
+            window.AresData.loadJson("data/scores/nfl_scoreboard.json"),
+            window.AresData.loadJson("data/transactions/nfl_front_page_moves.json"),
+            window.AresData.loadJson("data/player_search.json")
+          ]);
+          const moves=Array.isArray(movesPayload)?movesPayload:(movesPayload.items||[]);
+          renderTopCards(ares,market,teams,moves);
+          window.AresCharts.renderScoreDistribution("home-ares-score-chart", ares, "ares_score", "ARES score rows");
+          window.AresCharts.renderScoreDistribution("home-market-score-chart", market, "market_score", "Market score rows");
+          window.AresCharts.renderCountBy("home-position-chart", ares, "position", {limit: 8, type: "donut", seriesName: "Players"});
+          renderRankings(ares,"ares-rankings-body",false);
+          renderRankings(market,"market-rankings-body",true);
+          renderTeams(teams);
+          document.getElementById("nfl-scores-list").innerHTML=scores.length?scores.slice(0,5).map(scoreLine).join(""):'<li class="feed-item"><span><span class="feed-title">No approved NFL score feed has been connected yet.</span><span class="feed-meta">Updated every 3 hours</span></span></li>';
+          document.getElementById("nfl-moves-list").innerHTML=moves.length?moves.slice(0,5).map(moveLine).join(""):'<li class="feed-item"><span><span class="feed-title">No approved NFL transaction feed has been connected yet.</span><span class="feed-meta">Updated every 3 hours</span></span></li>';
+          renderStatus("nfl-scores-status","NFL rows shown: "+scores.length+". Updated every 3 hours.");
+          renderStatus("nfl-moves-status","NFL move rows shown: "+moves.length+". Updated every 3 hours.");
+          const nflSearch=search.filter(function(item){
+            const league=String(item.league||item.level||"").toLowerCase();
+            return league==="nfl" || league==="pro" || league.includes("national football league");
+          });
+          window.AresSearch.init({inputId:"global-search",resultsId:"search-results",items:nflSearch});
+        }catch(error){if(window.console)console.warn(error);}
+      });
+    }());
+  </script>
+  <script src="assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+</body>
+</html>
+
+
+
