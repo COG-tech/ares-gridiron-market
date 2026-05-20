@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>High School State | ARES Gridiron Market</title>
+  <link rel="shortcut icon" href="../assets/media/logos/favicon.ico">
+  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/ares-theme.css?v=20260520-nav1" rel="stylesheet">
+  <link href="../assets/css/ares-components.css?v=20260520-nav1" rel="stylesheet">
+  <style>
+    .page-main{width:min(100%,1320px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
+    .state-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+    @media(max-width:900px){.state-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar ares-mega-topbar" data-ares-root="..">
+    <a class="ares-brand" href="../index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
+    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
+    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
+      <a class="ares-home-link" href="../index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <div class="ares-page-title">
+      <h1 id="state-title">High School State Board</h1>
+      <p>High school players are tracked only. They are not ranked against college or NFL players.</p>
+    </div>
+
+    <section class="ares-section state-grid">
+      <article class="ares-stat-card"><span class="label">State</span><span id="state-code" class="value">--</span><span class="meta">Source confidence matters</span></article>
+      <article class="ares-stat-card"><span class="label">Watchlist Rows</span><span id="state-watch-count" class="value">Loading</span><span class="meta">Manual or approved sources</span></article>
+      <article class="ares-stat-card"><span class="label">Status</span><span class="value">Tracked Only</span><span class="meta">No pro/college comparison</span></article>
+    </section>
+
+    <section class="ares-section ares-card">
+      <div class="section-heading"><h2>State Watchlist</h2><a href="index.html">High school home</a></div>
+      <div class="table-responsive">
+        <table class="ares-table">
+          <thead><tr><th>Player</th><th>Pos</th><th>School</th><th>State</th><th>Status</th><th>Reason</th><th>Conf.</th></tr></thead>
+          <tbody id="state-watch-body"><tr><td colspan="7">Loading high school rows.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="ares-section ares-card">
+      <h2 class="h4">High School Data Policy</h2>
+      <p class="ares-muted-note mb-0">ARES uses manual entries, licensed/user-provided files, approved school/state pages, and reference links. Commercial recruiting, stats, and video platforms are not bulk scraped.</p>
+    </section>
+  </main>
+
+  <footer class="ares-footer">State pages use static JSON and source confidence notes.</footer>
+  <script src="../assets/js/ares-data-loader.js?v=20260520-nav1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260520-nav1"></script>
+  <script src="../assets/js/ares-mega-nav.js?v=20260520-nav1"></script>
+  <script>
+    (function(){
+      "use strict";
+      const safe = window.AresData.safeText;
+      const params = new URLSearchParams(window.location.search);
+      const state = (params.get("state") || "ALL").toUpperCase();
+      document.getElementById("state-code").textContent = state;
+      document.getElementById("state-title").textContent = state === "ALL" ? "High School State Board" : state + " High School Board";
+      function playerLink(value,row){return '<a href="player-template.html?player_id=' + encodeURIComponent(row.player_id || "") + '">' + safe(value) + '</a>';}
+      window.AresData.loadJson("../data/tracked_players.json").then(function(rows){
+        const hsRows = rows.filter(function(row){ return String(row.level || "").toLowerCase().includes("high school"); });
+        const filtered = state === "ALL" ? hsRows : hsRows.filter(function(row){
+          return String(row.state || "").toUpperCase() === state || String(row.team_or_school || "").toUpperCase().includes(", " + state);
+        });
+        const visible = filtered.length ? filtered : hsRows.slice(0, 16);
+        document.getElementById("state-watch-count").textContent = visible.length + " rows";
+        window.AresTables.renderTable("state-watch-body", visible, [
+          {key:"player_name",render:playerLink},{key:"position"},{key:"team_or_school"},{key:"state"},{key:"status"},{key:"tracking_reason"},{key:"confidence",render:"confidence"}
+        ]);
+      });
+    }());
+  </script>
+</body>
+</html>

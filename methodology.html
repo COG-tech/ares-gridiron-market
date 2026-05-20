@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -12,7 +12,13 @@
   <style>.page-main{width:min(100%,1120px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}.formula{white-space:pre-line;font-family:Consolas,monospace;background:#EEF2F7;border:1px solid var(--ares-border);border-radius:8px;padding:1rem}.method-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}@media(max-width:900px){.method-grid{grid-template-columns:1fr}}</style>
 </head>
 <body class="ares-shell">
-  <header class="ares-topbar"><a class="ares-brand" href="index.html">ARES Gridiron Market</a><nav class="ares-nav"><a href="index.html">Home</a><a href="rankings/ares.html">ARES Rankings</a><a href="rankings/market.html">Market Rankings</a><a href="college/index.html">College</a><a href="high-school/index.html">High School</a><a href="scores/index.html">Scores</a><a href="nfl-moves/index.html">NFL Moves</a><a href="players/index.html">Players</a><a href="teams/index.html">Teams</a><a href="leagues/index.html">Leagues</a><a href="movements/index.html">Movements</a><a href="watchlist/index.html">Watchlist</a><a class="active" href="methodology.html">Methodology</a></nav></header>
+        <header class="ares-topbar ares-mega-topbar" data-ares-root=".">
+    <a class="ares-brand" href="index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
+    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
+    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
+      <a class="ares-home-link" href="index.html">Home</a>
+    </nav>
+  </header>
   <main class="page-main">
     <section class="ares-page-title"><h1>Methodology</h1><p>ARES Gridiron Market has two scoring systems: ARES Score and Market Score.</p></section>
     <section class="method-grid">
@@ -47,9 +53,7 @@
     <section class="ares-card ares-section"><h2>High School Data</h2><p>High school score data can come from approved feeds such as ScoreStream partner access, school/state association sources, and manual coach/school submissions. Commercial recruiting, video, and stat platforms may be stored as reference links when manually provided, but ARES does not bulk scrape protected data. High school players and scores receive confidence grades.</p></section>
   </main>
   <footer class="ares-footer"><strong>ARES Gridiron Market</strong><span class="d-block">Independent analytical database.</span></footer>
-  <script src="assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock2"></script>
+    <script src="assets/js/ares-mega-nav.js?v=20260520-nav1"></script>
 </body>
 </html>
-
-
-

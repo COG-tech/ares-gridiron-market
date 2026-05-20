@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>College Conference | ARES Gridiron Market</title>
+  <link rel="shortcut icon" href="../assets/media/logos/favicon.ico">
+  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/ares-theme.css?v=20260520-nav1" rel="stylesheet">
+  <link href="../assets/css/ares-components.css?v=20260520-nav1" rel="stylesheet">
+  <style>
+    .page-main{width:min(100%,1320px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
+    .conference-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+    @media(max-width:900px){.conference-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar ares-mega-topbar" data-ares-root="..">
+    <a class="ares-brand" href="../index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
+    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
+    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
+      <a class="ares-home-link" href="../index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <div class="ares-page-title">
+      <h1 id="conference-title">College Conference</h1>
+      <p>Conference-level college football view. College rankings stay separate from NFL rankings.</p>
+    </div>
+
+    <section class="ares-section conference-grid">
+      <article class="ares-stat-card"><span class="label">Level</span><span id="conference-level" class="value">FBS / FCS</span><span class="meta">Grouped by conference</span></article>
+      <article class="ares-stat-card"><span class="label">ARES Board</span><span id="conference-ares-count" class="value">Loading</span><span class="meta">College-only rows</span></article>
+      <article class="ares-stat-card"><span class="label">Market Board</span><span id="conference-market-count" class="value">Loading</span><span class="meta">Asset value rows</span></article>
+    </section>
+
+    <section class="ares-section ares-card">
+      <div class="section-heading"><h2>College ARES Rows</h2><a href="../rankings/college-ares.html">Full college board</a></div>
+      <div class="table-responsive">
+        <table class="ares-table">
+          <thead><tr><th>Rank</th><th>Player</th><th>Pos</th><th>School</th><th>Conference</th><th>ARES</th><th>Conf.</th></tr></thead>
+          <tbody id="conference-ares-body"><tr><td colspan="7">Loading conference rows.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="ares-section ares-card">
+      <div class="section-heading"><h2>College Market Rows</h2><a href="../rankings/college-market.html">Full market board</a></div>
+      <div class="table-responsive">
+        <table class="ares-table">
+          <thead><tr><th>Rank</th><th>Player</th><th>Pos</th><th>School</th><th>Conference</th><th>Market</th><th>Conf.</th></tr></thead>
+          <tbody id="conference-market-body"><tr><td colspan="7">Loading market rows.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ares-footer">Conference pages are static template routes for GitHub Pages.</footer>
+  <script src="../assets/js/ares-data-loader.js?v=20260520-nav1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260520-nav1"></script>
+  <script src="../assets/js/ares-mega-nav.js?v=20260520-nav1"></script>
+  <script>
+    (function(){
+      "use strict";
+      const safe = window.AresData.safeText;
+      const params = new URLSearchParams(window.location.search);
+      const slug = params.get("conference") || "conference";
+      const label = slug.split("-").map(function(part){ return part ? part[0].toUpperCase() + part.slice(1) : ""; }).join(" ");
+      document.getElementById("conference-title").textContent = label + " Football";
+      function playerLink(value,row){return '<a href="../college/player-template.html?player_id=' + encodeURIComponent(row.player_id || "") + '">' + safe(value) + '</a>';}
+      function rowsFor(data) {
+        const filtered = data.filter(function(row){
+          const value = String(row.conference || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+          return value === slug;
+        });
+        return filtered.length ? filtered : data.slice(0, 12);
+      }
+      Promise.all([
+        window.AresData.loadJson("../data/college_ares_rankings.json"),
+        window.AresData.loadJson("../data/college_market_rankings.json")
+      ]).then(function(results){
+        const aresRows = rowsFor(results[0]);
+        const marketRows = rowsFor(results[1]);
+        document.getElementById("conference-ares-count").textContent = aresRows.length + " rows";
+        document.getElementById("conference-market-count").textContent = marketRows.length + " rows";
+        window.AresTables.renderTable("conference-ares-body", aresRows, [
+          {key:"rank"},{key:"player_name",render:playerLink},{key:"position"},{key:"school"},{key:"conference"},{key:"ares_college_score",render:"score",scoreType:"ares"},{key:"confidence",render:"confidence"}
+        ]);
+        window.AresTables.renderTable("conference-market-body", marketRows, [
+          {key:"rank"},{key:"player_name",render:playerLink},{key:"position"},{key:"school"},{key:"conference"},{key:"market_score",render:"market"},{key:"confidence",render:"confidence"}
+        ]);
+      });
+    }());
+  </script>
+</body>
+</html>

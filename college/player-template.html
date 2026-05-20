@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -11,7 +11,13 @@
   <style>.page-main{width:min(100%,1280px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}.metric-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}@media(max-width:900px){.metric-grid{grid-template-columns:1fr 1fr}}@media(max-width:620px){.metric-grid{grid-template-columns:1fr}}</style>
 </head>
 <body class="ares-shell">
-  <header class="ares-topbar"><a class="ares-brand" href="../index.html">ARES Gridiron Market</a><nav class="ares-nav"><a href="index.html">College</a><a href="../rankings/college-ares.html">College ARES</a><a href="../rankings/college-market.html">College Market</a><a href="../methodology.html">Methodology</a></nav></header>
+        <header class="ares-topbar ares-mega-topbar" data-ares-root="..">
+    <a class="ares-brand" href="../index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
+    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
+    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
+      <a class="ares-home-link" href="../index.html">Home</a>
+    </nav>
+  </header>
   <main class="page-main">
     <section id="player-title" class="ares-page-title"><h1>College Player</h1><p>Loading player template...</p></section>
     <section id="metric-grid" class="metric-grid ares-section"></section>
@@ -20,10 +26,7 @@
   <script>
     (function(){const safe=window.AresData.safeText;const params=new URLSearchParams(location.search);function metric(k,v,type){let value=safe(v||"Pending");if(type==="ares")value=window.AresTables.renderScoreChip(v||"","ares");if(type==="market")value=window.AresTables.renderScoreChip(v||"","market");if(type==="confidence")value=window.AresTables.renderConfidenceChip(v);return '<div class="ares-stat-card"><span class="label">'+safe(k)+'</span><span class="value">'+value+'</span></div>';}function fallbackRows(watch){return watch.map(function(row){return {player_id:row.player_id,player_name:row.player_name,position:row.position,school:row.committed_school||"Uncommitted",conference:"Commitment board",class_year:row.class_year,ares_college_score:row.tracking_score,market_score:row.tracking_score,confidence:row.confidence};});}document.addEventListener("DOMContentLoaded",async function(){const [aresRaw,marketRaw,watch]=await Promise.all([window.AresData.loadJson("../data/college_ares_rankings.json"),window.AresData.loadJson("../data/college_market_rankings.json"),window.AresData.loadJson("../data/tracked_players.json")]);const fallback=fallbackRows(watch);const ares=aresRaw.length?aresRaw:fallback;const market=marketRaw.length?marketRaw:fallback;const id=params.get("player_id")||"";const name=params.get("player_name")||"";const row=ares.find(r=>r.player_id===id)||market.find(r=>r.player_id===id)||ares.find(r=>r.player_name===name)||market.find(r=>r.player_name===name)||{player_name:name};document.title=(row.player_name||"College Player")+" | ARES Gridiron Market";document.getElementById("player-title").innerHTML="<h1>"+safe(row.player_name||"College Player")+"</h1><p>"+safe(row.position)+" | <a href=\"school-template.html?school="+encodeURIComponent(row.school||"")+"\">"+safe(row.school||"School")+"</a> | "+safe(row.conference||"")+"</p>";document.getElementById("metric-grid").innerHTML=[metric("ARES College Score",row.ares_college_score,"ares"),metric("Market Score",row.market_score,"market"),metric("Class",row.class_year),metric("Conf.",row.confidence,"confidence")].join("");});}());
   </script>
-  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock2"></script>
+    <script src="../assets/js/ares-mega-nav.js?v=20260520-nav1"></script>
 </body>
 </html>
-
-
-
-

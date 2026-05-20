@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -16,9 +16,12 @@
   </style>
 </head>
 <body class="ares-shell">
-  <header class="ares-topbar">
-    <a class="ares-brand" href="../index.html">ARES Gridiron Market</a>
-    <nav class="ares-nav"><a href="../index.html">Home</a><a href="index.html">Teams</a><a href="../rankings/ares.html">ARES Rankings</a><a href="../nfl-moves/index.html">NFL Moves</a><a href="../methodology.html">Methodology</a></nav>
+        <header class="ares-topbar ares-mega-topbar" data-ares-root="..">
+    <a class="ares-brand" href="../index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
+    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
+    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
+      <a class="ares-home-link" href="../index.html">Home</a>
+    </nav>
   </header>
   <main class="page-main">
     <section id="team-title" class="ares-page-title"><h1>NFL Team</h1><p>Loading team profile...</p></section>
@@ -46,17 +49,14 @@
         document.getElementById("team-title").innerHTML="<h1>"+safe(name)+"</h1><p>"+safe(team.league||"NFL")+" | "+safe(team.conference||"")+"</p>";
         document.getElementById("team-metrics").innerHTML=[
           ["Roster size",team.roster_size],["Average age",team.average_age],["Average ARES",team.average_ares_score],["Average Market",team.average_market_score],
-          ["Total Paid",team.total_roster_value_score],["Top ARES Player",team.top_ares_player],["Top Market Asset",team.top_market_asset],["Top Young Asset",team.top_young_asset]
+          ["Total Roster Value",team.total_roster_value_score],["Top ARES Player",team.top_ares_player],["Top Market Asset",team.top_market_asset],["Top Young Asset",team.top_young_asset]
         ].map(x=>metric(x[0],x[1])).join("");
         const rows=ares.filter(r=>String(r.team||"").toUpperCase()===teamId).slice(0,20).map(function(r){const m=market.find(x=>x.player_id===r.player_id)||{};return Object.assign({},r,{market_score:m.market_score,market_tier:m.market_tier});});
         document.getElementById("roster-body").innerHTML=rows.length?rows.map(function(r){return "<tr><td>"+playerLink(r)+"</td><td>"+safe(r.position)+"</td><td>"+safe(r.age)+"</td><td>"+window.AresTables.renderScoreChip(r.ares_score,"ares")+"</td><td>"+window.AresTables.renderScoreChip(r.market_score,"market")+"</td><td>"+window.AresTables.renderTierChip(r.market_tier||r.ares_tier)+"</td><td>"+window.AresTables.renderConfidenceChip(r.confidence)+"</td></tr>";}).join(""):'<tr><td colspan="7" class="text-muted">No team roster snapshot is available yet.</td></tr>';
       });
     }());
   </script>
-  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock2"></script>
+    <script src="../assets/js/ares-mega-nav.js?v=20260520-nav1"></script>
 </body>
 </html>
-
-
-
-

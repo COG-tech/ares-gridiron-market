@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -33,10 +33,11 @@
   </style>
 </head>
 <body class="ares-shell">
-  <header class="ares-topbar">
-    <a class="ares-brand" href="../index.html">ARES Gridiron Market</a>
-    <nav class="ares-nav" aria-label="Primary navigation">
-      <a href="../index.html">Home</a><a href="../rankings/ares.html">ARES Rankings</a><a href="../rankings/market.html">Market Rankings</a><a href="../college/index.html">College</a><a class="active" href="index.html">High School</a><a href="../scores/index.html">Scores</a><a href="../nfl-moves/index.html">NFL Moves</a><a href="../players/index.html">Players</a><a href="../teams/index.html">Teams</a><a href="../leagues/index.html">Leagues</a><a href="../methodology.html">Methodology</a>
+        <header class="ares-topbar ares-mega-topbar" data-ares-root="..">
+    <a class="ares-brand" href="../index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
+    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
+    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
+      <a class="ares-home-link" href="../index.html">Home</a>
     </nav>
   </header>
 
@@ -131,9 +132,7 @@
       document.addEventListener("DOMContentLoaded",async function(){try{const [watch,scores]=await Promise.all([window.AresData.loadJson("../data/tracked_players.json"),window.AresData.loadJson("../data/scores/high_school_scoreboard.json")]);const players=watch.filter(p=>String(p.level||"").toLowerCase()==="high school").map(function(p){return Object.assign({commit_bucket:commitBucket(p)},p);});const schools=buildSchools(players,scores);renderTopCards(players,schools,scores);window.AresCharts.renderScoreDistribution("hs-tracking-chart",players,"tracking_score","Tracking score rows");window.AresCharts.renderCountBy("hs-state-chart",players,"state",{limit:8,type:"donut",seriesName:"Players"});window.AresCharts.renderCountBy("hs-commit-chart",players,"commit_bucket",{limit:5,type:"donut",seriesName:"Players"});renderWatch(players);renderSchools(schools);document.getElementById("hs-scores-list").innerHTML=scores.length?scores.slice(0,6).map(scoreLine).join(""):'<li class="feed-item"><span><span class="feed-title">No approved high school score feed has been connected yet.</span><span class="feed-meta">Updated every 3 hours</span></span></li>';document.getElementById("hs-watch-count").textContent=players.length+" players";document.getElementById("hs-school-count").textContent=schools.length+" schools";document.getElementById("hs-scores-status").textContent="High school score rows shown: "+scores.length+". Updated every 3 hours.";}catch(error){if(window.console)console.warn(error);}});
     }());
   </script>
-  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock2"></script>
+    <script src="../assets/js/ares-mega-nav.js?v=20260520-nav1"></script>
 </body>
 </html>
-
-
-

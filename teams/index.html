@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -13,7 +13,13 @@
   <style>.page-main{width:min(100%,1480px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}.sort-button{padding:0;color:inherit;background:transparent;border:0;font:inherit;font-weight:850;cursor:pointer}.sort-button:after{content:"^v";margin-left:.25rem;color:var(--ares-muted);font-size:.75rem}</style>
 </head>
 <body class="ares-shell">
-  <header class="ares-topbar"><a class="ares-brand" href="../index.html">ARES Gridiron Market</a><nav class="ares-nav" aria-label="Primary navigation"><a href="../index.html">Home</a><a href="../rankings/ares.html">ARES Rankings</a><a href="../rankings/market.html">Market Rankings</a><a href="../college/index.html">College</a><a href="../high-school/index.html">High School</a><a href="../scores/index.html">Scores</a><a href="../nfl-moves/index.html">NFL Moves</a><a href="../players/index.html">Players</a><a class="active" href="index.html">Teams</a><a href="../leagues/index.html">Leagues</a><a href="../movements/index.html">Movements</a><a href="../watchlist/index.html">Watchlist</a><a href="../methodology.html">Methodology</a></nav></header>
+        <header class="ares-topbar ares-mega-topbar" data-ares-root="..">
+    <a class="ares-brand" href="../index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
+    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
+    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
+      <a class="ares-home-link" href="../index.html">Home</a>
+    </nav>
+  </header>
   <main class="page-main">
     <section class="ares-page-title"><h1>Teams</h1><p>Team-level roster value and ARES summaries.</p></section>
     <section class="ares-section ares-dashboard-grid" aria-label="Team board analytics">
@@ -28,11 +34,7 @@
   </main>
   <footer class="ares-footer"><strong>ARES Gridiron Market</strong><span class="d-block">Independent analytical database.</span></footer><script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script><script src="../assets/js/ares-tables.js?v=20260519-graphics1"></script><script src="../assets/js/ares-charts.js?v=20260519-graphics1"></script>
   <script>document.addEventListener("DOMContentLoaded",function(){function topPlayerLink(value,row){const id=row.top_ares_player_id||"";if(!id){return window.AresData.safeText(value);}const url=window.AresTables.playerUrl({player_id:id},"../players/");return '<a class="fw-bold" href="'+url+'">'+window.AresData.safeText(value)+'</a>';}const columns=[{key:"team_name"},{key:"league"},{key:"conference"},{key:"average_ares_score",render:"score",scoreType:"ares"},{key:"average_market_score",render:"score",scoreType:"market"},{key:"top_ares_player",render:topPlayerLink},{key:"team_id",render:function(){return '<a href="sample-team.html">Open</a>';}}];window.AresData.loadJson("../data/teams.json").then(function(rows){window.AresCharts.renderScoreDistribution("team-ares-chart",rows,"average_ares_score","Team average ARES");window.AresCharts.renderScoreDistribution("team-market-chart",rows,"average_market_score","Team average market");window.AresCharts.renderCountBy("team-conference-chart",rows,"conference",{limit:8,type:"donut",seriesName:"Teams"});window.AresTables.renderTable("team-body",rows,columns);window.AresTables.makeTableSortable("team-table");window.AresTables.makeTableSearchable("team-search","team-table");}).catch(function(e){document.getElementById("team-count").textContent="Fallback rows";if(window.console)console.warn(e);});});</script>
-  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock1"></script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock2"></script>
+    <script src="../assets/js/ares-mega-nav.js?v=20260520-nav1"></script>
 </body>
 </html>
-
-
-
-
-

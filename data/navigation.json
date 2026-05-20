@@ -1,0 +1,271 @@
+{
+  "brand": "ARES Gridiron Market",
+  "menus": [
+    {
+      "id": "nfl",
+      "label": "NFL",
+      "summary": "Teams, pro rankings, scores, and roster movement.",
+      "sidebar": [
+        {"label": "NFL Home", "href": "index.html"},
+        {"label": "Teams", "href": "teams/index.html"},
+        {"label": "Scores", "href": "scores/index.html"},
+        {"label": "NFL Moves", "href": "nfl-moves/index.html"}
+      ],
+      "groups": [
+        {"title": "AFC East", "items": [
+          {"label": "Buffalo Bills", "href": "teams/team-template.html?team=BUF", "abbr": "BUF"},
+          {"label": "Miami Dolphins", "href": "teams/team-template.html?team=MIA", "abbr": "MIA"},
+          {"label": "New York Jets", "href": "teams/team-template.html?team=NYJ", "abbr": "NYJ"},
+          {"label": "New England Patriots", "href": "teams/team-template.html?team=NE", "abbr": "NE"}
+        ]},
+        {"title": "AFC North", "items": [
+          {"label": "Baltimore Ravens", "href": "teams/team-template.html?team=BAL", "abbr": "BAL"},
+          {"label": "Cincinnati Bengals", "href": "teams/team-template.html?team=CIN", "abbr": "CIN"},
+          {"label": "Cleveland Browns", "href": "teams/team-template.html?team=CLE", "abbr": "CLE"},
+          {"label": "Pittsburgh Steelers", "href": "teams/team-template.html?team=PIT", "abbr": "PIT"}
+        ]},
+        {"title": "AFC South", "items": [
+          {"label": "Houston Texans", "href": "teams/team-template.html?team=HOU", "abbr": "HOU"},
+          {"label": "Indianapolis Colts", "href": "teams/team-template.html?team=IND", "abbr": "IND"},
+          {"label": "Jacksonville Jaguars", "href": "teams/team-template.html?team=JAX", "abbr": "JAX"},
+          {"label": "Tennessee Titans", "href": "teams/team-template.html?team=TEN", "abbr": "TEN"}
+        ]},
+        {"title": "AFC West", "items": [
+          {"label": "Denver Broncos", "href": "teams/team-template.html?team=DEN", "abbr": "DEN"},
+          {"label": "Kansas City Chiefs", "href": "teams/team-template.html?team=KC", "abbr": "KC"},
+          {"label": "Las Vegas Raiders", "href": "teams/team-template.html?team=LV", "abbr": "LV"},
+          {"label": "Los Angeles Chargers", "href": "teams/team-template.html?team=LAC", "abbr": "LAC"}
+        ]},
+        {"title": "NFC East", "items": [
+          {"label": "Dallas Cowboys", "href": "teams/team-template.html?team=DAL", "abbr": "DAL"},
+          {"label": "New York Giants", "href": "teams/team-template.html?team=NYG", "abbr": "NYG"},
+          {"label": "Philadelphia Eagles", "href": "teams/team-template.html?team=PHI", "abbr": "PHI"},
+          {"label": "Washington Commanders", "href": "teams/team-template.html?team=WAS", "abbr": "WAS"}
+        ]},
+        {"title": "NFC North", "items": [
+          {"label": "Chicago Bears", "href": "teams/team-template.html?team=CHI", "abbr": "CHI"},
+          {"label": "Detroit Lions", "href": "teams/team-template.html?team=DET", "abbr": "DET"},
+          {"label": "Green Bay Packers", "href": "teams/team-template.html?team=GB", "abbr": "GB"},
+          {"label": "Minnesota Vikings", "href": "teams/team-template.html?team=MIN", "abbr": "MIN"}
+        ]},
+        {"title": "NFC South", "items": [
+          {"label": "Atlanta Falcons", "href": "teams/team-template.html?team=ATL", "abbr": "ATL"},
+          {"label": "Carolina Panthers", "href": "teams/team-template.html?team=CAR", "abbr": "CAR"},
+          {"label": "New Orleans Saints", "href": "teams/team-template.html?team=NO", "abbr": "NO"},
+          {"label": "Tampa Bay Buccaneers", "href": "teams/team-template.html?team=TB", "abbr": "TB"}
+        ]},
+        {"title": "NFC West", "items": [
+          {"label": "Arizona Cardinals", "href": "teams/team-template.html?team=ARI", "abbr": "ARI"},
+          {"label": "Los Angeles Rams", "href": "teams/team-template.html?team=LAR", "abbr": "LAR"},
+          {"label": "San Francisco 49ers", "href": "teams/team-template.html?team=SF", "abbr": "SF"},
+          {"label": "Seattle Seahawks", "href": "teams/team-template.html?team=SEA", "abbr": "SEA"}
+        ]}
+      ],
+      "footer": {"label": "NFL Analysis, Scores, Moves, and Team Boards", "href": "index.html"}
+    },
+    {
+      "id": "college",
+      "label": "College",
+      "summary": "FBS, FCS, conference boards, college rankings, and scores.",
+      "sidebar": [
+        {"label": "College Home", "href": "college/index.html"},
+        {"label": "College ARES", "href": "rankings/college-ares.html"},
+        {"label": "College Market", "href": "rankings/college-market.html"},
+        {"label": "College Scores", "href": "college/index.html#college-scores"}
+      ],
+      "groups": [
+        {"title": "FBS Power", "items": [
+          {"label": "SEC", "href": "college/conference-template.html?conference=sec"},
+          {"label": "Big Ten", "href": "college/conference-template.html?conference=big-ten"},
+          {"label": "ACC", "href": "college/conference-template.html?conference=acc"},
+          {"label": "Big 12", "href": "college/conference-template.html?conference=big-12"},
+          {"label": "Pac-12 Legacy", "href": "college/conference-template.html?conference=pac-12"}
+        ]},
+        {"title": "FBS Group", "items": [
+          {"label": "AAC", "href": "college/conference-template.html?conference=aac"},
+          {"label": "Mountain West", "href": "college/conference-template.html?conference=mountain-west"},
+          {"label": "Sun Belt", "href": "college/conference-template.html?conference=sun-belt"},
+          {"label": "MAC", "href": "college/conference-template.html?conference=mac"},
+          {"label": "C-USA", "href": "college/conference-template.html?conference=c-usa"},
+          {"label": "Independents", "href": "college/conference-template.html?conference=independents"}
+        ]},
+        {"title": "FCS", "items": [
+          {"label": "Big Sky", "href": "college/conference-template.html?conference=big-sky"},
+          {"label": "CAA", "href": "college/conference-template.html?conference=caa"},
+          {"label": "MVFC", "href": "college/conference-template.html?conference=mvfc"},
+          {"label": "Ivy", "href": "college/conference-template.html?conference=ivy"},
+          {"label": "Southland", "href": "college/conference-template.html?conference=southland"},
+          {"label": "SWAC", "href": "college/conference-template.html?conference=swac"}
+        ]},
+        {"title": "FCS More", "items": [
+          {"label": "MEAC", "href": "college/conference-template.html?conference=meac"},
+          {"label": "SoCon", "href": "college/conference-template.html?conference=socon"},
+          {"label": "Patriot", "href": "college/conference-template.html?conference=patriot"},
+          {"label": "Pioneer", "href": "college/conference-template.html?conference=pioneer"},
+          {"label": "UAC", "href": "college/conference-template.html?conference=uac"},
+          {"label": "NEC", "href": "college/conference-template.html?conference=nec"}
+        ]}
+      ],
+      "footer": {"label": "College rankings stay separate from NFL rankings", "href": "college/index.html"}
+    },
+    {
+      "id": "high-school",
+      "label": "High School",
+      "summary": "Tracked watchlist by region and state. Not ranked against college or NFL.",
+      "sidebar": [
+        {"label": "High School Home", "href": "high-school/index.html"},
+        {"label": "Watchlist", "href": "watchlist/index.html#high-school"},
+        {"label": "Methodology", "href": "methodology.html#high-school-data"}
+      ],
+      "groups": [
+        {"title": "Northeast", "items": [
+          {"label": "Connecticut", "href": "high-school/state-template.html?state=CT"},
+          {"label": "Maine", "href": "high-school/state-template.html?state=ME"},
+          {"label": "Massachusetts", "href": "high-school/state-template.html?state=MA"},
+          {"label": "New Hampshire", "href": "high-school/state-template.html?state=NH"},
+          {"label": "Rhode Island", "href": "high-school/state-template.html?state=RI"},
+          {"label": "Vermont", "href": "high-school/state-template.html?state=VT"}
+        ]},
+        {"title": "Mid-Atlantic", "items": [
+          {"label": "Delaware", "href": "high-school/state-template.html?state=DE"},
+          {"label": "Maryland", "href": "high-school/state-template.html?state=MD"},
+          {"label": "New Jersey", "href": "high-school/state-template.html?state=NJ"},
+          {"label": "New York", "href": "high-school/state-template.html?state=NY"},
+          {"label": "Pennsylvania", "href": "high-school/state-template.html?state=PA"},
+          {"label": "Virginia", "href": "high-school/state-template.html?state=VA"},
+          {"label": "Washington, DC", "href": "high-school/state-template.html?state=DC"},
+          {"label": "West Virginia", "href": "high-school/state-template.html?state=WV"}
+        ]},
+        {"title": "Southeast", "items": [
+          {"label": "Alabama", "href": "high-school/state-template.html?state=AL"},
+          {"label": "Arkansas", "href": "high-school/state-template.html?state=AR"},
+          {"label": "Florida", "href": "high-school/state-template.html?state=FL"},
+          {"label": "Georgia", "href": "high-school/state-template.html?state=GA"},
+          {"label": "Kentucky", "href": "high-school/state-template.html?state=KY"},
+          {"label": "Louisiana", "href": "high-school/state-template.html?state=LA"},
+          {"label": "Mississippi", "href": "high-school/state-template.html?state=MS"},
+          {"label": "North Carolina", "href": "high-school/state-template.html?state=NC"},
+          {"label": "South Carolina", "href": "high-school/state-template.html?state=SC"},
+          {"label": "Tennessee", "href": "high-school/state-template.html?state=TN"}
+        ]},
+        {"title": "Midwest", "items": [
+          {"label": "Illinois", "href": "high-school/state-template.html?state=IL"},
+          {"label": "Indiana", "href": "high-school/state-template.html?state=IN"},
+          {"label": "Iowa", "href": "high-school/state-template.html?state=IA"},
+          {"label": "Michigan", "href": "high-school/state-template.html?state=MI"},
+          {"label": "Minnesota", "href": "high-school/state-template.html?state=MN"},
+          {"label": "Missouri", "href": "high-school/state-template.html?state=MO"},
+          {"label": "Ohio", "href": "high-school/state-template.html?state=OH"},
+          {"label": "Wisconsin", "href": "high-school/state-template.html?state=WI"}
+        ]},
+        {"title": "Southwest", "items": [
+          {"label": "Arizona", "href": "high-school/state-template.html?state=AZ"},
+          {"label": "New Mexico", "href": "high-school/state-template.html?state=NM"},
+          {"label": "Oklahoma", "href": "high-school/state-template.html?state=OK"},
+          {"label": "Texas", "href": "high-school/state-template.html?state=TX"}
+        ]},
+        {"title": "Mountain / West", "items": [
+          {"label": "California", "href": "high-school/state-template.html?state=CA"},
+          {"label": "Colorado", "href": "high-school/state-template.html?state=CO"},
+          {"label": "Idaho", "href": "high-school/state-template.html?state=ID"},
+          {"label": "Kansas", "href": "high-school/state-template.html?state=KS"},
+          {"label": "Montana", "href": "high-school/state-template.html?state=MT"},
+          {"label": "Nebraska", "href": "high-school/state-template.html?state=NE"},
+          {"label": "Nevada", "href": "high-school/state-template.html?state=NV"},
+          {"label": "North Dakota", "href": "high-school/state-template.html?state=ND"},
+          {"label": "Oregon", "href": "high-school/state-template.html?state=OR"},
+          {"label": "South Dakota", "href": "high-school/state-template.html?state=SD"},
+          {"label": "Utah", "href": "high-school/state-template.html?state=UT"},
+          {"label": "Washington", "href": "high-school/state-template.html?state=WA"},
+          {"label": "Wyoming", "href": "high-school/state-template.html?state=WY"}
+        ]}
+      ],
+      "footer": {"label": "High school players are tracked only", "href": "high-school/index.html"}
+    },
+    {
+      "id": "scores",
+      "label": "Scores",
+      "summary": "Static scoreboard exports refreshed on a schedule.",
+      "sidebar": [{"label": "Scores Home", "href": "scores/index.html"}],
+      "groups": [
+        {"title": "Scoreboards", "items": [
+          {"label": "NFL Scores", "href": "scores/index.html#nfl"},
+          {"label": "College Scores", "href": "scores/index.html#college"},
+          {"label": "High School Scores", "href": "scores/index.html#high-school"},
+          {"label": "Recent Finals", "href": "scores/index.html#finals"},
+          {"label": "Upcoming Games", "href": "scores/index.html#upcoming"}
+        ]}
+      ],
+      "footer": {"label": "Updated every 3 hours when approved feeds are connected", "href": "scores/index.html"}
+    },
+    {
+      "id": "moves",
+      "label": "Moves",
+      "summary": "Trades, signings, releases, waivers, and movement boards.",
+      "sidebar": [{"label": "NFL Moves", "href": "nfl-moves/index.html"}, {"label": "Movement Board", "href": "movements/index.html"}],
+      "groups": [
+        {"title": "NFL Moves", "items": [
+          {"label": "Trades", "href": "nfl-moves/index.html#trades"},
+          {"label": "Signings", "href": "nfl-moves/index.html#signings"},
+          {"label": "Releases", "href": "nfl-moves/index.html#releases"},
+          {"label": "Waivers", "href": "nfl-moves/index.html#waivers"},
+          {"label": "Practice Squad", "href": "nfl-moves/index.html#practice-squad"}
+        ]},
+        {"title": "Development Movement", "items": [
+          {"label": "College Transfers", "href": "movements/index.html#college-transfers"},
+          {"label": "Draft Movement", "href": "movements/index.html#draft"},
+          {"label": "UFL to NFL", "href": "movements/index.html#ufl-to-nfl"},
+          {"label": "CFL to NFL", "href": "movements/index.html#cfl-to-nfl"}
+        ]}
+      ],
+      "footer": {"label": "Movement data uses approved feeds or manual files", "href": "nfl-moves/index.html"}
+    },
+    {
+      "id": "players",
+      "label": "Players",
+      "summary": "Player search, profile templates, watchlists, and tracked development assets.",
+      "sidebar": [{"label": "Players Home", "href": "players/index.html"}, {"label": "Watchlist", "href": "watchlist/index.html"}],
+      "groups": [
+        {"title": "Player Boards", "items": [
+          {"label": "NFL Players", "href": "players/index.html?level=nfl"},
+          {"label": "College Players", "href": "college/index.html#players"},
+          {"label": "High School Watchlist", "href": "high-school/index.html#players"},
+          {"label": "Sample Profile", "href": "players/sample-player.html"}
+        ]}
+      ],
+      "footer": {"label": "Every public name links to a template/profile route", "href": "players/index.html"}
+    },
+    {
+      "id": "rankings",
+      "label": "Rankings",
+      "summary": "ARES quality scores and market asset rankings.",
+      "sidebar": [{"label": "ARES Rankings", "href": "rankings/ares.html"}, {"label": "Market Rankings", "href": "rankings/market.html"}],
+      "groups": [
+        {"title": "NFL", "items": [
+          {"label": "NFL ARES Rankings", "href": "rankings/ares.html"},
+          {"label": "NFL Market Rankings", "href": "rankings/market.html"}
+        ]},
+        {"title": "College", "items": [
+          {"label": "College ARES Rankings", "href": "rankings/college-ares.html"},
+          {"label": "College Market Rankings", "href": "rankings/college-market.html"}
+        ]}
+      ],
+      "footer": {"label": "High school is tracked, not ranked against college or NFL", "href": "methodology.html"}
+    },
+    {
+      "id": "methodology",
+      "label": "Methodology",
+      "summary": "Scoring rules, data confidence, source policy, and paid preview rules.",
+      "sidebar": [{"label": "Methodology", "href": "methodology.html"}, {"label": "About", "href": "about.html"}],
+      "groups": [
+        {"title": "Model Notes", "items": [
+          {"label": "ARES Score", "href": "methodology.html#ares-score"},
+          {"label": "Market Score", "href": "methodology.html#market-score"},
+          {"label": "Source Confidence", "href": "methodology.html#source-confidence"},
+          {"label": "High School Data", "href": "methodology.html#high-school-data"}
+        ]}
+      ],
+      "footer": {"label": "ARES is an independent analytical database", "href": "about.html"}
+    }
+  ]
+}
