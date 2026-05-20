@@ -7,8 +7,8 @@
   <link rel="shortcut icon" href="../assets/media/brand/ares-logo.png">
   <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
   <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
-  <link href="../assets/css/ares-theme.css?v=20260520-nfl-logos1" rel="stylesheet" type="text/css">
-  <link href="../assets/css/ares-components.css?v=20260520-nfl-logos1" rel="stylesheet" type="text/css">
+  <link href="../assets/css/ares-theme.css?v=20260520-nfl-local-logos1" rel="stylesheet" type="text/css">
+  <link href="../assets/css/ares-components.css?v=20260520-nfl-local-logos1" rel="stylesheet" type="text/css">
   <style>.page-main{width:min(100%,1280px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}.profile-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.profile-header{display:flex;gap:1rem;align-items:center}.metric-list{display:grid;gap:.5rem}.metric-list div{display:flex;justify-content:space-between;border-bottom:1px solid rgba(201,207,216,.7);padding:.35rem 0}@media(max-width:900px){.profile-grid{grid-template-columns:1fr}.profile-header{align-items:flex-start;flex-direction:column}}</style>
 </head>
 <body class="ares-shell">
@@ -35,7 +35,7 @@
     <section class="ares-card ares-section"><h2>Similar Players</h2><div id="similar-players" class="d-flex flex-wrap gap-2"></div></section>
   </main>
   <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
-  <script src="../assets/js/ares-tables.js?v=20260520-nfl-logos1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260520-nfl-local-logos1"></script>
   <script>
     function metricRows(obj){return Object.keys(obj||{}).filter(function(k){return k!=="is_placeholder";}).map(function(k){return "<div><span>"+window.AresData.safeText(k)+"</span><strong>"+window.AresData.safeText(obj[k])+"</strong></div>";}).join("");}
     document.addEventListener("DOMContentLoaded", function(){
@@ -51,6 +51,6 @@
     });
   </script>
   <script src="../assets/js/ares-paid-preview.js?v=20260520-logo1"></script>
-    <script src="../assets/js/ares-mega-nav.js?v=20260520-nfl-logos1"></script>
+    <script src="../assets/js/ares-mega-nav.js?v=20260520-nfl-local-logos1"></script>
 </body>
 </html>

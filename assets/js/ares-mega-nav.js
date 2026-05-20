@@ -50,17 +50,9 @@
     return abbr || String(label || "AR").split(/\s+/).map(function (word) { return word[0]; }).join("").slice(0, 3);
   }
 
-  const NFL_LOGO_SLUGS = {
-    ARI: "ari", ATL: "atl", BAL: "bal", BUF: "buf", CAR: "car", CHI: "chi", CIN: "cin", CLE: "cle",
-    DAL: "dal", DEN: "den", DET: "det", GB: "gb", HOU: "hou", IND: "ind", JAX: "jax", KC: "kc",
-    LAC: "lac", LAR: "lar", LA: "lar", LV: "lv", MIA: "mia", MIN: "min", NE: "ne", NO: "no",
-    NYG: "nyg", NYJ: "nyj", PHI: "phi", PIT: "pit", SEA: "sea", SF: "sf", TB: "tb", TEN: "ten",
-    WAS: "wsh", WSH: "wsh"
-  };
-
   function nflLogoUrl(abbr) {
-    const slug = NFL_LOGO_SLUGS[String(abbr || "").toUpperCase()];
-    return slug ? "https://a.espncdn.com/i/teamlogos/nfl/500/" + slug + ".png" : "";
+    const key = String(abbr || "").toUpperCase();
+    return key ? "assets/media/teams/nfl/" + encodeURIComponent(key) + ".png" : "";
   }
 
   function imageTag(root, src, label) {

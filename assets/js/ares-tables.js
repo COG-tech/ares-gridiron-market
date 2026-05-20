@@ -3,12 +3,12 @@
 
   const data = window.AresData;
   const tableStates = {};
-  const NFL_LOGO_SLUGS = {
-    ARI: "ari", ATL: "atl", BAL: "bal", BUF: "buf", CAR: "car", CHI: "chi", CIN: "cin", CLE: "cle",
-    DAL: "dal", DEN: "den", DET: "det", GB: "gb", HOU: "hou", IND: "ind", JAX: "jax", JAC: "jax",
-    KC: "kc", LAC: "lac", LAR: "lar", LA: "lar", LV: "lv", MIA: "mia", MIN: "min", NE: "ne",
-    NO: "no", NYG: "nyg", NYJ: "nyj", PHI: "phi", PIT: "pit", SEA: "sea", SF: "sf", TB: "tb",
-    TEN: "ten", WAS: "wsh", WSH: "wsh"
+  const NFL_LOGO_KEYS = {
+    ARI: "ARI", ATL: "ATL", BAL: "BAL", BUF: "BUF", CAR: "CAR", CHI: "CHI", CIN: "CIN", CLE: "CLE",
+    DAL: "DAL", DEN: "DEN", DET: "DET", GB: "GB", HOU: "HOU", IND: "IND", JAX: "JAX", JAC: "JAX",
+    KC: "KC", LAC: "LAC", LAR: "LAR", LA: "LAR", LV: "LV", MIA: "MIA", MIN: "MIN", NE: "NE",
+    NO: "NO", NYG: "NYG", NYJ: "NYJ", PHI: "PHI", PIT: "PIT", SEA: "SEA", SF: "SF", TB: "TB",
+    TEN: "TEN", WAS: "WAS", WSH: "WAS"
   };
   const NFL_TEAM_ALIASES = {
     "arizona cardinals": "ARI", "atlanta falcons": "ATL", "baltimore ravens": "BAL", "buffalo bills": "BUF",
@@ -65,16 +65,29 @@
     }
     const compact = raw.replace(/\s+/g, " ");
     const upper = compact.toUpperCase();
-    if (NFL_LOGO_SLUGS[upper]) {
-      return upper;
+    if (NFL_LOGO_KEYS[upper]) {
+      return NFL_LOGO_KEYS[upper];
     }
     return NFL_TEAM_ALIASES[compact.toLowerCase()] || "";
   }
 
+  function localAssetRoot() {
+    const scripts = Array.prototype.slice.call(document.scripts || []);
+    const script = scripts.find(function (item) {
+      const src = item.getAttribute("src") || "";
+      return src.includes("assets/js/ares-tables.js");
+    });
+    const src = script ? script.getAttribute("src") || "" : "";
+    const marker = "assets/js/ares-tables.js";
+    const index = src.indexOf(marker);
+    return index >= 0 ? src.slice(0, index) : "";
+  }
+
+  const ASSET_ROOT = localAssetRoot();
+
   function nflLogoUrl(value) {
     const key = normalizeTeamKey(value);
-    const slug = NFL_LOGO_SLUGS[key];
-    return slug ? "https://a.espncdn.com/i/teamlogos/nfl/500/" + slug + ".png" : "";
+    return key ? ASSET_ROOT + "assets/media/teams/nfl/" + encodeURIComponent(key) + ".png" : "";
   }
 
   function renderTeamLogo(value) {
