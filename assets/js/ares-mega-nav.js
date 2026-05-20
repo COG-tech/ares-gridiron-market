@@ -46,17 +46,33 @@
     return "nfl";
   }
 
-  function icon(label, abbr) {
-    const text = abbr || String(label || "AR").split(/\s+/).map(function (word) { return word[0]; }).join("").slice(0, 3);
-    return '<span class="ares-mega-icon" aria-hidden="true">' + safeText(text.toUpperCase()) + "</span>";
+  function iconText(label, abbr) {
+    return abbr || String(label || "AR").split(/\s+/).map(function (word) { return word[0]; }).join("").slice(0, 3);
+  }
+
+  function imageTag(root, src, label) {
+    if (!src) return "";
+    return '<img src="' + safeText(href(root, src)) + '" alt="' + safeText(label || "") + '" loading="lazy">';
+  }
+
+  function icon(root, item) {
+    const label = item.label || "";
+    const text = iconText(label, item.abbr).toUpperCase();
+    const image = item.image || (item.abbr ? "assets/media/nav/nfl-badges/" + encodeURIComponent(text) + ".svg" : "");
+    return '<span class="ares-mega-icon" aria-hidden="true">' + (image ? imageTag(root, image, label) : safeText(text)) + "</span>";
   }
 
   function renderItems(root, items) {
     return (items || []).map(function (item) {
       return '<a class="ares-mega-link" href="' + safeText(href(root, item.href)) + '">' +
-        icon(item.label, item.abbr) +
+        icon(root, item) +
         '<span>' + safeText(item.label) + "</span></a>";
     }).join("");
+  }
+
+  function menuImage(root, menu) {
+    const src = menu.image || "assets/media/nav/menu/" + encodeURIComponent(menu.id || "ares") + ".svg";
+    return '<span class="ares-mega-menu-image">' + imageTag(root, src, menu.label) + "</span>";
   }
 
   function renderMenu(root, menu, activeId) {
@@ -67,9 +83,9 @@
     const active = menu.id === activeId ? " is-active" : "";
     const footer = menu.footer ? '<a class="ares-mega-footer" href="' + safeText(href(root, menu.footer.href)) + '">' + safeText(menu.footer.label) + "</a>" : "";
     return '<div class="ares-menu' + active + '" data-ares-menu="' + safeText(menu.id) + '">' +
-      '<button class="ares-menu-button" type="button" aria-expanded="false">' + safeText(menu.label) + '<span aria-hidden="true">▾</span></button>' +
+      '<button class="ares-menu-button" type="button" aria-expanded="false">' + safeText(menu.label) + '<span aria-hidden="true">v</span></button>' +
       '<div class="ares-mega-panel" role="menu">' +
-      '<aside class="ares-mega-sidebar"><strong>' + safeText(menu.label) + '</strong><p>' + safeText(menu.summary || "") + '</p><div>' + sidebar + '</div></aside>' +
+      '<aside class="ares-mega-sidebar">' + menuImage(root, menu) + '<strong>' + safeText(menu.label) + '</strong><p>' + safeText(menu.summary || "") + '</p><div>' + sidebar + '</div></aside>' +
       '<div class="ares-mega-groups">' + groups + '</div>' + footer +
       '</div></div>';
   }
