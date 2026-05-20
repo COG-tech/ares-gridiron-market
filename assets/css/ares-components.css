@@ -489,23 +489,3 @@ input.ares-search:focus {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-
-.ares-paid-preview-banner {
-  position: sticky;
-  top: 0;
-  z-index: 2000;
-  padding: .65rem 1rem;
-  background: #1B2B45;
-  color: #FFFFFF;
-  border-bottom: 2px solid #F7C948;
-  font-size: .9rem;
-  font-weight: 700;
-  text-align: center;
-}
-
-.ares-public-preview .ares-private-metric,
-.ares-public-preview .ares-paid-locked {
-  filter: blur(5px);
-  user-select: none;
-  pointer-events: none;
-}

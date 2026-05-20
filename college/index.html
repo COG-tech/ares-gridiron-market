@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>College Football | ARES Gridiron Market</title>
-  <link rel="shortcut icon" href="../assets/media/logos/favicon.ico">
+  <link rel="shortcut icon" href="../assets/media/brand/ares-logo.svg">
   <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
   <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
-  <link href="../assets/css/ares-theme.css?v=20260520-nav3" rel="stylesheet">
-  <link href="../assets/css/ares-components.css?v=20260520-nav3" rel="stylesheet">
+  <link href="../assets/css/ares-theme.css?v=20260520-logo1" rel="stylesheet">
+  <link href="../assets/css/ares-components.css?v=20260520-logo1" rel="stylesheet">
   <style>
     .home-main{width:min(100%,1480px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
     .hero-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(18rem,.55fr);gap:1.25rem;align-items:end}
@@ -155,7 +155,7 @@
       document.addEventListener("DOMContentLoaded",async function(){try{const [aresRaw,marketRaw,scores,watch]=await Promise.all([window.AresData.loadJson("../data/college_ares_rankings.json"),window.AresData.loadJson("../data/college_market_rankings.json"),window.AresData.loadJson("../data/scores/college_scoreboard.json"),window.AresData.loadJson("../data/tracked_players.json")]);const fallback=fallbackCollegeRows(watch);const ares=aresRaw.length?aresRaw:fallback;const market=marketRaw.length?marketRaw:fallback;const schools=buildSchools(ares,market,scores);renderTopCards(ares,market,schools,scores);window.AresCharts.renderScoreDistribution("college-ares-chart",ares,"ares_college_score","College ARES rows");window.AresCharts.renderScoreDistribution("college-market-chart",market,"market_score","College market rows");const schoolChartRows=schools.slice().sort((a,b)=>Number(b.players||0)-Number(a.players||0)).slice(0,8);window.AresCharts.renderChart("college-school-chart",schoolChartRows.map(s=>s.school),schoolChartRows.map(s=>s.players),{type:"bar",seriesName:"Tracked players",distributed:true,emptyMessage:"No school concentration rows available yet."});renderRankings(ares,"college-ares-body",false);renderRankings(market,"college-market-body",true);renderSchools(schools);document.getElementById("college-scores-list").innerHTML=scores.length?scores.slice(0,6).map(scoreLine).join(""):'<li class="feed-item"><span><span class="feed-title">No approved college score feed has been connected yet.</span><span class="feed-meta">Updated every 3 hours</span></span></li>';document.getElementById("college-ares-count").textContent=ares.length?ares.length+" rows":"Pending";document.getElementById("college-market-count").textContent=market.length?market.length+" rows":"Pending";document.getElementById("college-scores-status").textContent=scores.length?"College score rows shown: "+scores.length+". Updated every 3 hours.":"No approved college score feed connected yet. Showing commitment/player board from tracked data."; }catch(error){if(window.console)console.warn(error);}});
     }());
   </script>
-  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock2"></script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260520-logo1"></script>
     <script src="../assets/js/ares-mega-nav.js?v=20260520-nav3"></script>
 </body>
 </html>

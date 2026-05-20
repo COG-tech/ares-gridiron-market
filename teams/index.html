@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Teams | ARES Gridiron Market</title>
-  <link rel="shortcut icon" href="../assets/media/logos/favicon.ico">
+  <link rel="shortcut icon" href="../assets/media/brand/ares-logo.svg">
   <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
   <link href="../assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
   <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
-  <link href="../assets/css/ares-theme.css?v=20260520-nav3" rel="stylesheet" type="text/css">
-  <link href="../assets/css/ares-components.css?v=20260520-nav3" rel="stylesheet" type="text/css">
+  <link href="../assets/css/ares-theme.css?v=20260520-logo1" rel="stylesheet" type="text/css">
+  <link href="../assets/css/ares-components.css?v=20260520-logo1" rel="stylesheet" type="text/css">
   <style>.page-main{width:min(100%,1480px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}.sort-button{padding:0;color:inherit;background:transparent;border:0;font:inherit;font-weight:850;cursor:pointer}.sort-button:after{content:"^v";margin-left:.25rem;color:var(--ares-muted);font-size:.75rem}</style>
 </head>
 <body class="ares-shell">
@@ -29,12 +29,12 @@
     </section>
     <section class="ares-card">
       <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4"><div class="ares-search"><input id="team-search" type="search" placeholder="Search team, league, or conference..." autocomplete="off"></div><span id="team-count" class="ares-tier-chip">Loading</span></div>
-      <div class="table-responsive"><table id="team-table" class="ares-table" data-count-id="team-count"><thead><tr><th><button class="sort-button" data-sort="team_name">Team</button></th><th><button class="sort-button" data-sort="league">League</button></th><th><button class="sort-button" data-sort="conference">Conference</button></th><th><button class="sort-button" data-sort="average_ares_score" data-type="number">Average ARES</button></th><th><button class="sort-button" data-sort="average_market_score" data-type="number">Average Market</button></th><th><button class="sort-button" data-sort="top_ares_player">Top Player</button></th><th>Profile</th></tr></thead><tbody id="team-body"><tr><td>Locked</td><td>NFL</td><td></td><td></td><td></td><td></td><td><a href="sample-team.html">Open</a></td></tr></tbody></table></div>
+      <div class="table-responsive"><table id="team-table" class="ares-table" data-count-id="team-count"><thead><tr><th><button class="sort-button" data-sort="team_name">Team</button></th><th><button class="sort-button" data-sort="league">League</button></th><th><button class="sort-button" data-sort="conference">Conference</button></th><th><button class="sort-button" data-sort="average_ares_score" data-type="number">Average ARES</button></th><th><button class="sort-button" data-sort="average_market_score" data-type="number">Average Market</button></th><th><button class="sort-button" data-sort="top_ares_player">Top Player</button></th><th>Profile</th></tr></thead><tbody id="team-body"><tr><td>Team Data</td><td>NFL</td><td></td><td></td><td></td><td></td><td><a href="sample-team.html">Open</a></td></tr></tbody></table></div>
     </section>
   </main>
   <footer class="ares-footer"><strong>ARES Gridiron Market</strong><span class="d-block">Independent analytical database.</span></footer><script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script><script src="../assets/js/ares-tables.js?v=20260519-graphics1"></script><script src="../assets/js/ares-charts.js?v=20260519-graphics1"></script>
   <script>document.addEventListener("DOMContentLoaded",function(){function topPlayerLink(value,row){const id=row.top_ares_player_id||"";if(!id){return window.AresData.safeText(value);}const url=window.AresTables.playerUrl({player_id:id},"../players/");return '<a class="fw-bold" href="'+url+'">'+window.AresData.safeText(value)+'</a>';}const columns=[{key:"team_name"},{key:"league"},{key:"conference"},{key:"average_ares_score",render:"score",scoreType:"ares"},{key:"average_market_score",render:"score",scoreType:"market"},{key:"top_ares_player",render:topPlayerLink},{key:"team_id",render:function(){return '<a href="sample-team.html">Open</a>';}}];window.AresData.loadJson("../data/teams.json").then(function(rows){window.AresCharts.renderScoreDistribution("team-ares-chart",rows,"average_ares_score","Team average ARES");window.AresCharts.renderScoreDistribution("team-market-chart",rows,"average_market_score","Team average market");window.AresCharts.renderCountBy("team-conference-chart",rows,"conference",{limit:8,type:"donut",seriesName:"Teams"});window.AresTables.renderTable("team-body",rows,columns);window.AresTables.makeTableSortable("team-table");window.AresTables.makeTableSearchable("team-search","team-table");}).catch(function(e){document.getElementById("team-count").textContent="Fallback rows";if(window.console)console.warn(e);});});</script>
-  <script src="../assets/js/ares-paid-preview.js?v=20260519-lock2"></script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260520-logo1"></script>
     <script src="../assets/js/ares-mega-nav.js?v=20260520-nav3"></script>
 </body>
 </html>
