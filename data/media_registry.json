@@ -1,0 +1,54 @@
+[
+  {
+    "entity_type": "market",
+    "entity_id": "gridiron",
+    "display_name": "United States Football Market",
+    "media_type": "flag",
+    "asset_url": "",
+    "local_path": "assets/media/flags/united-states.svg",
+    "license_source": "Metronic template asset package",
+    "license_status": "template_licensed",
+    "expires_at": "",
+    "credit": "Metronic",
+    "public_allowed": true
+  },
+  {
+    "entity_type": "team",
+    "entity_id": "licensed-nfl-team-example",
+    "display_name": "Licensed NFL Team Logo Slot",
+    "media_type": "logo",
+    "asset_url": "",
+    "local_path": "",
+    "license_source": "Add SportsDataIO, Sportradar Images, NFL-licensed, or owned asset here",
+    "license_status": "placeholder",
+    "expires_at": "",
+    "credit": "",
+    "public_allowed": false
+  },
+  {
+    "entity_type": "player",
+    "entity_id": "licensed-nfl-player-example",
+    "display_name": "Licensed NFL Player Headshot Slot",
+    "media_type": "headshot",
+    "asset_url": "",
+    "local_path": "",
+    "license_source": "Add SportsDataIO, Sportradar Images, Getty/AP/Imagn, or owned asset here",
+    "license_status": "placeholder",
+    "expires_at": "",
+    "credit": "",
+    "public_allowed": false
+  },
+  {
+    "entity_type": "school",
+    "entity_id": "licensed-school-example",
+    "display_name": "Licensed School Logo Slot",
+    "media_type": "logo",
+    "asset_url": "",
+    "local_path": "",
+    "license_source": "Add licensed school/conference or owned asset here",
+    "license_status": "placeholder",
+    "expires_at": "",
+    "credit": "",
+    "public_allowed": false
+  }
+]
