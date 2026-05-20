@@ -211,6 +211,36 @@ input.ares-search:focus {
   text-align: center !important;
 }
 
+.ares-team-logo-cell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  max-width: 100%;
+  min-width: 0;
+  color: inherit;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ares-team-logo-cell > span {
+  display: inline-block;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.ares-team-logo {
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  flex: 0 0 1.75rem;
+  object-fit: contain;
+  background: #FFFFFF;
+  border: 1px solid rgba(201, 207, 216, 0.85);
+  border-radius: 50%;
+  padding: 0.12rem;
+}
+
 .section-heading {
   min-width: 0;
 }
@@ -472,6 +502,17 @@ input.ares-search:focus {
     font-size: 0.68rem;
     white-space: normal;
     text-align: center;
+  }
+
+  .ares-team-logo-cell {
+    gap: 0.25rem;
+  }
+
+  .ares-team-logo {
+    width: 1.25rem;
+    height: 1.25rem;
+    flex-basis: 1.25rem;
+    padding: 0.08rem;
   }
 
   .ares-timeline-item {

@@ -3,6 +3,24 @@
 
   const data = window.AresData;
   const tableStates = {};
+  const NFL_LOGO_SLUGS = {
+    ARI: "ari", ATL: "atl", BAL: "bal", BUF: "buf", CAR: "car", CHI: "chi", CIN: "cin", CLE: "cle",
+    DAL: "dal", DEN: "den", DET: "det", GB: "gb", HOU: "hou", IND: "ind", JAX: "jax", JAC: "jax",
+    KC: "kc", LAC: "lac", LAR: "lar", LA: "lar", LV: "lv", MIA: "mia", MIN: "min", NE: "ne",
+    NO: "no", NYG: "nyg", NYJ: "nyj", PHI: "phi", PIT: "pit", SEA: "sea", SF: "sf", TB: "tb",
+    TEN: "ten", WAS: "wsh", WSH: "wsh"
+  };
+  const NFL_TEAM_ALIASES = {
+    "arizona cardinals": "ARI", "atlanta falcons": "ATL", "baltimore ravens": "BAL", "buffalo bills": "BUF",
+    "carolina panthers": "CAR", "chicago bears": "CHI", "cincinnati bengals": "CIN", "cleveland browns": "CLE",
+    "dallas cowboys": "DAL", "denver broncos": "DEN", "detroit lions": "DET", "green bay packers": "GB",
+    "houston texans": "HOU", "indianapolis colts": "IND", "jacksonville jaguars": "JAX", "kansas city chiefs": "KC",
+    "los angeles chargers": "LAC", "la chargers": "LAC", "los angeles rams": "LAR", "la rams": "LAR",
+    "las vegas raiders": "LV", "miami dolphins": "MIA", "minnesota vikings": "MIN", "new england patriots": "NE",
+    "new orleans saints": "NO", "new york giants": "NYG", "new york jets": "NYJ", "philadelphia eagles": "PHI",
+    "pittsburgh steelers": "PIT", "seattle seahawks": "SEA", "san francisco 49ers": "SF", "tampa bay buccaneers": "TB",
+    "tennessee titans": "TEN", "washington commanders": "WAS"
+  };
 
   function getStateByTable(tableId) {
     const table = document.getElementById(tableId);
@@ -38,6 +56,37 @@
     const key = confidence.toLowerCase();
     const className = key === "high" ? "ares-confidence-high" : key === "medium" ? "ares-confidence-medium" : "ares-confidence-low";
     return '<span class="' + className + '" title="' + data.safeText(confidence) + '" aria-label="' + data.safeText(confidence) + ' confidence">' + acronym + "</span>";
+  }
+
+  function normalizeTeamKey(value) {
+    const raw = String(value || "").trim();
+    if (!raw) {
+      return "";
+    }
+    const compact = raw.replace(/\s+/g, " ");
+    const upper = compact.toUpperCase();
+    if (NFL_LOGO_SLUGS[upper]) {
+      return upper;
+    }
+    return NFL_TEAM_ALIASES[compact.toLowerCase()] || "";
+  }
+
+  function nflLogoUrl(value) {
+    const key = normalizeTeamKey(value);
+    const slug = NFL_LOGO_SLUGS[key];
+    return slug ? "https://a.espncdn.com/i/teamlogos/nfl/500/" + slug + ".png" : "";
+  }
+
+  function renderTeamLogo(value) {
+    const url = nflLogoUrl(value);
+    if (!url) {
+      return data.safeText(value);
+    }
+    return '<span class="ares-team-logo-cell"><img class="ares-team-logo" src="' + data.safeText(url) + '" alt="' + data.safeText(value) + ' logo" loading="lazy"><span>' + data.safeText(value) + "</span></span>";
+  }
+
+  function isTeamColumn(key) {
+    return ["team", "team_id", "team_name", "home_team", "away_team"].includes(String(key || ""));
   }
 
   function playerUrl(row, basePath) {
@@ -78,6 +127,9 @@
     }
     if (column.render === "player") {
       return renderPlayerLink(value, row, column);
+    }
+    if (column.render === "team" || isTeamColumn(column.key)) {
+      return renderTeamLogo(value);
     }
     return data.safeText(value);
   }
@@ -156,6 +208,7 @@
         .join("");
     }
     updateCount(tbody, visibleRows.length);
+    enhanceTeamLogoCells(tbody.closest("table") || document);
   }
 
   function rerenderTable(tableId) {
@@ -211,6 +264,53 @@
     });
   }
 
+  function shouldEnhanceHeader(text) {
+    const key = String(text || "").trim().toLowerCase().replace(/\s+/g, " ");
+    return key === "team" || key === "home" || key === "away" || key === "home team" || key === "away team";
+  }
+
+  function enhanceTeamLogoCells(scope) {
+    const root = scope || document;
+    root.querySelectorAll("table.ares-table").forEach(function (table) {
+      const logoColumns = [];
+      table.querySelectorAll("thead th").forEach(function (th, index) {
+        if (shouldEnhanceHeader(th.textContent)) {
+          logoColumns.push(index);
+        }
+      });
+      if (!logoColumns.length) {
+        return;
+      }
+      table.querySelectorAll("tbody tr").forEach(function (row) {
+        logoColumns.forEach(function (index) {
+          const cell = row.children[index];
+          if (!cell || cell.querySelector(".ares-team-logo-cell")) {
+            return;
+          }
+          const label = cell.textContent.trim().replace(/\s+/g, " ");
+          const url = nflLogoUrl(label);
+          if (!url) {
+            return;
+          }
+          const current = cell.innerHTML;
+          cell.innerHTML = '<span class="ares-team-logo-cell"><img class="ares-team-logo" src="' + data.safeText(url) + '" alt="' + data.safeText(label) + ' logo" loading="lazy"><span>' + current + "</span></span>";
+        });
+      });
+    });
+  }
+
+  function scheduleEnhance() {
+    window.setTimeout(function () { enhanceTeamLogoCells(document); }, 100);
+    window.setTimeout(function () { enhanceTeamLogoCells(document); }, 650);
+    window.setTimeout(function () { enhanceTeamLogoCells(document); }, 1500);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", scheduleEnhance);
+  } else {
+    scheduleEnhance();
+  }
+
   window.AresTables = {
     renderTable: renderTable,
     makeTableSortable: makeTableSortable,
@@ -219,6 +319,9 @@
     renderTierChip: renderTierChip,
     renderTrendChip: renderTrendChip,
     renderConfidenceChip: renderConfidenceChip,
+    renderTeamLogo: renderTeamLogo,
+    enhanceTeamLogoCells: enhanceTeamLogoCells,
+    nflLogoUrl: nflLogoUrl,
     renderPlayerLink: renderPlayerLink,
     playerUrl: playerUrl
   };

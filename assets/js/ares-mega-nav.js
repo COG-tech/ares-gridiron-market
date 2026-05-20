@@ -50,6 +50,19 @@
     return abbr || String(label || "AR").split(/\s+/).map(function (word) { return word[0]; }).join("").slice(0, 3);
   }
 
+  const NFL_LOGO_SLUGS = {
+    ARI: "ari", ATL: "atl", BAL: "bal", BUF: "buf", CAR: "car", CHI: "chi", CIN: "cin", CLE: "cle",
+    DAL: "dal", DEN: "den", DET: "det", GB: "gb", HOU: "hou", IND: "ind", JAX: "jax", KC: "kc",
+    LAC: "lac", LAR: "lar", LA: "lar", LV: "lv", MIA: "mia", MIN: "min", NE: "ne", NO: "no",
+    NYG: "nyg", NYJ: "nyj", PHI: "phi", PIT: "pit", SEA: "sea", SF: "sf", TB: "tb", TEN: "ten",
+    WAS: "wsh", WSH: "wsh"
+  };
+
+  function nflLogoUrl(abbr) {
+    const slug = NFL_LOGO_SLUGS[String(abbr || "").toUpperCase()];
+    return slug ? "https://a.espncdn.com/i/teamlogos/nfl/500/" + slug + ".png" : "";
+  }
+
   function imageTag(root, src, label) {
     if (!src) return "";
     return '<img src="' + safeText(href(root, src)) + '" alt="' + safeText(label || "") + '" loading="lazy">';
@@ -58,7 +71,7 @@
   function icon(root, item) {
     const label = item.label || "";
     const text = iconText(label, item.abbr).toUpperCase();
-    const image = item.image || (item.abbr ? "assets/media/nav/nfl-badges/" + encodeURIComponent(text) + ".svg" : "");
+    const image = item.image || nflLogoUrl(item.abbr);
     return '<span class="ares-mega-icon" aria-hidden="true">' + (image ? imageTag(root, image, label) : safeText(text)) + "</span>";
   }
 
