@@ -114,6 +114,22 @@
       "report_status": "Questionable",
       "practice_status": "Full Participation in Practice",
       "injury": "Ankle"
+    },
+    {
+      "season": 2025.0,
+      "week": 3.0,
+      "team": "NE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 2.0,
+      "team": "NE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
     }
   ],
   "snap_counts_recent": [],

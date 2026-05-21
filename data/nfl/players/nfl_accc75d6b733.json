@@ -446,6 +446,82 @@
       "def_sacks": 0.0,
       "def_interceptions": 0,
       "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "team": "DET",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 1,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "team": "DET",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 1.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 6,
+      "team": "DET",
+      "opponent": "DAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 1.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 16,
+      "team": "DET",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
     }
   ],
   "injuries_recent": [
@@ -650,6 +726,102 @@
       "offense_snaps": 0.0,
       "defense_snaps": 32.0,
       "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 31.0,
+      "special_teams_snaps": 18.0
+    },
+    {
+      "season": 2024,
+      "week": 12,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 21.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 9.0,
+      "special_teams_snaps": 17.0
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 33.0,
+      "special_teams_snaps": 26.0
+    },
+    {
+      "season": 2024,
+      "week": 9,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 35.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 39.0,
+      "special_teams_snaps": 24.0
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 14.0,
+      "special_teams_snaps": 26.0
+    },
+    {
+      "season": 2024,
+      "week": 6,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 29.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 8.0,
+      "special_teams_snaps": 23.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2023,
+      "week": 16,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2023,
+      "week": 13,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
     }
   ],
   "depth_chart_recent": [

@@ -446,6 +446,120 @@
       "def_sacks": 1.0,
       "def_interceptions": 0,
       "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "team": "IND",
+      "opponent": "GB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 14,
+      "team": "IND",
+      "opponent": "CIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 13,
+      "team": "IND",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 12,
+      "team": "IND",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.5,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 10,
+      "team": "IND",
+      "opponent": "NE",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 9,
+      "team": "IND",
+      "opponent": "CAR",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 1.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
     }
   ],
   "injuries_recent": [],
@@ -609,6 +723,190 @@
       "offense_snaps": 0.0,
       "defense_snaps": 3.0,
       "special_teams_snaps": 15.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2024,
+      "week": 12,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 11.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 7.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2024,
+      "week": 9,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 3.0,
+      "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 4.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 13.0
+    },
+    {
+      "season": 2024,
+      "week": 6,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 20.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 5,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 16.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 10.0,
+      "special_teams_snaps": 15.0
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 21.0,
+      "special_teams_snaps": 10.0
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2023,
+      "week": 16,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2023,
+      "week": 14,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2023,
+      "week": 13,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 26.0,
+      "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2023,
+      "week": 12,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2023,
+      "week": 10,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 17.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2023,
+      "week": 9,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 21.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2023,
+      "week": 8,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 10.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2023,
+      "week": 7,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 8.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2023,
+      "week": 5,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2023,
+      "week": 4,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 8.0
     }
   ],
   "depth_chart_recent": [

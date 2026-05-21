@@ -493,6 +493,14 @@
       "report_status": "",
       "practice_status": "Full Participation in Practice",
       "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "SEA",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Quadricep"
     }
   ],
   "snap_counts_recent": [

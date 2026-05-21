@@ -430,6 +430,44 @@
       "def_sacks": 0.0,
       "def_interceptions": 0,
       "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "LV",
+      "opponent": "CLE",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "LV",
+      "opponent": "CAR",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
     }
   ],
   "injuries_recent": [
@@ -642,6 +680,94 @@
       "offense_snaps": 0.0,
       "defense_snaps": 0.0,
       "special_teams_snaps": 23.0
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 23.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 25.0
+    },
+    {
+      "season": 2024,
+      "week": 12,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 29.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2024,
+      "week": 9,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 28.0
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 1.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2024,
+      "week": 5,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 45.0,
+      "special_teams_snaps": 18.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 11.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 21.0
     }
   ],
   "depth_chart_recent": [

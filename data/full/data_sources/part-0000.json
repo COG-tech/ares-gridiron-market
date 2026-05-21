@@ -1,0 +1,29 @@
+[
+  {
+    "source_name": "nflreadpy / nflverse",
+    "source_type": "public football data package",
+    "source_url": "https://github.com/nflverse/nflreadpy",
+    "access_type": "public package",
+    "license_notes": "Check nflverse package and dataset licenses before publication.",
+    "used_for": "NFL rosters, teams, schedules, weekly stats, seasonal stats, draft/combine fields when available",
+    "last_checked": "2026-05-18"
+  },
+  {
+    "source_name": "CollegeFootballData API or local college CSV fallback",
+    "source_type": "public API / local CSV",
+    "source_url": "https://collegefootballdata.com/",
+    "access_type": "API key or local files",
+    "license_notes": "Check CollegeFootballData terms and local source licenses before publication.",
+    "used_for": "College players, teams, and player season features",
+    "last_checked": "2026-05-18"
+  },
+  {
+    "source_name": "Existing local NFL ARES output files",
+    "source_type": "local generated ARES CSVs",
+    "source_url": "C:\\Users\\lshed\\Box\\NFL\\NFL_Out",
+    "access_type": "local files",
+    "license_notes": "Generated from the existing NFL ARES scripts; verify upstream data terms before public use.",
+    "used_for": "NFL player scores and current static-site seed rankings",
+    "last_checked": "2026-05-18"
+  }
+]

@@ -244,6 +244,222 @@
       "offense_snaps": 0.0,
       "defense_snaps": 42.0,
       "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2023,
+      "week": 14,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 40.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2023,
+      "week": 13,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 41.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2023,
+      "week": 12,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 48.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2023,
+      "week": 11,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 49.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2023,
+      "week": 10,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 38.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2023,
+      "week": 9,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 42.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2023,
+      "week": 8,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 55.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2023,
+      "week": 6,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 50.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2023,
+      "week": 5,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 40.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2023,
+      "week": 4,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 34.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2023,
+      "week": 3,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 44.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2023,
+      "week": 2,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 59.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2023,
+      "week": 1,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 49.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2022,
+      "week": 18,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 25.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2022,
+      "week": 17,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 36.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2022,
+      "week": 16,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 28.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2022,
+      "week": 15,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 24.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2022,
+      "week": 14,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 24.0,
+      "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2022,
+      "week": 13,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2022,
+      "week": 12,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 20.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 23.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2022,
+      "week": 5,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2022,
+      "week": 4,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 22.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2022,
+      "week": 3,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 20.0,
+      "special_teams_snaps": 18.0
+    },
+    {
+      "season": 2022,
+      "week": 2,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 22.0,
+      "special_teams_snaps": 13.0
+    },
+    {
+      "season": 2022,
+      "week": 1,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 16.0
     }
   ],
   "depth_chart_recent": [],

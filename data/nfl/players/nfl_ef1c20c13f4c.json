@@ -96,6 +96,22 @@
       "def_sacks": 0.0,
       "def_interceptions": 0,
       "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2019,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 1.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
     }
   ],
   "weekly_recent": [
@@ -478,6 +494,234 @@
       "def_sacks": 0.0,
       "def_interceptions": 0,
       "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "team": "ATL",
+      "opponent": "LAC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 8,
+      "team": "ATL",
+      "opponent": "CAR",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "team": "ATL",
+      "opponent": "CIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 6,
+      "team": "ATL",
+      "opponent": "SF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 5,
+      "team": "ATL",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 4,
+      "team": "ATL",
+      "opponent": "CLE",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 2,
+      "team": "ATL",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2021,
+      "week": 18,
+      "team": "GB",
+      "opponent": "DET",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2021,
+      "week": 17,
+      "team": "GB",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 17,
+      "team": "CHI",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 7,
+      "team": "CHI",
+      "opponent": "NO",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 1.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 4,
+      "team": "CHI",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
     }
   ],
   "injuries_recent": [
@@ -658,6 +902,454 @@
       "offense_snaps": 10.0,
       "defense_snaps": 0.0,
       "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2024,
+      "week": 20,
+      "team": "BUF",
+      "offense_snaps": 13.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2024,
+      "week": 19,
+      "team": "BUF",
+      "offense_snaps": 22.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2024,
+      "week": 18,
+      "team": "BUF",
+      "offense_snaps": 67.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "team": "BUF",
+      "offense_snaps": 19.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 10.0
+    },
+    {
+      "season": 2024,
+      "week": 16,
+      "team": "BUF",
+      "offense_snaps": 11.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "team": "BUF",
+      "offense_snaps": 13.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "BUF",
+      "offense_snaps": 9.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 10.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "BUF",
+      "offense_snaps": 32.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "BUF",
+      "offense_snaps": 6.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "team": "BUF",
+      "offense_snaps": 6.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 11.0
+    },
+    {
+      "season": 2024,
+      "week": 9,
+      "team": "BUF",
+      "offense_snaps": 11.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 11.0
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "team": "BUF",
+      "offense_snaps": 21.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "team": "TEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "team": "BUF",
+      "offense_snaps": 6.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "team": "TEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 6,
+      "team": "BUF",
+      "offense_snaps": 15.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2024,
+      "week": 6,
+      "team": "TEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 4.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 5,
+      "team": "BUF",
+      "offense_snaps": 17.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "BUF",
+      "offense_snaps": 19.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "TEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 24.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "BUF",
+      "offense_snaps": 16.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 11.0
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "team": "BUF",
+      "offense_snaps": 13.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "team": "BUF",
+      "offense_snaps": 10.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2023,
+      "week": 18,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 31.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2023,
+      "week": 7,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 13.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2023,
+      "week": 5,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 16.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2023,
+      "week": 4,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 6.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2023,
+      "week": 3,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 16.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2023,
+      "week": 2,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 21.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2023,
+      "week": 1,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 10.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2022,
+      "week": 18,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2022,
+      "week": 17,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 35.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2022,
+      "week": 16,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 37.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2022,
+      "week": 15,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 35.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2022,
+      "week": 13,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 39.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2022,
+      "week": 12,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 40.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 30.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2022,
+      "week": 10,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 35.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 17.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2022,
+      "week": 8,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 26.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 27.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2022,
+      "week": 6,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 23.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2022,
+      "week": 5,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 23.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2022,
+      "week": 4,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2022,
+      "week": 3,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 17.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2022,
+      "week": 2,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 11.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2021,
+      "week": 18,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2021,
+      "week": 17,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 16.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2021,
+      "week": 15,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2020,
+      "week": 9,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 10.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 17,
+      "team": "CHI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 17.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2019,
+      "week": 14,
+      "team": "CHI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 6.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 8,
+      "team": "CHI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 1.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2019,
+      "week": 7,
+      "team": "CHI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 33.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2019,
+      "week": 4,
+      "team": "CHI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 22.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2019,
+      "week": 3,
+      "team": "CHI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 27.0,
+      "special_teams_snaps": 2.0
     }
   ],
   "depth_chart_recent": [

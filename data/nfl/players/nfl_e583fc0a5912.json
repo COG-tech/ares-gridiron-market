@@ -498,6 +498,22 @@
       "offense_snaps": 2.0,
       "defense_snaps": 0.0,
       "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "team": "TEN",
+      "offense_snaps": 3.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "TEN",
+      "offense_snaps": 5.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
     }
   ],
   "depth_chart_recent": [

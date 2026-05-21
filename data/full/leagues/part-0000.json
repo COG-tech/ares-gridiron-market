@@ -1,0 +1,14 @@
+[
+  {
+    "league_id": "NFL",
+    "league_name": "National Football League",
+    "league_level": "Pro",
+    "ranked_or_tracked": "Ranked",
+    "teams": 33,
+    "players_tracked": 1598,
+    "average_age": 26.8,
+    "top_player": "Jordyn Brooks",
+    "top_player_id": "nfl_7e10b34ae791",
+    "is_placeholder": false
+  }
+]

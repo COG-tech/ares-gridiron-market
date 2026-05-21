@@ -341,6 +341,14 @@
       "report_status": "Doubtful",
       "practice_status": "Did Not Participate In Practice",
       "injury": "Groin"
+    },
+    {
+      "season": 2025.0,
+      "week": 3.0,
+      "team": "ARI",
+      "report_status": "Doubtful",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Groin"
     }
   ],
   "snap_counts_recent": [

@@ -446,6 +446,139 @@
       "def_sacks": 0.0,
       "def_interceptions": 0,
       "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "SF",
+      "opponent": "BUF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "SF",
+      "opponent": "BUF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "SF",
+      "opponent": "SEA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "team": "SF",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "team": "SF",
+      "opponent": "KC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 1,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 6,
+      "team": "SF",
+      "opponent": "SEA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 13,
+      "team": "SF",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 1.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
     }
   ],
   "injuries_recent": [
@@ -690,6 +823,150 @@
       "offense_snaps": 0.0,
       "defense_snaps": 23.0,
       "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 21.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 16,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 22.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 17.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 14.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 14.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 26.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 12,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 30.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 10.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 11.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 14.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 22.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2024,
+      "week": 6,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 31.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2024,
+      "week": 5,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 15,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 13.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2023,
+      "week": 14,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 22.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2023,
+      "week": 13,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 1.0
     }
   ],
   "depth_chart_recent": [

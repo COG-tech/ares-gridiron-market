@@ -447,6 +447,62 @@
       "offense_snaps": 0.0,
       "defense_snaps": 11.0,
       "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 9.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 9.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 4,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2023,
+      "week": 3,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 14.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2023,
+      "week": 2,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 2.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2023,
+      "week": 1,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 9.0,
+      "special_teams_snaps": 6.0
     }
   ],
   "depth_chart_recent": [

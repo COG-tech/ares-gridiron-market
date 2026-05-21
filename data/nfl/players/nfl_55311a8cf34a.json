@@ -376,6 +376,54 @@
       "report_status": "",
       "practice_status": "Full Participation in Practice",
       "injury": ""
+    },
+    {
+      "season": 2024.0,
+      "week": 9.0,
+      "team": "DAL",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2024.0,
+      "week": 8.0,
+      "team": "DAL",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Shoulder"
+    },
+    {
+      "season": 2024.0,
+      "week": 6.0,
+      "team": "DAL",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Shoulder"
+    },
+    {
+      "season": 2024.0,
+      "week": 5.0,
+      "team": "DAL",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Shoulder"
+    },
+    {
+      "season": 2024.0,
+      "week": 4.0,
+      "team": "DAL",
+      "report_status": "Doubtful",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Shoulder"
+    },
+    {
+      "season": 2024.0,
+      "week": 1.0,
+      "team": "DAL",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
     }
   ],
   "snap_counts_recent": [

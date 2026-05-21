@@ -357,6 +357,14 @@
       "report_status": "Doubtful",
       "practice_status": "Did Not Participate In Practice",
       "injury": "Ankle"
+    },
+    {
+      "season": 2024.0,
+      "week": 4.0,
+      "team": "MIA",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
     }
   ],
   "snap_counts_recent": [

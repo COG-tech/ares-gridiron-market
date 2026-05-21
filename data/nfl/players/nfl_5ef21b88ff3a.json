@@ -117,6 +117,12 @@
       "team": "MIA",
       "depth_position": "Right Cornerback",
       "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Nickel Back",
+      "depth_rank": 3.0
     }
   ],
   "draft_combine": [],

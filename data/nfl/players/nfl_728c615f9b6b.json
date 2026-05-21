@@ -446,6 +446,25 @@
       "def_sacks": 0.0,
       "def_interceptions": 0,
       "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 8,
+      "team": "WAS",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
     }
   ],
   "injuries_recent": [
@@ -666,6 +685,86 @@
       "offense_snaps": 0.0,
       "defense_snaps": 37.0,
       "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2023,
+      "week": 17,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 23.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2023,
+      "week": 16,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 24.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2023,
+      "week": 15,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 27.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2023,
+      "week": 13,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 21.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2023,
+      "week": 12,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 9.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2023,
+      "week": 11,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 16.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2023,
+      "week": 10,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 9,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 14.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 8,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 14.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 1,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 3.0,
+      "special_teams_snaps": 1.0
     }
   ],
   "depth_chart_recent": [

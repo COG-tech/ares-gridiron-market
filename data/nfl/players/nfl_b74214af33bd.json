@@ -639,6 +639,78 @@
       "offense_snaps": 0.0,
       "defense_snaps": 0.0,
       "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2024,
+      "week": 12,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 30.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 24.0
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 27.0
+    },
+    {
+      "season": 2024,
+      "week": 9,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 17.0
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 13.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 13.0
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
     }
   ],
   "depth_chart_recent": [

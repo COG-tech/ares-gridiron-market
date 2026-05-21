@@ -430,6 +430,25 @@
       "def_sacks": 0.0,
       "def_interceptions": 0,
       "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "GB",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
     }
   ],
   "injuries_recent": [
@@ -626,6 +645,86 @@
       "offense_snaps": 0.0,
       "defense_snaps": 14.0,
       "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2024,
+      "week": 12,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 11.0,
+      "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 10.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2024,
+      "week": 9,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 2.0,
+      "special_teams_snaps": 26.0
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 17.0
+    },
+    {
+      "season": 2024,
+      "week": 6,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 11.0
+    },
+    {
+      "season": 2024,
+      "week": 5,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 13.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 17.0
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "team": "GB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
     }
   ],
   "depth_chart_recent": [

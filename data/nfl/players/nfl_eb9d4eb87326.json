@@ -430,6 +430,63 @@
       "def_sacks": 0.0,
       "def_interceptions": 0,
       "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "team": "NYG",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 5,
+      "team": "NYG",
+      "opponent": "SEA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "team": "NYG",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 6,
+      "def_sacks": 0.0,
+      "def_interceptions": 1,
+      "fantasy_points_ppr": 0.0
     }
   ],
   "injuries_recent": [
@@ -658,6 +715,62 @@
       "offense_snaps": 0.0,
       "defense_snaps": 0.0,
       "special_teams_snaps": 18.0
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 14.0,
+      "special_teams_snaps": 26.0
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 12.0,
+      "special_teams_snaps": 31.0
+    },
+    {
+      "season": 2024,
+      "week": 6,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 2.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2024,
+      "week": 5,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 25.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 15.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 3.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 45.0,
+      "special_teams_snaps": 10.0
     }
   ],
   "depth_chart_recent": [

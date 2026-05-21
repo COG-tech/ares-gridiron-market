@@ -167,6 +167,66 @@
       "team": "LAC",
       "depth_position": "Left Tackle",
       "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LAC",
+      "depth_position": "Left Tackle",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Center",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Right Guard",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYG",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LAC",
+      "depth_position": "Right Tackle",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Left Guard",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYG",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LAC",
+      "depth_position": "Right Tackle",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Right Guard",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYG",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 3.0
     }
   ],
   "draft_combine": [

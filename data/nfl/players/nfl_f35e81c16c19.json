@@ -446,6 +446,63 @@
       "def_sacks": 0.0,
       "def_interceptions": 0,
       "fantasy_points_ppr": -0.4
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "DEN",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 70,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 7.0
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "team": "DEN",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 16,
+      "rushing_tds": 0,
+      "receptions": 1,
+      "targets": 1,
+      "receiving_yards": 2,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 2.8
+    },
+    {
+      "season": 2022,
+      "week": 18,
+      "team": "DEN",
+      "opponent": "LAC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 1,
+      "targets": 1,
+      "receiving_yards": 24,
+      "receiving_tds": 1,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 9.4
     }
   ],
   "injuries_recent": [
@@ -650,6 +707,30 @@
       "offense_snaps": 5.0,
       "defense_snaps": 0.0,
       "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "DEN",
+      "offense_snaps": 13.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "team": "DEN",
+      "offense_snaps": 3.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 18,
+      "team": "DEN",
+      "offense_snaps": 9.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 11.0
     }
   ],
   "depth_chart_recent": [

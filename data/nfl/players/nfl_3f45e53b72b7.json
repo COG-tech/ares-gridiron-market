@@ -520,6 +520,134 @@
       "offense_snaps": 66.0,
       "defense_snaps": 0.0,
       "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 2,
+      "team": "JAX",
+      "offense_snaps": 75.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 1,
+      "team": "JAX",
+      "offense_snaps": 50.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 17,
+      "team": "JAX",
+      "offense_snaps": 69.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 16,
+      "team": "JAX",
+      "offense_snaps": 62.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 15,
+      "team": "JAX",
+      "offense_snaps": 57.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 14,
+      "team": "JAX",
+      "offense_snaps": 66.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 13,
+      "team": "JAX",
+      "offense_snaps": 41.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 9,
+      "team": "JAX",
+      "offense_snaps": 66.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 8,
+      "team": "JAX",
+      "offense_snaps": 74.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 7,
+      "team": "JAX",
+      "offense_snaps": 80.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 6,
+      "team": "JAX",
+      "offense_snaps": 58.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 5,
+      "team": "JAX",
+      "offense_snaps": 83.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 4,
+      "team": "JAX",
+      "offense_snaps": 85.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 3,
+      "team": "JAX",
+      "offense_snaps": 54.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 2,
+      "team": "JAX",
+      "offense_snaps": 64.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 1,
+      "team": "JAX",
+      "offense_snaps": 47.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
     }
   ],
   "depth_chart_recent": [
