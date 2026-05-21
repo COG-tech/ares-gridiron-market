@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Market Rankings | ARES Gridiron Market</title>
-  <meta name="description" content="ARES Gridiron Market football asset value rankings.">
+  <title>Football Market Value Rankings | ARES Gridiron Market</title>
+  <meta name="description" content="Football asset value rankings for NFL players using age, role, position value, durability, market signal, and roster movement.">
   <link rel="shortcut icon" href="../assets/media/brand/ares-logo.png">
   <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
   <link href="../assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
@@ -24,6 +24,47 @@
       justify-content: space-between;
       gap: 1rem;
       margin-bottom: 1rem;
+    }
+
+    .ranking-filters,
+    .data-status-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: .75rem;
+      margin-bottom: 1rem;
+    }
+
+    .ranking-filters select {
+      width: 100%;
+      min-height: 2.65rem;
+      border: 1px solid var(--ares-border);
+      border-radius: 8px;
+      padding: .55rem .7rem;
+      color: var(--ares-text);
+      background: #fff;
+    }
+
+    .data-status-grid div {
+      padding: .85rem;
+      background: #f8fafc;
+      border: 1px solid var(--ares-border);
+      border-radius: 8px;
+    }
+
+    .data-status-grid span {
+      display: block;
+      color: var(--ares-muted);
+      font-size: .72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .data-status-grid strong {
+      display: block;
+      color: var(--ares-text);
+      font-size: 1.05rem;
+      font-weight: 850;
+      line-height: 1.2;
     }
 
     .ranking-note {
@@ -61,6 +102,11 @@
         align-items: stretch;
         flex-direction: column;
       }
+
+      .ranking-filters,
+      .data-status-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -75,15 +121,25 @@
 
   <main class="page-main">
     <section class="ares-page-title">
-      <h1>Market Rankings</h1>
-      <p>Football asset value rankings.</p>
+      <h1>Football Market Value Rankings</h1>
+      <p>Market Score estimates player asset value using ARES quality, age curve, position value, role security, durability, movement signal, and scarcity.</p>
     </section>
 
-    <p class="ranking-note">Placeholder data shown until real model pipeline is connected. High school, FCS, JUCO, UFL, CFL, and transfer portal players are tracked in the Watchlist and are not ranked against pro or college players yet.</p>
+    <p class="ranking-note"><strong>Public Beta:</strong> visible rows show public market signal and asset tiers. <strong>Premium Market:</strong> unlocks full Market Score, ARES Score, contract discount, age curve, team fit, risk, and movement history. This is not salary, trade compensation, betting projection, or fantasy value.</p>
+
+    <section class="ares-card ares-section" aria-label="Market data status">
+      <div class="section-heading"><div><h2>ARES Data Status</h2><span>Public market rows with premium asset model fields locked.</span></div></div>
+      <div class="data-status-grid">
+        <div><span>NFL players loaded</span><strong id="status-player-count">1,598</strong></div>
+        <div><span>Market tiers</span><strong>7</strong></div>
+        <div><span>Source confidence</span><strong>Medium</strong></div>
+        <div><span>Full Market Score</span><strong>Premium</strong></div>
+      </div>
+    </section>
 
     <section class="ares-section ares-dashboard-grid" aria-label="Market ranking analytics">
       <article class="ares-chart-card">
-        <div class="section-heading"><div><h2>Market Distribution</h2><span>Market score bands across the current NFL board.</span></div></div>
+        <div class="section-heading"><div><h2>Public Market Distribution</h2><span>Market signal bands across the current NFL board.</span></div></div>
         <div id="ranking-market-chart" class="ares-chart"></div>
       </article>
       <article class="ares-chart-card">
@@ -102,7 +158,13 @@
         <div class="ares-search">
           <input id="ranking-search" type="search" placeholder="Search market rankings..." autocomplete="off">
         </div>
-        <span id="ranking-count" class="ares-tier-chip">Loading</span>
+        <span id="ranking-count" class="ares-tier-chip">Public rows</span>
+      </div>
+      <div class="ranking-filters" aria-label="Market ranking filters">
+        <select id="position-filter"><option value="">All positions</option></select>
+        <select id="tier-filter"><option value="">All market tiers</option></select>
+        <select id="trend-filter"><option value="">All trends</option></select>
+        <select id="confidence-filter"><option value="">All confidence levels</option></select>
       </div>
 
       <div class="table-responsive">
@@ -115,52 +177,17 @@
               <th><button class="sort-button" data-sort="team">Team</button></th>
               <th><button class="sort-button" data-sort="league">League</button></th>
               <th><button class="sort-button" data-sort="age" data-type="number">Age</button></th>
-              <th><button class="sort-button" data-sort="market_score" data-type="number">Market Score</button></th>
+              <th><button class="sort-button" data-sort="public_market_signal" data-type="number">Public Market Signal</button></th>
               <th><button class="sort-button" data-sort="market_tier">Market Tier</button></th>
-              <th><button class="sort-button" data-sort="ares_score" data-type="number">ARES Score</button></th>
+              <th><button class="sort-button" data-sort="role">Role</button></th>
               <th><button class="sort-button" data-sort="trend">Trend</button></th>
-              <th><button class="sort-button" data-sort="confidence">Conf.</button></th>
+              <th><button class="sort-button" data-sort="confidence">Confidence</button></th>
+              <th><button class="sort-button" data-sort="reason">Reason</button></th>
             </tr>
           </thead>
           <tbody id="ranking-body">
             <tr>
-              <td>1</td>
-              <td><a class="fw-bold" href="../players/player-template.html?player_id=player_search">Player Data</a></td>
-              <td>CB</td>
-              <td>Team Data</td>
-              <td>NFL</td>
-              <td></td>
-              <td><span class="ares-market-chip">Team Data</span></td>
-              <td><span class="ares-tier-chip">Paid</span></td>
-              <td><span class="ares-score-chip">Team Data</span></td>
-              <td><span class="ares-trend-flat">Flat</span></td>
-              <td><span class="ares-confidence-medium" title="Medium" aria-label="Medium confidence">M</span></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td><a class="fw-bold" href="../players/player-template.html?player_id=player_search">Player Data</a></td>
-              <td>CB</td>
-              <td>Team Data</td>
-              <td>NFL</td>
-              <td></td>
-              <td><span class="ares-market-chip">Team Data</span></td>
-              <td><span class="ares-tier-chip">Paid</span></td>
-              <td><span class="ares-score-chip">Team Data</span></td>
-              <td><span class="ares-trend-flat">Flat</span></td>
-              <td><span class="ares-confidence-medium" title="Medium" aria-label="Medium confidence">M</span></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td><a class="fw-bold" href="../players/player-template.html?player_id=player_search">Player Data</a></td>
-              <td>CB</td>
-              <td>Team Data</td>
-              <td>NFL</td>
-              <td></td>
-              <td><span class="ares-market-chip">Team Data</span></td>
-              <td><span class="ares-tier-chip">Paid</span></td>
-              <td><span class="ares-score-chip">Team Data</span></td>
-              <td><span class="ares-trend-flat">Flat</span></td>
-              <td><span class="ares-confidence-medium" title="Medium" aria-label="Medium confidence">M</span></td>
+              <td colspan="12" class="text-muted">Public market ranking rows are ready.</td>
             </tr>
           </tbody>
         </table>
@@ -172,7 +199,7 @@
     <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
       <div>
         <strong>ARES Gridiron Market</strong>
-        <span class="d-block">Independent analytical database. Placeholder data shown until real model outputs are connected.</span>
+        <span class="d-block">Public market signal is visible. Premium Market unlocks the full asset score and movement model.</span>
       </div>
     </div>
   </footer>
@@ -184,6 +211,7 @@
       "use strict";
 
       const dataPath = "../data/market_rankings.json";
+      let allRows = [];
       const columns =       [
         { key: "rank" },
         { key: "player_name", render: "player", basePath: "../players/" },
@@ -191,32 +219,70 @@
         { key: "team" },
         { key: "league" },
         { key: "age" },
-        { key: "market_score", render: "score", scoreType: "market" },
+        { key: "public_market_signal", render: "score", scoreType: "market" },
         { key: "market_tier", render: "tier" },
-        { key: "ares_score", render: "score", scoreType: "ares" },
+        { key: "role" },
         { key: "trend", render: "trend" },
-        { key: "confidence", render: "confidence" }
+        { key: "confidence", render: "confidence" },
+        { key: "reason" }
       ];
 
       function setFallback(error) {
         const count = document.getElementById("ranking-count");
         if (count) {
-          count.textContent = "Fallback rows";
+          count.textContent = "Setup mode";
         }
         if (window.console) {
           console.warn(error);
         }
       }
 
+      function fillFilter(id, rows, key) {
+        const select = document.getElementById(id);
+        if (!select) return;
+        const first = select.options[0].outerHTML;
+        const values = Array.from(new Set(rows.map(function(row) { return row[key]; }).filter(Boolean))).sort();
+        select.innerHTML = first + values.map(function(value) {
+          return '<option value="' + window.AresData.safeText(value) + '">' + window.AresData.safeText(value) + '</option>';
+        }).join("");
+      }
+
+      function filteredRows() {
+        const position = document.getElementById("position-filter").value;
+        const tier = document.getElementById("tier-filter").value;
+        const trend = document.getElementById("trend-filter").value;
+        const confidence = document.getElementById("confidence-filter").value;
+        return allRows.filter(function(row) {
+          if (position && row.position !== position) return false;
+          if (tier && row.market_tier !== tier) return false;
+          if (trend && row.trend !== trend) return false;
+          if (confidence && row.confidence !== confidence) return false;
+          return true;
+        });
+      }
+
+      function renderFiltered() {
+        window.AresTables.renderTable("ranking-body", filteredRows(), columns);
+      }
+
       function init() {
         window.AresData.loadJson(dataPath)
           .then(function (rows) {
-            window.AresCharts.renderScoreDistribution("ranking-market-chart", rows, "market_score", "Market score rows");
+            allRows = rows;
+            document.getElementById("status-player-count").textContent = rows.length.toLocaleString();
+            fillFilter("position-filter", rows, "position");
+            fillFilter("tier-filter", rows, "market_tier");
+            fillFilter("trend-filter", rows, "trend");
+            fillFilter("confidence-filter", rows, "confidence");
+            window.AresCharts.renderScoreDistribution("ranking-market-chart", rows, "public_market_signal", "Public market rows");
             window.AresCharts.renderCountBy("ranking-tier-chart", rows, "market_tier", { limit: 8, type: "donut", seriesName: "Players" });
             window.AresCharts.renderCountBy("ranking-position-chart", rows, "position", { limit: 8, type: "donut", seriesName: "Players" });
-            window.AresTables.renderTable("ranking-body", rows, columns);
+            renderFiltered();
             window.AresTables.makeTableSortable("ranking-table");
             window.AresTables.makeTableSearchable("ranking-search", "ranking-table");
+            ["position-filter", "tier-filter", "trend-filter", "confidence-filter"].forEach(function(id) {
+              document.getElementById(id).addEventListener("change", renderFiltered);
+            });
           })
           .catch(setFallback);
       }

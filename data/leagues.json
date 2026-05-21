@@ -3,14 +3,15 @@
     "league_id": "locked_nfl",
     "league_name": "NFL",
     "league_level": "Pro",
-    "ranked_or_tracked": "Locked public preview",
-    "teams": "Locked",
-    "players_tracked": "Locked",
-    "average_age": "--",
-    "average_ares_score": "Locked",
-    "average_market_score": "Locked",
-    "top_player": "Paid Preview",
-    "total_roster_value_score": "Locked",
-    "is_placeholder": true
+    "ranked_or_tracked": "Public beta",
+    "teams": 33,
+    "players_tracked": 1598,
+    "average_age": "",
+    "average_ares_score": "Premium",
+    "average_market_score": "Premium",
+    "top_player": "Jordyn Brooks",
+    "total_roster_value_score": "Premium",
+    "premium_locked": true,
+    "is_placeholder": false
   }
 ]

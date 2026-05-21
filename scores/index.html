@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Scores | ARES Gridiron Market</title>
+  <title>NFL Scores & Football Scoreboard | ARES Gridiron Market</title>
+  <meta name="description" content="NFL scoreboard and historical schedule results for ARES Gridiron Market. College and high school score feeds remain setup mode until approved sources are connected.">
   <link rel="shortcut icon" href="../assets/media/brand/ares-logo.png">
   <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
   <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
@@ -36,7 +37,7 @@
   <main class="page-main">
     <section class="ares-page-title">
       <h1>Scores</h1>
-      <p>NFL, college, and high school football scoreboard. Updated every 3 hours when approved sources are connected.</p>
+      <p>NFL schedule results are connected from the public data export. College and high school scores remain setup mode until approved feeds launch.</p>
     </section>
 
     <section class="ares-card ares-section">
@@ -56,31 +57,30 @@
         <button data-section="upcoming" type="button">Upcoming Games</button>
       </div>
       <div id="scores-empty" class="empty-state">
-        <strong>No approved score feed is connected yet.</strong>
-        <span>NFL season data, college scores, and high school scores will appear here after an approved API feed or manual score CSV is populated. Static GitHub Pages will read exported JSON only.</span>
-        <span>Manual files: data_raw/scores/nfl/manual_nfl_scores.csv, data_raw/scores/college/manual_college_scores.csv, data_raw/scores/high_school/manual_high_school_scores.csv.</span>
+        <strong>This scoreboard section is in setup mode.</strong>
+        <span>NFL schedule results are available. College and high school rows will appear after approved feeds are connected.</span>
       </div>
       <div class="table-responsive">
         <table id="scores-table" class="ares-table">
           <thead>
             <tr>
-              <th>Date</th><th>Time</th><th>Level</th><th>League/Conference</th><th>State</th><th>Away</th><th>Home</th><th>Score</th><th>Status</th><th>Source</th><th>Conf.</th><th>Updated</th>
+              <th>Date</th><th>Time</th><th>Level</th><th>League/Conference</th><th>State</th><th>Away</th><th>Home</th><th>Score</th><th>Status</th><th>Source</th><th>Confidence</th><th>Updated</th>
             </tr>
           </thead>
           <tbody id="scores-body">
-            <tr><td colspan="12" class="text-muted">No approved score feed has been connected yet.</td></tr>
+            <tr><td colspan="12" class="text-muted">NFL score rows are ready.</td></tr>
           </tbody>
         </table>
       </div>
-      <p id="scores-status" class="source-note">Live-ish feed. Updated every 3 hours.</p>
+      <p id="scores-status" class="source-note">NFL historical schedule cache connected. Live score feed is not enabled yet.</p>
     </section>
 
     <section class="ares-card ares-section">
-      <h2>Source Conf.</h2>
-      <p class="mb-0">Scores use approved APIs, licensed feeds, manual score files, coach/school submissions, or allowlisted school/state sources. Commercial platforms that restrict scraping are not bulk collected.</p>
+      <h2>Source Confidence</h2>
+      <p class="mb-0">Scores use approved APIs, licensed feeds, coach/school submissions, allowlisted school/state sources, or open schedule caches. Commercial platforms that restrict scraping are not bulk collected.</p>
     </section>
   </main>
-  <footer class="ares-footer"><strong>ARES Gridiron Market</strong><span class="d-block">Static GitHub Pages scoreboard data. Updated every 3 hours.</span></footer>
+  <footer class="ares-footer"><strong>ARES Gridiron Market</strong><span class="d-block">Public scoreboard data from approved and open sources.</span></footer>
   <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
   <script src="../assets/js/ares-tables.js?v=20260520-nfl-local-logos1"></script>
   <script>
@@ -123,16 +123,16 @@
         const rows = allRows.filter(matches).slice(0, 200);
         const body = document.getElementById("scores-body");
         if (!rows.length) {
-          body.innerHTML = '<tr><td colspan="12" class="text-muted">No approved score feed has been connected yet.</td></tr>';
+          body.innerHTML = '<tr><td colspan="12" class="text-muted">No rows match this scoreboard section yet.</td></tr>';
           document.getElementById("scores-empty").classList.add("is-visible");
-          document.getElementById("scores-status").textContent = "No rows match the current filters. Updated every 3 hours.";
+          document.getElementById("scores-status").textContent = "No rows match the current filters.";
           return;
         }
         document.getElementById("scores-empty").classList.remove("is-visible");
         body.innerHTML = rows.map(function(row){
           return "<tr><td>" + window.AresData.safeText(row.game_date) + "</td><td>" + window.AresData.safeText(row.game_time) + "</td><td>" + window.AresData.safeText(row.level) + "</td><td>" + window.AresData.safeText(row.league_or_conference) + "</td><td>" + window.AresData.safeText(row.state) + "</td><td>" + window.AresData.safeText(row.away_team) + "</td><td>" + window.AresData.safeText(row.home_team) + "</td><td>" + score(row) + "</td><td>" + window.AresTables.renderTierChip(row.game_status || "Scheduled") + "</td><td>" + source(row) + "</td><td>" + window.AresTables.renderConfidenceChip(row.confidence) + "</td><td>" + window.AresData.safeText(row.last_updated) + "</td></tr>";
         }).join("");
-        document.getElementById("scores-status").textContent = rows.length + " rows shown. Updated every 3 hours.";
+        document.getElementById("scores-status").textContent = rows.length + " rows shown from " + allRows.length + " public scoreboard rows.";
       }
       document.addEventListener("DOMContentLoaded", async function(){
         try {

@@ -46,7 +46,7 @@
   function renderTrendChip(value) {
     const trend = data.formatTrend(value);
     const key = trend.toLowerCase();
-    const className = key === "up" ? "ares-trend-up" : key === "down" ? "ares-trend-down" : "ares-trend-flat";
+    const className = key === "up" || key === "rising" ? "ares-trend-up" : key === "down" || key === "falling" ? "ares-trend-down" : "ares-trend-flat";
     return '<span class="' + className + '">' + trend + "</span>";
   }
 

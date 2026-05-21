@@ -13,9 +13,15 @@
     .page-main{width:min(100%,1280px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
     .profile-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
     .profile-header{display:flex;gap:1rem;align-items:center}
+    .player-metrics{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:.75rem}
+    .player-metrics div{min-height:5.5rem;padding:.85rem;background:#fff;border:1px solid var(--ares-border);border-radius:8px;box-shadow:var(--ares-shadow)}
+    .player-metrics span{display:block;color:var(--ares-muted);font-size:.72rem;font-weight:800;text-transform:uppercase}
+    .player-metrics strong{display:block;color:var(--ares-text);font-size:1.05rem;font-weight:850;line-height:1.2}
     .metric-list{display:grid;gap:.5rem}
     .metric-list div{display:flex;justify-content:space-between;border-bottom:1px solid rgba(201,207,216,.7);padding:.35rem 0}
+    @media(max-width:1100px){.player-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}}
     @media(max-width:900px){.profile-grid{grid-template-columns:1fr}.profile-header{align-items:flex-start;flex-direction:column}}
+    @media(max-width:620px){.player-metrics{grid-template-columns:1fr}}
   </style>
 </head>
 <body class="ares-shell">
@@ -31,8 +37,16 @@
       <span class="ares-player-avatar">PN</span>
       <div>
         <h1 class="mb-1">Player</h1>
-        <p class="mb-0 text-muted">Loading player profile...</p>
+        <p class="mb-0 text-muted">Select a player to view the public profile.</p>
       </div>
+    </section>
+    <section id="player-metrics" class="ares-section player-metrics" aria-label="Player hero metrics">
+      <div><span>ARES Score</span><strong>Premium</strong></div>
+      <div><span>Public Production Score</span><strong>Open</strong></div>
+      <div><span>Market Score</span><strong>Premium</strong></div>
+      <div><span>Role</span><strong>Public beta</strong></div>
+      <div><span>Snap Reliability</span><strong>Open</strong></div>
+      <div><span>Trend</span><strong>Public beta</strong></div>
     </section>
     <section class="ares-section ares-dashboard-grid" aria-label="Player profile charts">
       <article class="ares-chart-card">
@@ -92,6 +106,9 @@
     function metric(label, value) {
       return "<div><span>" + text(label) + "</span><strong>" + text(value) + "</strong></div>";
     }
+    function heroMetric(label, value) {
+      return "<div><span>" + text(label) + "</span><strong>" + text(value) + "</strong></div>";
+    }
     function emptyRow(columns, message) {
       return '<tr><td colspan="' + columns + '" class="text-muted">' + text(message) + "</td></tr>";
     }
@@ -140,8 +157,29 @@
         metric("Height", player.height),
         metric("Weight", player.weight)
       ].join("");
+      document.getElementById("player-metrics").innerHTML = [
+        heroMetric("ARES Score", "Premium"),
+        heroMetric("Public Production Score", "Open"),
+        heroMetric("Market Score", "Premium"),
+        heroMetric("Role", "Public beta"),
+        heroMetric("Snap Reliability", "Open"),
+        heroMetric("Trend", "Public beta")
+      ].join("");
     }
-    function renderDetails(details) {
+    function renderDetails(details, ranking, market) {
+      var snaps = details.snap_counts_recent || [];
+      var highSnapWeeks = snaps.filter(function(row) {
+        return Number(row.offense_snaps || 0) + Number(row.defense_snaps || 0) + Number(row.special_teams_snaps || 0) >= 35;
+      }).length;
+      var reliability = snaps.length && highSnapWeeks / snaps.length >= .75 ? "High" : snaps.length ? "Medium" : "Insufficient";
+      document.getElementById("player-metrics").innerHTML = [
+        heroMetric("ARES Score", "Premium"),
+        heroMetric("Public Production Score", ranking && ranking.public_score ? ranking.public_score : "Open"),
+        heroMetric("Market Score", "Premium"),
+        heroMetric("Role", ranking && ranking.role ? ranking.role : "Public beta"),
+        heroMetric("Snap Reliability", reliability),
+        heroMetric("Trend", ranking && ranking.trend ? ranking.trend : "Stable")
+      ].join("");
       renderProfileCharts(details);
       document.getElementById("nfl-link-status").innerHTML = [
         metric("Linked", "Yes"),
@@ -207,7 +245,14 @@
         renderMissingProfile();
         return;
       }
-      window.AresData.loadJson("../data/players/" + encodeURIComponent(playerId) + ".json").then(function(player) {
+      Promise.all([
+        window.AresData.loadJson("../data/players/" + encodeURIComponent(playerId) + ".json"),
+        window.AresData.loadJson("../data/ares_rankings.json").catch(function(){ return []; }),
+        window.AresData.loadJson("../data/market_rankings.json").catch(function(){ return []; })
+      ]).then(function(payload) {
+        var player = payload[0];
+        var ranking = payload[1].find(function(row){ return row.player_id === playerId; }) || null;
+        var market = payload[2].find(function(row){ return row.player_id === playerId; }) || null;
         renderProfile(player);
         if (!player.has_nfl_detail || !player.nfl_detail_url) {
           document.getElementById("nfl-link-status").innerHTML = metric("Linked", "No compact NFL detail file for this player yet.");
@@ -216,7 +261,7 @@
           window.AresCharts.renderChart("snap-trend-chart", [], [], { emptyMessage: "No compact NFL detail file for this player yet." });
           return null;
         }
-        return window.AresData.loadJson(player.nfl_detail_url).then(renderDetails);
+        return window.AresData.loadJson(player.nfl_detail_url).then(function(details){ renderDetails(details, ranking, market); });
       }).catch(function(error) {
         window.AresData.showLoadError("player-file", error.message);
       });

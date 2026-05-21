@@ -36,14 +36,19 @@
 
   function activeMenuId() {
     const path = window.location.pathname.toLowerCase();
-    if (path.includes("/college/") || path.includes("college-")) return "college";
-    if (path.includes("/high-school/")) return "high-school";
+    if (path.includes("premium")) return "premium";
+    if (path.includes("/teams/")) return "teams";
+    if (path.includes("/rankings/market")) return "market-rankings";
+    if (path.includes("/rankings/ares") || path.includes("college-ares")) return "ares-rankings";
+    if (path.includes("/rankings/")) return "market-rankings";
+    if (path.includes("/college/")) return "watchlist";
+    if (path.includes("/high-school/")) return "watchlist";
     if (path.includes("/scores/")) return "scores";
     if (path.includes("/nfl-moves/") || path.includes("/movements/")) return "moves";
-    if (path.includes("/players/") || path.includes("/watchlist/")) return "players";
-    if (path.includes("/rankings/")) return "rankings";
+    if (path.includes("/watchlist/")) return "watchlist";
+    if (path.includes("/players/")) return "players";
     if (path.includes("methodology") || path.includes("about")) return "methodology";
-    return "nfl";
+    return "home";
   }
 
   function iconText(label, abbr) {
@@ -149,7 +154,7 @@
     const nav = header.querySelector(".ares-mega-nav");
     if (!nav) return;
     const activeId = activeMenuId();
-    nav.innerHTML = '<a class="ares-home-link' + (activeId === "nfl" ? " is-active" : "") + '" href="' + safeText(href(root, "index.html")) + '">Home</a>' +
+    nav.innerHTML = '<a class="ares-home-link' + (activeId === "home" ? " is-active" : "") + '" href="' + safeText(href(root, "index.html")) + '">Home</a>' +
       (data.menus || FALLBACK_NAV.menus).map(function (menu) { return renderMenu(root, menu, activeId); }).join("");
     wire(header);
   }

@@ -2,6 +2,7 @@
   "league_id": "locked_nfl",
   "league_name": "NFL",
   "league_level": "Pro",
-  "ranked_or_tracked": "Locked public preview",
-  "is_placeholder": true
+  "ranked_or_tracked": "Public beta",
+  "premium_locked": true,
+  "is_placeholder": false
 }
