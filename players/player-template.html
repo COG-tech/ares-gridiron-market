@@ -13,6 +13,9 @@
     .page-main{width:min(100%,1280px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
     .profile-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
     .profile-header{display:flex;gap:1rem;align-items:center}
+    .profile-actions{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem}
+    .profile-actions a,.profile-actions button{display:inline-flex;align-items:center;min-height:2.35rem;border-radius:8px;border:1px solid var(--ares-border);background:#fff;color:var(--ares-text);font-weight:850;padding:.45rem .75rem;text-decoration:none}
+    .profile-actions button{cursor:pointer}
     .player-metrics{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:.75rem}
     .player-metrics div{min-height:5.5rem;padding:.85rem;background:#fff;border:1px solid var(--ares-border);border-radius:8px;box-shadow:var(--ares-shadow)}
     .player-metrics span{display:block;color:var(--ares-muted);font-size:.72rem;font-weight:800;text-transform:uppercase}
@@ -65,6 +68,10 @@
     <section class="profile-grid ares-section">
       <article class="ares-card"><h2>Player File</h2><div id="player-file" class="metric-list"></div></article>
       <article class="ares-card"><h2>NFL Data Coverage</h2><div id="nfl-link-status" class="metric-list"></div></article>
+    </section>
+    <section class="profile-grid ares-section">
+      <article class="ares-card"><h2>Comparable Players</h2><div class="table-responsive"><table class="ares-table"><thead><tr><th>Player</th><th>Team</th><th>Age</th><th>Public Score</th><th>Market Signal</th></tr></thead><tbody id="comparable-players"></tbody></table></div></article>
+      <article class="ares-card"><h2>Market Notes</h2><div id="market-notes" class="metric-list"></div></article>
     </section>
     <section class="ares-card ares-section ares-premium-teaser" data-ares-premium-lock data-premium-href="../premium.html">
       <div class="section-heading">
@@ -148,7 +155,22 @@
         '<span class="ares-player-avatar">' + text(initials(player.player_name)) + '</span><div><h1 class="mb-1">' +
         text(player.player_name) + '</h1><p class="mb-2 text-muted">' + text(player.position) + ' | ' +
         text(player.team || player.school) + ' | ' + text(player.league) + ' | ' + text(player.level) +
-        '</p>' + window.AresTables.renderConfidenceChip(player.source_confidence || "Medium") + '</div>';
+        '</p>' + window.AresTables.renderConfidenceChip(player.source_confidence || "Medium") +
+        '<div class="profile-actions"><button type="button" id="save-player-button">Save to watchlist</button><a href="compare.html?p1=' + encodeURIComponent(player.player_id || "") + '">Compare</a><a href="../watchlist/saved.html">Saved list</a></div></div>';
+      window.setTimeout(function(){
+        var button = document.getElementById("save-player-button");
+        if (!button) return;
+        button.addEventListener("click", function(){
+          var key = "ares_saved_players";
+          var saved = [];
+          try { saved = JSON.parse(localStorage.getItem(key) || "[]"); } catch (error) { saved = []; }
+          if (player.player_id && !saved.includes(player.player_id)) {
+            saved.push(player.player_id);
+          }
+          localStorage.setItem(key, JSON.stringify(saved));
+          button.textContent = "Saved";
+        });
+      }, 0);
       document.getElementById("player-file").innerHTML = [
         metric("Player ID", player.player_id),
         metric("Position", player.position),
@@ -209,6 +231,33 @@
         return "<tr><td>" + text(row.draft_year) + "</td><td>" + text(row.team) + "</td><td>" + text(row.school) + "</td><td>" + text(row.round) + "</td><td>" + text(row.pick) + "</td><td>" + text(row.height) + "</td><td>" + text(row.weight) + "</td><td>" + text(row.forty) + "</td></tr>";
       }).join("") || emptyRow(8, "No linked draft/combine rows.");
     }
+    function renderMarketNotes(ranking, market) {
+      document.getElementById("market-notes").innerHTML = [
+        metric("Public tier", ranking && ranking.public_tier ? ranking.public_tier : "Public beta"),
+        metric("Market tier", market && market.market_tier ? market.market_tier : "Public beta"),
+        metric("Market reason", market && market.reason ? market.reason : "Role + production"),
+        metric("Premium Market Score", "Premium locked"),
+        metric("Age curve", "Premium locked"),
+        metric("Trade value", "Premium locked")
+      ].join("");
+    }
+    function renderComparables(playerId, ranking, rankings, markets) {
+      var marketById = {};
+      markets.forEach(function(row){ marketById[row.player_id] = row; });
+      var baseAge = Number((ranking || {}).age || 0);
+      var basePosition = String((ranking || {}).position || "");
+      var rows = rankings.filter(function(row) {
+        if (row.player_id === playerId) return false;
+        if (String(row.position || "") !== basePosition) return false;
+        if (baseAge && Math.abs(Number(row.age || 0) - baseAge) > 3) return false;
+        return true;
+      }).slice(0, 8).map(function(row) {
+        return Object.assign({}, row, marketById[row.player_id] || {});
+      });
+      document.getElementById("comparable-players").innerHTML = rows.map(function(row) {
+        return '<tr><td><a class="fw-bold" href="player-template.html?player_id=' + encodeURIComponent(row.player_id || "") + '">' + text(row.player_name) + "</a></td><td>" + window.AresTables.renderTeamLogo(row.team) + "</td><td>" + text(row.age) + "</td><td>" + window.AresTables.renderScoreChip(row.public_score, "ares") + "</td><td>" + window.AresTables.renderScoreChip(row.public_market_signal, "market") + "</td></tr>";
+      }).join("") || emptyRow(5, "No comparable public rows available for this position.");
+    }
     function renderMissingProfile() {
       document.title = "Player Profile | ARES Gridiron Market";
       document.getElementById("player-header").innerHTML =
@@ -238,6 +287,8 @@
       document.getElementById("snap-counts").innerHTML = emptyRow(6, "Select a player to load snap rows.");
       document.getElementById("depth-chart").innerHTML = emptyRow(4, "Select a player to load depth chart rows.");
       document.getElementById("draft-combine").innerHTML = emptyRow(8, "Select a player to load draft/combine rows.");
+      document.getElementById("comparable-players").innerHTML = emptyRow(5, "Select a player to load comparable rows.");
+      document.getElementById("market-notes").innerHTML = metric("Status", "Select a player");
     }
     document.addEventListener("DOMContentLoaded", function() {
       var playerId = qs("player_id");
@@ -254,6 +305,8 @@
         var ranking = payload[1].find(function(row){ return row.player_id === playerId; }) || null;
         var market = payload[2].find(function(row){ return row.player_id === playerId; }) || null;
         renderProfile(player);
+        renderMarketNotes(ranking, market);
+        renderComparables(playerId, ranking, payload[1], payload[2]);
         if (!player.has_nfl_detail || !player.nfl_detail_url) {
           document.getElementById("nfl-link-status").innerHTML = metric("Linked", "No compact NFL detail file for this player yet.");
           window.AresCharts.renderChart("season-production-chart", [], [], { emptyMessage: "No compact NFL detail file for this player yet." });

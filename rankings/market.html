@@ -127,6 +127,20 @@
 
     <p class="ranking-note"><strong>Public Beta:</strong> visible rows show public market signal and asset tiers. <strong>Premium Market:</strong> unlocks full Market Score, ARES Score, contract discount, age curve, team fit, risk, and movement history. This is not salary, trade compensation, betting projection, or fantasy value.</p>
 
+    <section class="ares-card ares-section" aria-label="Market tier definitions">
+      <div class="section-heading"><div><h2>Market Tier Definitions</h2><span>Public asset language used across the board.</span></div></div>
+      <div class="data-status-grid">
+        <div><span>Franchise Asset</span><strong>Top public market signal</strong></div>
+        <div><span>Blue-Chip Asset</span><strong>Elite young or scarce role</strong></div>
+        <div><span>Core Starter</span><strong>Reliable roster value</strong></div>
+        <div><span>Useful Starter</span><strong>Starter or heavy rotation</strong></div>
+        <div><span>Rotational Value</span><strong>Role player signal</strong></div>
+        <div><span>Development Asset</span><strong>Youth or growth profile</strong></div>
+        <div><span>Risk Asset</span><strong>Low signal or aging risk</strong></div>
+        <div><span>Premium</span><strong>Full score locked</strong></div>
+      </div>
+    </section>
+
     <section class="ares-card ares-section" aria-label="Market data status">
       <div class="section-heading"><div><h2>ARES Data Status</h2><span>Public market rows with premium asset model fields locked.</span></div></div>
       <div class="data-status-grid">
@@ -211,6 +225,8 @@
       "use strict";
 
       const dataPath = "../data/market_rankings.json";
+      const params = new URLSearchParams(window.location.search);
+      const view = (params.get("view") || "").toLowerCase();
       let allRows = [];
       const columns =       [
         { key: "rank" },
@@ -253,6 +269,13 @@
         const trend = document.getElementById("trend-filter").value;
         const confidence = document.getElementById("confidence-filter").value;
         return allRows.filter(function(row) {
+          if (view === "young" && !(Number(row.age || 0) > 0 && Number(row.age || 0) <= 25)) return false;
+          if (view === "bargains" && !((Number(row.public_market_signal || 0) >= 70) && String(row.market_tier || "").indexOf("Franchise") === -1)) return false;
+          if (view === "aging" && !(Number(row.age || 0) >= 30 && Number(row.public_market_signal || 0) >= 80)) return false;
+          if (view === "trade-targets" && !(Number(row.age || 0) <= 29 && Number(row.public_market_signal || 0) >= 74 && String(row.role || "").toLowerCase().includes("starter"))) return false;
+          if (view === "development" && !(Number(row.age || 0) <= 24 || row.market_tier === "Development Asset")) return false;
+          if (view === "risk" && !(Number(row.age || 0) >= 31 || row.market_tier === "Risk Asset")) return false;
+          if (view === "undervalued" && !(Number(row.public_market_signal || 0) >= 70 && Number(row.age || 0) <= 28)) return false;
           if (position && row.position !== position) return false;
           if (tier && row.market_tier !== tier) return false;
           if (trend && row.trend !== trend) return false;
@@ -269,6 +292,10 @@
         window.AresData.loadJson(dataPath)
           .then(function (rows) {
             allRows = rows;
+            if (view) {
+              const label = view.split("-").map(function(part){ return part.charAt(0).toUpperCase() + part.slice(1); }).join(" ");
+              document.querySelector(".ares-page-title h1").textContent = label + " | Football Market Value Rankings";
+            }
             document.getElementById("status-player-count").textContent = rows.length.toLocaleString();
             fillFilter("position-filter", rows, "position");
             fillFilter("tier-filter", rows, "market_tier");

@@ -7,19 +7,22 @@
       "summary": "Search NFL player profiles, public stats, snap counts, injuries, and premium score previews.",
       "sidebar": [
         {"label": "NFL Players", "href": "players/index.html"},
+        {"label": "Player Compare", "href": "players/compare.html"},
         {"label": "Premium Player Reports", "href": "premium.html"}
       ],
       "groups": [
         {"title": "Player Boards", "items": [
           {"label": "NFL Players", "href": "players/index.html"},
+          {"label": "Player Comparison", "href": "players/compare.html"},
           {"label": "Injured Players", "href": "players/index.html?filter=injury"},
           {"label": "Rising Players", "href": "rankings/ares.html?trend=rising"},
           {"label": "Falling Players", "href": "rankings/ares.html?trend=falling"}
         ]},
         {"title": "Development", "items": [
           {"label": "College Players", "href": "college/index.html"},
+          {"label": "Draft Class Board", "href": "rankings/draft.html"},
           {"label": "High School Watchlist", "href": "watchlist/index.html"},
-          {"label": "Free Agents", "href": "players/index.html?filter=free-agent"}
+          {"label": "Free Agents", "href": "rankings/free-agents.html"}
         ]}
       ],
       "footer": {"label": "Search NFL players, teams, positions, and market boards", "href": "players/index.html"}
@@ -36,6 +39,7 @@
         {"title": "Quality Boards", "items": [
           {"label": "ARES Overall", "href": "rankings/ares.html"},
           {"label": "ARES by Position", "href": "rankings/ares.html#position"},
+          {"label": "Draft Class Board", "href": "rankings/draft.html"},
           {"label": "Undervalued Starters", "href": "rankings/market.html?view=undervalued"},
           {"label": "Risk Board", "href": "rankings/market.html?view=risk"}
         ]}
@@ -124,11 +128,13 @@
       "summary": "Tracked development players, high school watchlist, and premium saved boards.",
       "sidebar": [
         {"label": "Watchlist", "href": "watchlist/index.html"},
+        {"label": "Saved Watchlist", "href": "watchlist/saved.html"},
         {"label": "High School", "href": "high-school/index.html"}
       ],
       "groups": [
         {"title": "Watch Boards", "items": [
           {"label": "High School Watchlist", "href": "watchlist/index.html#high-school"},
+          {"label": "Saved Watchlist", "href": "watchlist/saved.html"},
           {"label": "College Watchlist", "href": "watchlist/index.html#college"},
           {"label": "Development Assets", "href": "rankings/market.html?view=development"}
         ]}
@@ -147,7 +153,8 @@
         {"title": "Model Notes", "items": [
           {"label": "ARES Score", "href": "methodology.html#ares-score"},
           {"label": "Market Score", "href": "methodology.html#market-score"},
-          {"label": "Source Policy", "href": "methodology.html#sources"},
+        {"label": "Source Policy", "href": "methodology.html#sources"},
+          {"label": "Data Exports", "href": "data/index.html"},
           {"label": "Premium Fields", "href": "premium.html"}
         ]}
       ],

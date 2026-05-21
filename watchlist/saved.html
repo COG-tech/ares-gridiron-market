@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saved Watchlist | ARES Gridiron Market</title>
+  <meta name="description" content="Local saved NFL player watchlist for ARES Gridiron Market public profiles and premium score previews.">
+  <link rel="shortcut icon" href="../assets/media/brand/ares-logo.png">
+  <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/ares-theme.css?v=20260520-nfl-local-logos1" rel="stylesheet">
+  <link href="../assets/css/ares-components.css?v=20260521-watch1" rel="stylesheet">
+  <style>
+    .page-main{width:min(100%,1280px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
+    .watch-actions{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;justify-content:space-between}
+    .watch-actions button{border:0;border-radius:8px;background:var(--ares-navy);color:#fff;font-weight:850;padding:.65rem 1rem}
+    .watch-actions button.secondary{background:#eef2f7;color:var(--ares-text);border:1px solid var(--ares-border)}
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar ares-mega-topbar" data-ares-root="..">
+    <a class="ares-brand" href="../index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
+    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
+    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
+      <a class="ares-home-link" href="../index.html">Home</a>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="ares-page-title"><h1>Saved Watchlist</h1><p>Browser-local saved NFL players. This page does not require a login; premium saved boards can sync across devices later.</p></section>
+    <section class="ares-card ares-section">
+      <div class="watch-actions">
+        <div><strong id="saved-count">0 saved players</strong><p class="mb-0 text-muted">Save players from profile pages or paste player IDs below.</p></div>
+        <div><button id="clear-watchlist" type="button" class="secondary">Clear saved list</button></div>
+      </div>
+    </section>
+    <section class="ares-card ares-section">
+      <div class="table-responsive"><table id="saved-table" class="ares-table" data-count-id="saved-count"><thead><tr><th>Player</th><th>Position</th><th>Team</th><th>Public Score</th><th>Market Signal</th><th>Trend</th><th>Confidence</th><th>Profile</th></tr></thead><tbody id="saved-body"><tr><td colspan="8" class="text-muted">No saved players yet.</td></tr></tbody></table></div>
+    </section>
+    <section class="ares-card ares-section ares-premium-teaser">
+      <div class="section-heading"><div><h2>Premium Saved Boards</h2><span>Synced watchlists, alerts, movement history, notes, and exportable boards.</span></div></div>
+      <div class="ares-premium-preview" aria-hidden="true">
+        <div><span>Alerts</span><strong>Locked</strong><i style="width:82%"></i></div>
+        <div><span>Notes</span><strong>Locked</strong><i style="width:70%"></i></div>
+        <div><span>Exports</span><strong>Locked</strong><i style="width:76%"></i></div>
+        <div><span>Sync</span><strong>Locked</strong><i style="width:88%"></i></div>
+      </div>
+      <a class="ares-premium-overlay" href="../premium.html"><span>Premium required</span><strong>Unlock saved boards</strong></a>
+    </section>
+  </main>
+  <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260520-nfl-local-logos1"></script>
+  <script>
+    (function(){
+      "use strict";
+      const key="ares_saved_players";
+      function getSaved(){try{return JSON.parse(localStorage.getItem(key)||"[]");}catch(e){return [];}}
+      function setSaved(rows){localStorage.setItem(key,JSON.stringify(rows));}
+      document.addEventListener("DOMContentLoaded",async function(){
+        const saved=getSaved();
+        const [ares,market]=await Promise.all([window.AresData.loadJson("../data/ares_rankings.json"),window.AresData.loadJson("../data/market_rankings.json")]);
+        const marketById={};market.forEach(row=>{marketById[row.player_id]=row;});
+        const rows=ares.filter(row=>saved.includes(row.player_id)).map(row=>Object.assign({},row,marketById[row.player_id]||{}));
+        window.AresTables.renderTable("saved-body",rows,[{key:"player_name",render:"player",basePath:"../players/"},{key:"position"},{key:"team"},{key:"public_score",render:"score",scoreType:"ares"},{key:"public_market_signal",render:"market"},{key:"trend",render:"trend"},{key:"confidence",render:"confidence"},{key:"player_id",render:function(value){return '<a href="../players/player-template.html?player_id='+encodeURIComponent(value||"")+'">Open</a>';}}]);
+        document.getElementById("clear-watchlist").addEventListener("click",function(){setSaved([]);window.location.reload();});
+      });
+    }());
+  </script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260521-watch1"></script>
+  <script src="../assets/js/ares-mega-nav.js?v=20260520-nfl-local-logos1"></script>
+</body>
+</html>

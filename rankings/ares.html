@@ -127,6 +127,20 @@
 
     <p class="ranking-note"><strong>Public Beta:</strong> visible rows use available production and usage data. <strong>Premium ARES:</strong> unlocks full component grades, position ranks, and model trend signals.</p>
 
+    <section class="ares-card ares-section" aria-label="ARES tier definitions">
+      <div class="section-heading"><div><h2>ARES Tier Definitions</h2><span>Public quality tiers used across NFL ranking pages.</span></div></div>
+      <div class="data-status-grid">
+        <div><span>Elite Production</span><strong>Top public production band</strong></div>
+        <div><span>High-End Starter</span><strong>Strong starter signal</strong></div>
+        <div><span>Reliable Starter</span><strong>Consistent role value</strong></div>
+        <div><span>Rotational Value</span><strong>Useful public role signal</strong></div>
+        <div><span>Development</span><strong>Lower public signal or thin role</strong></div>
+        <div><span>Premium</span><strong>Full component model locked</strong></div>
+        <div><span>Trend</span><strong>Public signal movement</strong></div>
+        <div><span>Confidence</span><strong>Source confidence label</strong></div>
+      </div>
+    </section>
+
     <section class="ares-card ares-section" aria-label="ARES data status">
       <div class="section-heading"><div><h2>ARES Data Status</h2><span>Public beta rows with premium model fields locked.</span></div></div>
       <div class="data-status-grid">
@@ -210,6 +224,8 @@
       "use strict";
 
       const dataPath = "../data/ares_rankings.json";
+      const params = new URLSearchParams(window.location.search);
+      const presetTrend = (params.get("trend") || "").toLowerCase();
       let allRows = [];
       const columns =       [
         { key: "rank" },
@@ -250,6 +266,7 @@
         const trend = document.getElementById("trend-filter").value;
         const confidence = document.getElementById("confidence-filter").value;
         return allRows.filter(function(row) {
+          if (presetTrend && String(row.trend || "").toLowerCase() !== presetTrend) return false;
           if (position && row.position !== position) return false;
           if (tier && row.public_tier !== tier) return false;
           if (trend && row.trend !== trend) return false;
@@ -266,6 +283,9 @@
         window.AresData.loadJson(dataPath)
           .then(function (rows) {
             allRows = rows;
+            if (presetTrend) {
+              document.querySelector(".ares-page-title h1").textContent = presetTrend.charAt(0).toUpperCase() + presetTrend.slice(1) + " Players | ARES Player Quality Rankings";
+            }
             document.getElementById("status-player-count").textContent = rows.length.toLocaleString();
             fillFilter("position-filter", rows, "position");
             fillFilter("tier-filter", rows, "public_tier");

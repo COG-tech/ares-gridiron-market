@@ -19,8 +19,11 @@
     .sample-grid div{padding:.85rem;background:#f8fafc;border:1px solid var(--ares-border);border-radius:8px}
     .sample-grid span{display:block;color:var(--ares-muted);font-size:.75rem;font-weight:800;text-transform:uppercase}
     .sample-grid strong{display:block;color:var(--ares-text);font-size:1.05rem;font-weight:850}
+    .capture-form{display:grid;grid-template-columns:1fr auto;gap:.75rem}
+    .capture-form input{min-height:2.8rem;border:1px solid var(--ares-border);border-radius:8px;padding:.6rem .75rem}
+    .capture-form button{border:0;border-radius:8px;background:var(--ares-navy);color:#fff;font-weight:850;padding:.6rem 1rem}
     @media(max-width:820px){.premium-grid{grid-template-columns:1fr}}
-    @media(max-width:620px){.sample-grid{grid-template-columns:1fr}}
+    @media(max-width:620px){.sample-grid,.capture-form{grid-template-columns:1fr}}
   </style>
 </head>
 <body class="ares-shell">
@@ -80,6 +83,17 @@
         <div><span>Team Fit</span><strong>Strong</strong></div>
       </div>
     </section>
+    <section class="ares-card ares-section">
+      <div class="section-heading">
+        <div><h2>Request Premium Access</h2><span>Static public build captures interest locally and opens an email request.</span></div>
+      </div>
+      <form id="premium-capture" class="capture-form">
+        <label class="visually-hidden" for="premium-email">Email</label>
+        <input id="premium-email" type="email" placeholder="Email address" autocomplete="email" required>
+        <button type="submit">Request access</button>
+      </form>
+      <p id="premium-capture-status" class="text-muted mt-3 mb-0">Premium access requests can also be sent by email.</p>
+    </section>
     <section class="premium-grid ares-section">
       <article class="ares-card">
         <h2>Premium Fields</h2>
@@ -102,6 +116,20 @@
     </section>
   </main>
   <footer class="ares-footer"><strong>ARES Gridiron Market</strong><span class="d-block">Independent analytical database.</span></footer>
+  <script>
+    document.addEventListener("DOMContentLoaded",function(){
+      var form=document.getElementById("premium-capture");
+      if(!form)return;
+      form.addEventListener("submit",function(event){
+        event.preventDefault();
+        var email=document.getElementById("premium-email").value.trim();
+        if(!email)return;
+        localStorage.setItem("ares_premium_interest",JSON.stringify({email:email,created_at:new Date().toISOString()}));
+        document.getElementById("premium-capture-status").textContent="Request saved in this browser. Opening email request.";
+        window.location.href="mailto:info@aresmarket.com?subject=ARES%20Premium%20Access&body="+encodeURIComponent("Please send premium access details for "+email+".");
+      });
+    });
+  </script>
   <script src="assets/js/ares-paid-preview.js?v=20260521-premium1"></script>
   <script src="assets/js/ares-mega-nav.js?v=20260520-nfl-local-logos1"></script>
 </body>

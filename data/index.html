@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Exports | ARES Gridiron Market</title>
+  <meta name="description" content="Static JSON data export catalog for ARES Gridiron Market public NFL rankings, market signal, teams, scores, transactions, and draft board.">
+  <link rel="shortcut icon" href="../assets/media/brand/ares-logo.png">
+  <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/ares-theme.css?v=20260520-nfl-local-logos1" rel="stylesheet">
+  <link href="../assets/css/ares-components.css?v=20260521-data1" rel="stylesheet">
+  <style>
+    .page-main{width:min(100%,1280px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
+    .status-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
+    .endpoint{font-family:Consolas,monospace;font-size:.82rem}
+    @media(max-width:900px){.status-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:600px){.status-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar ares-mega-topbar" data-ares-root="..">
+    <a class="ares-brand" href="../index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
+    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
+    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
+      <a class="ares-home-link" href="../index.html">Home</a>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="ares-page-title"><h1>Data Exports</h1><p>Public static JSON endpoints for rankings, teams, scores, transactions, draft board, and board summaries. Premium model fields remain locked.</p></section>
+    <section class="status-grid ares-section" id="status-grid"></section>
+    <section class="ares-card ares-section">
+      <div class="section-heading"><div><h2>Static Data API</h2><span>Use these files as read-only public JSON endpoints.</span></div></div>
+      <div class="table-responsive"><table class="ares-table"><thead><tr><th>Export</th><th>Rows</th><th>Description</th><th>Endpoint</th></tr></thead><tbody id="exports-body"><tr><td colspan="4" class="text-muted">Public export catalog is ready.</td></tr></tbody></table></div>
+    </section>
+    <section class="ares-card ares-section">
+      <h2>API Notes</h2>
+      <p class="mb-0">This GitHub Pages build exposes static JSON only. It is suitable for public dashboards, downloads, and read-only integrations. Authentication, synced watchlists, alerts, and full premium score APIs require a server-side premium layer.</p>
+    </section>
+  </main>
+  <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260520-nfl-local-logos1"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded",async function(){
+      const [status,exports]=await Promise.all([window.AresData.loadJson("data_status.json"),window.AresData.loadJson("exports.json")]);
+      const cards=[
+        ["NFL players",status.nfl_players_loaded],
+        ["NFL teams",status.nfl_teams_loaded],
+        ["NFL scores",status.nfl_score_rows],
+        ["NFL transactions",status.nfl_transaction_rows],
+        ["Draft rows",status.draft_board_rows],
+        ["Seasons",status.seasons_covered],
+        ["Premium model",status.premium_model_status],
+        ["Source confidence",status.source_confidence]
+      ];
+      document.getElementById("status-grid").innerHTML=cards.map(function(item){return '<article class="ares-stat-card"><span class="label">'+window.AresData.safeText(item[0])+'</span><span class="value">'+window.AresData.safeText(item[1])+'</span></article>';}).join("");
+      window.AresTables.renderTable("exports-body",exports,[{key:"label"},{key:"rows"},{key:"description"},{key:"href",render:function(value){return '<a class="endpoint" href="'+window.AresData.safeText(value)+'">'+window.AresData.safeText("data/"+value)+'</a>';}}]);
+    });
+  </script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260521-data1"></script>
+  <script src="../assets/js/ares-mega-nav.js?v=20260520-nfl-local-logos1"></script>
+</body>
+</html>

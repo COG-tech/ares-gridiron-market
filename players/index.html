@@ -31,21 +31,21 @@
   <main class="page-main">
     <section class="ares-page-title">
       <h1>Players</h1>
-      <p>Search NFL player records exported from the local ARES data pipeline.</p>
+      <p>Search NFL player records, public production signal, market signal, snap details, injuries, and premium score previews.</p>
     </section>
 
     <section class="filter-grid">
       <div class="ares-card filter-card">
         <strong>Position</strong>
-        <p class="mb-0 text-muted">Use the search box for QB, WR, EDGE, OT, CB, and other positions.</p>
+        <p class="mb-0 text-muted">Filter by QB, WR, EDGE, OT, CB, LB, and every listed NFL position.</p>
       </div>
       <div class="ares-card filter-card">
         <strong>League</strong>
-        <p class="mb-0 text-muted">Pro and college records are ranked. Development levels remain tracked-only.</p>
+        <p class="mb-0 text-muted">NFL rows are public. Full ARES and Market Scores stay premium.</p>
       </div>
       <div class="ares-card filter-card">
         <strong>Team / School</strong>
-        <p class="mb-0 text-muted">NFL team codes link into the current static player profile system.</p>
+        <p class="mb-0 text-muted">Team codes link to public roster value pages and local logos.</p>
       </div>
     </section>
 
@@ -59,7 +59,7 @@
       <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4">
         <label class="visually-hidden" for="player-search">Search players</label>
         <div class="ares-search"><input id="player-search" type="search" placeholder="Search player, team, school, or league..." autocomplete="off"></div>
-        <span id="player-count" class="ares-tier-chip">Loading</span>
+        <span id="player-count" class="ares-tier-chip">Public rows</span>
       </div>
       <div class="table-responsive">
         <table id="player-table" class="ares-table" data-count-id="player-count">
@@ -70,15 +70,19 @@
               <th><button class="sort-button" data-sort="team">Team</button></th>
               <th><button class="sort-button" data-sort="school">School</button></th>
               <th><button class="sort-button" data-sort="league">League</button></th>
+              <th><button class="sort-button" data-sort="public_score" data-type="number">Public Score</button></th>
+              <th><button class="sort-button" data-sort="public_market_signal" data-type="number">Market Signal</button></th>
+              <th><button class="sort-button" data-sort="trend">Trend</button></th>
+              <th><button class="sort-button" data-sort="confidence">Confidence</button></th>
               <th>Profile</th>
             </tr>
           </thead>
           <tbody id="player-body">
-            <tr><td>Player Data</td><td>CB</td><td>Team Data</td><td></td><td>NFL</td><td><a href="player-template.html?player_id=player_search">Open</a></td></tr>
+            <tr><td colspan="10" class="text-muted">Public player rows are ready.</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="text-muted mt-3 mb-0">NFL rows are exported static JSON. College and development profiles appear as their source pipelines are connected.</p>
+      <p class="text-muted mt-3 mb-0">NFL public profile data is open. Premium unlocks full model grades, position ranks, age curve, risk, and team-fit signals.</p>
     </section>
   </main>
 
@@ -97,13 +101,43 @@
         { key: "team" },
         { key: "school" },
         { key: "league" },
+        { key: "public_score", render: "score", scoreType: "ares" },
+        { key: "public_market_signal", render: "score", scoreType: "market" },
+        { key: "trend", render: "trend" },
+        { key: "confidence", render: "confidence" },
         { key: "url", render: function (value) {
           const target = value && value.indexOf("players/") === 0 ? value.replace("players/", "") : (value || "sample-player.html");
           return '<a href="' + window.AresData.safeText(target) + '">Open</a>';
         } }
       ];
-      window.AresData.loadJson("../data/player_search.json").then(function (rows) {
-        const players = rows.filter(function (row) { return row.type === "player"; });
+      Promise.all([
+        window.AresData.loadJson("../data/player_search.json"),
+        window.AresData.loadJson("../data/ares_rankings.json").catch(function(){ return []; }),
+        window.AresData.loadJson("../data/market_rankings.json").catch(function(){ return []; })
+      ]).then(function (payload) {
+        const rows = payload[0];
+        const aresById = {};
+        const marketById = {};
+        payload[1].forEach(function(row){ aresById[row.player_id] = row; });
+        payload[2].forEach(function(row){ marketById[row.player_id] = row; });
+        const params = new URLSearchParams(window.location.search);
+        const view = (params.get("filter") || "").toLowerCase();
+        let players = rows.filter(function (row) { return row.type === "player"; }).map(function(row) {
+          const ares = aresById[row.player_id] || {};
+          const market = marketById[row.player_id] || {};
+          return Object.assign({}, row, {
+            public_score: ares.public_score || "",
+            public_market_signal: market.public_market_signal || "",
+            trend: ares.trend || market.trend || "Stable",
+            confidence: ares.confidence || market.confidence || "Medium"
+          });
+        });
+        if (view === "free-agent") {
+          players = players.filter(function(row){ return ["", "FA", "FREE AGENT"].includes(String(row.team || "").toUpperCase()); });
+        }
+        if (view === "injury") {
+          players = players.filter(function(row){ return row.has_nfl_detail; });
+        }
         window.AresCharts.renderCountBy("players-position-chart", players, "position", { limit: 10, type: "donut", seriesName: "Players" });
         window.AresCharts.renderCountBy("players-team-chart", players, "team", { limit: 10, type: "bar", seriesName: "Players" });
         window.AresCharts.renderCountBy("players-league-chart", players, "league", { limit: 8, type: "donut", seriesName: "Players" });
@@ -111,7 +145,7 @@
         window.AresTables.makeTableSortable("player-table");
         window.AresTables.makeTableSearchable("player-search", "player-table");
       }).catch(function (error) {
-        document.getElementById("player-count").textContent = "Fallback rows";
+        document.getElementById("player-count").textContent = "Setup mode";
         if (window.console) console.warn(error);
       });
     });

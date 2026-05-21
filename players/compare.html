@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Player Compare | ARES Gridiron Market</title>
+  <meta name="description" content="Compare NFL players by public production score, public market signal, role, tier, trend, confidence, and premium locked ARES fields.">
+  <link rel="shortcut icon" href="../assets/media/brand/ares-logo.png">
+  <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="../assets/css/ares-theme.css?v=20260520-nfl-local-logos1" rel="stylesheet">
+  <link href="../assets/css/ares-components.css?v=20260521-compare1" rel="stylesheet">
+  <style>
+    .page-main{width:min(100%,1280px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
+    .compare-controls{display:grid;grid-template-columns:1fr 1fr auto;gap:.75rem;align-items:end}
+    .compare-controls input{width:100%;min-height:2.75rem;border:1px solid var(--ares-border);border-radius:8px;padding:.6rem .75rem}
+    .compare-controls button{min-height:2.75rem;border:0;border-radius:8px;background:var(--ares-navy);color:#fff;font-weight:850;padding:.6rem 1rem}
+    .compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+    .compare-card{display:grid;gap:.75rem}
+    .compare-card h2{margin:0}
+    .compare-metric{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px solid rgba(201,207,216,.72);padding:.55rem 0}
+    @media(max-width:800px){.compare-controls,.compare-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body class="ares-shell">
+  <header class="ares-topbar ares-mega-topbar" data-ares-root="..">
+    <a class="ares-brand" href="../index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
+    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
+    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
+      <a class="ares-home-link" href="../index.html">Home</a>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="ares-page-title"><h1>Player Compare</h1><p>Compare open public production, market signal, role, tier, trend, and confidence. Premium unlocks component grades, age curve, team fit, and trade-value range.</p></section>
+    <section class="ares-card ares-section">
+      <div class="compare-controls">
+        <label>Player 1<input id="player-one" list="player-list" autocomplete="off" placeholder="Search first player"></label>
+        <label>Player 2<input id="player-two" list="player-list" autocomplete="off" placeholder="Search second player"></label>
+        <button id="compare-button" type="button">Compare</button>
+      </div>
+      <datalist id="player-list"></datalist>
+    </section>
+    <section id="compare-grid" class="compare-grid ares-section"></section>
+    <section class="ares-card ares-section ares-premium-teaser">
+      <div class="section-heading"><div><h2>Premium Comparison</h2><span>Full component grades, comparable players, trade value, risk score, and team fit.</span></div></div>
+      <div class="ares-premium-preview" aria-hidden="true">
+        <div><span>ARES Gap</span><strong>+2.4</strong><i style="width:77%"></i></div>
+        <div><span>Market Gap</span><strong>+4.8</strong><i style="width:82%"></i></div>
+        <div><span>Risk Gap</span><strong>Low</strong><i style="width:68%"></i></div>
+        <div><span>Trade Range</span><strong>Locked</strong><i style="width:74%"></i></div>
+      </div>
+      <a class="ares-premium-overlay" href="../premium.html"><span>Premium required</span><strong>Unlock comparison model</strong></a>
+    </section>
+  </main>
+  <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
+  <script src="../assets/js/ares-tables.js?v=20260520-nfl-local-logos1"></script>
+  <script>
+    (function(){
+      "use strict";
+      const safe=window.AresData.safeText;
+      let players=[];
+      function params(){return new URLSearchParams(window.location.search);}
+      function metric(label,value,renderer){return '<div class="compare-metric"><span>'+safe(label)+'</span><strong>'+(renderer?renderer(value):safe(value||""))+'</strong></div>';}
+      function card(row){
+        if(!row){return '<article class="ares-card compare-card"><h2>Select player</h2><p class="mb-0 text-muted">Use the search field above.</p></article>';}
+        return '<article class="ares-card compare-card"><h2><a href="player-template.html?player_id='+encodeURIComponent(row.player_id)+'">'+safe(row.player_name)+'</a></h2><p class="mb-0 text-muted">'+safe(row.position)+' | '+window.AresTables.renderTeamLogo(row.team)+' | Age '+safe(row.age)+'</p>'+
+          metric("Public Production Score",row.public_score,function(v){return window.AresTables.renderScoreChip(v,"ares");})+
+          metric("Public Market Signal",row.public_market_signal,function(v){return window.AresTables.renderScoreChip(v,"market");})+
+          metric("ARES Tier",row.public_tier,function(v){return window.AresTables.renderTierChip(v);})+
+          metric("Market Tier",row.market_tier,function(v){return window.AresTables.renderTierChip(v);})+
+          metric("Role",row.role)+
+          metric("Trend",row.trend,function(v){return window.AresTables.renderTrendChip(v);})+
+          metric("Confidence",row.confidence,function(v){return window.AresTables.renderConfidenceChip(v);})+
+          metric("ARES Score","Premium")+
+          metric("Market Score","Premium")+
+          '</article>';
+      }
+      function findPlayer(value){const text=String(value||"").toLowerCase();return players.find(row=>row.player_id===value)||players.find(row=>String(row.player_name||"").toLowerCase()===text)||players.find(row=>String(row.player_name||"").toLowerCase().includes(text));}
+      function render(){
+        const left=findPlayer(document.getElementById("player-one").value)||players[0];
+        const right=findPlayer(document.getElementById("player-two").value)||players[1];
+        document.getElementById("compare-grid").innerHTML=card(left)+card(right);
+        const url=new URL(window.location.href);if(left)url.searchParams.set("p1",left.player_id);if(right)url.searchParams.set("p2",right.player_id);history.replaceState(null,"",url);
+      }
+      document.addEventListener("DOMContentLoaded",async function(){
+        const [search,ares,market]=await Promise.all([window.AresData.loadJson("../data/player_search.json"),window.AresData.loadJson("../data/ares_rankings.json"),window.AresData.loadJson("../data/market_rankings.json")]);
+        const marketById={};market.forEach(row=>{marketById[row.player_id]=row;});
+        players=ares.map(row=>Object.assign({},row,marketById[row.player_id]||{}));
+        document.getElementById("player-list").innerHTML=search.filter(row=>row.type==="player").map(row=>'<option value="'+safe(row.player_name)+'">'+safe(row.team||"")+' '+safe(row.position||"")+'</option>').join("");
+        const p=params();const left=players.find(row=>row.player_id===p.get("p1"))||players[0];const right=players.find(row=>row.player_id===p.get("p2"))||players[1];
+        document.getElementById("player-one").value=left?left.player_name:"";
+        document.getElementById("player-two").value=right?right.player_name:"";
+        document.getElementById("compare-button").addEventListener("click",render);
+        render();
+      });
+    }());
+  </script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260521-compare1"></script>
+  <script src="../assets/js/ares-mega-nav.js?v=20260520-nfl-local-logos1"></script>
+</body>
+</html>

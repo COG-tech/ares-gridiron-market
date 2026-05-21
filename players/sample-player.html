@@ -3,54 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sample Player | ARES Gridiron Market</title>
-  <link rel="shortcut icon" href="../assets/media/brand/ares-logo.png">
-  <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
-  <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
-  <link href="../assets/css/ares-theme.css?v=20260520-nfl-local-logos1" rel="stylesheet" type="text/css">
-  <link href="../assets/css/ares-components.css?v=20260520-nfl-local-logos1" rel="stylesheet" type="text/css">
-  <style>.page-main{width:min(100%,1280px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}.profile-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.profile-header{display:flex;gap:1rem;align-items:center}.metric-list{display:grid;gap:.5rem}.metric-list div{display:flex;justify-content:space-between;border-bottom:1px solid rgba(201,207,216,.7);padding:.35rem 0}@media(max-width:900px){.profile-grid{grid-template-columns:1fr}.profile-header{align-items:flex-start;flex-direction:column}}</style>
+  <title>Player Profile | ARES Gridiron Market</title>
+  <meta http-equiv="refresh" content="0; url=player-template.html">
+  <link rel="canonical" href="player-template.html">
 </head>
-<body class="ares-shell">
-        <header class="ares-topbar ares-mega-topbar" data-ares-root="..">
-    <a class="ares-brand" href="../index.html" aria-label="ARES Gridiron Market home"><span><strong>ARES</strong><em>Gridiron Market</em></span></a>
-    <button class="ares-nav-toggle" type="button" aria-expanded="false" aria-controls="ares-mega-nav">Menu</button>
-    <nav id="ares-mega-nav" class="ares-nav ares-mega-nav" aria-label="Primary navigation">
-      <a class="ares-home-link" href="../index.html">Home</a>
-    </nav>
-  </header>
-  <main class="page-main">
-    <section id="player-header" class="ares-card profile-header">
-      <span class="ares-player-avatar">MV</span>
-      <div><h1 class="mb-1">Player Data</h1><p class="mb-2 text-muted">CB | MIA | NFL</p><span class="ares-score-chip">ARES Pending</span> <span class="ares-market-chip">Market Pending</span> <span class="ares-tier-chip">Paid</span></div>
-    </section>
-    <section class="profile-grid ares-section">
-      <article class="ares-card"><h2>ARES Score Breakdown</h2><div id="ares-breakdown" class="metric-list"></div></article>
-      <article class="ares-card"><h2>Market Score Breakdown</h2><div id="market-breakdown" class="metric-list"></div></article>
-      <article class="ares-card"><h2>Value History</h2><p class="text-muted mb-0">Chart placeholder. Real value history will load from generated JSON later.</p></article>
-      <article class="ares-card"><h2>Data Confidence Notes</h2><div id="confidence-notes"></div></article>
-    </section>
-    <section class="ares-card ares-section"><h2>Season Stats</h2><div class="table-responsive"><table class="ares-table"><thead><tr><th>Season</th><th>Team</th><th>Games</th><th>Starts</th><th>Stat Line</th></tr></thead><tbody id="season-stats"></tbody></table></div></section>
-    <section class="ares-card ares-section"><h2>Movement History</h2><div class="table-responsive"><table class="ares-table"><thead><tr><th>Date</th><th>From</th><th>To</th><th>Type</th><th>Impact</th></tr></thead><tbody id="movement-history"></tbody></table></div></section>
-    <section class="ares-card ares-section"><h2>Similar Players</h2><div id="similar-players" class="d-flex flex-wrap gap-2"></div></section>
-  </main>
-  <script src="../assets/js/ares-data-loader.js?v=20260519-graphics1"></script>
-  <script src="../assets/js/ares-tables.js?v=20260520-nfl-local-logos1"></script>
-  <script>
-    function metricRows(obj){return Object.keys(obj||{}).filter(function(k){return k!=="is_placeholder";}).map(function(k){return "<div><span>"+window.AresData.safeText(k)+"</span><strong>"+window.AresData.safeText(obj[k])+"</strong></div>";}).join("");}
-    document.addEventListener("DOMContentLoaded", function(){
-      window.AresData.loadJson("../data/player_profile_sample.json").then(function(p){
-        document.getElementById("player-header").innerHTML = '<span class="ares-player-avatar">'+window.AresData.safeText(p.initials)+'</span><div><h1 class="mb-1">'+window.AresData.safeText(p.player_name)+'</h1><p class="mb-2 text-muted">'+window.AresData.safeText(p.position)+' | '+window.AresData.safeText(p.team_or_school)+' | '+window.AresData.safeText(p.league)+' | Age '+window.AresData.safeText(p.age)+' | '+window.AresData.safeText(p.height)+' | '+window.AresData.safeText(p.weight)+'</p><span class="ares-score-chip">'+window.AresData.safeText(p.ares_score)+' ARES</span> <span class="ares-market-chip">'+window.AresData.safeText(p.market_score)+' Market</span> <span class="ares-tier-chip">'+window.AresData.safeText(p.value_tier)+'</span> '+window.AresTables.renderConfidenceChip(p.confidence)+'</div>';
-        document.getElementById("ares-breakdown").innerHTML = metricRows(p.ares_breakdown);
-        document.getElementById("market-breakdown").innerHTML = metricRows(p.market_breakdown);
-        document.getElementById("season-stats").innerHTML = p.season_stats.map(function(r){return "<tr><td>"+r.season+"</td><td>"+window.AresData.safeText(r.team)+"</td><td>"+r.games+"</td><td>"+r.starts+"</td><td>"+window.AresData.safeText(r.stat_line)+"</td></tr>";}).join("");
-        document.getElementById("movement-history").innerHTML = p.movement_history.map(function(r){return "<tr><td>"+r.date+"</td><td>"+window.AresData.safeText(r.from)+"</td><td>"+window.AresData.safeText(r.to)+"</td><td>"+window.AresData.safeText(r.movement_type)+"</td><td>"+window.AresData.safeText(r.impact)+"</td></tr>";}).join("");
-        document.getElementById("similar-players").innerHTML = p.similar_players.map(function(r){return '<span class="ares-tier-chip">'+window.AresData.safeText(r.player_name)+' - '+window.AresData.safeText(r.position)+'</span>';}).join("");
-        document.getElementById("confidence-notes").innerHTML = p.data_confidence_notes.map(function(r){return "<p>"+window.AresData.safeText(r.note)+"</p>";}).join("");
-      });
-    });
-  </script>
-  <script src="../assets/js/ares-paid-preview.js?v=20260520-logo1"></script>
-    <script src="../assets/js/ares-mega-nav.js?v=20260520-nfl-local-logos1"></script>
+<body>
+  <p><a href="player-template.html">Open the player profile template.</a></p>
 </body>
 </html>

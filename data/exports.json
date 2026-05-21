@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Player Search",
+    "href": "player_search.json",
+    "rows": 1598,
+    "description": "Public NFL player index."
+  },
+  {
+    "label": "ARES Public Rankings",
+    "href": "ares_rankings.json",
+    "rows": 1598,
+    "description": "Public production score with premium ARES fields locked."
+  },
+  {
+    "label": "Market Public Rankings",
+    "href": "market_rankings.json",
+    "rows": 1598,
+    "description": "Public market signal with premium Market Score locked."
+  },
+  {
+    "label": "Teams",
+    "href": "teams.json",
+    "rows": 33,
+    "description": "Public NFL roster value board."
+  },
+  {
+    "label": "NFL Scores",
+    "href": "scores/nfl_scoreboard.json",
+    "rows": 7276,
+    "description": "NFL schedule/result cache."
+  },
+  {
+    "label": "NFL Transactions",
+    "href": "transactions/nfl_transactions.json",
+    "rows": 4840,
+    "description": "NFL trade/transaction cache."
+  },
+  {
+    "label": "Young Assets",
+    "href": "young_assets.json",
+    "rows": 250,
+    "description": "Best young public market assets."
+  },
+  {
+    "label": "Draft Board",
+    "href": "draft_board.json",
+    "rows": 300,
+    "description": "Latest draft/combine public board."
+  }
+]

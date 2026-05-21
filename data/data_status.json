@@ -1,0 +1,19 @@
+{
+  "nfl_players_loaded": 1598,
+  "nfl_public_rankings": 1598,
+  "nfl_market_rows": 1598,
+  "nfl_teams_loaded": 33,
+  "draft_board_rows": 300,
+  "nfl_score_rows": 7276,
+  "college_score_rows": 0,
+  "high_school_score_rows": 0,
+  "nfl_transaction_rows": 4840,
+  "nfl_roster_move_rows": 0,
+  "seasons_covered": "1999-2025",
+  "source_confidence": "Medium",
+  "premium_model_status": "Locked",
+  "score_feed_status": "NFL historical schedule/results connected; college and high school setup mode",
+  "transaction_feed_status": "NFL trade history connected; signings/releases/waivers setup mode",
+  "last_successful_build": "Static public build",
+  "is_placeholder": false
+}

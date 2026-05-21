@@ -91,7 +91,7 @@
       <a class="ares-tier-chip" href="../high-school/index.html">High School Scores</a>
     </div>
 
-    <p class="ranking-note">Placeholder data shown until real model pipeline is connected. High school players are tracked separately in the Watchlist and are not ranked against college players because data quality is thinner.</p>
+    <p class="ranking-note">College market rows appear here when the approved college pipeline is connected. High school players stay tracked separately in the Watchlist and are not ranked against college players because data quality is thinner.</p>
 
     <section class="ares-card">
       <div class="ranking-toolbar">
@@ -99,7 +99,7 @@
         <div class="ares-search">
           <input id="ranking-search" type="search" placeholder="Search college market rankings..." autocomplete="off">
         </div>
-        <span id="ranking-count" class="ares-tier-chip">Loading</span>
+        <span id="ranking-count" class="ares-tier-chip">Setup mode</span>
       </div>
 
       <div class="table-responsive">
@@ -117,12 +117,12 @@
               <th><button class="sort-button" data-sort="pro_upside">Pro Upside</button></th>
               <th><button class="sort-button" data-sort="draft_track">Draft Track</button></th>
               <th><button class="sort-button" data-sort="ares_score" data-type="number">ARES Score</button></th>
-              <th><button class="sort-button" data-sort="confidence">Conf.</button></th>
+              <th><button class="sort-button" data-sort="confidence">Confidence</button></th>
             </tr>
           </thead>
           <tbody id="ranking-body">
             <tr>
-              <td colspan="12" class="text-muted">Pending CFBD normalization.</td>
+              <td colspan="12" class="text-muted">College market setup mode.</td>
             </tr>
           </tbody>
         </table>
@@ -134,7 +134,7 @@
     <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
       <div>
         <strong>ARES Gridiron Market</strong>
-        <span class="d-block">Independent analytical database. Placeholder data shown until real model outputs are connected.</span>
+        <span class="d-block">Independent analytical database. College market setup mode is visible until approved model outputs are connected.</span>
       </div>
     </div>
   </footer>
@@ -192,7 +192,7 @@
       function setFallback(error) {
         const count = document.getElementById("ranking-count");
         if (count) {
-          count.textContent = "Fallback rows";
+          count.textContent = "Setup mode";
         }
         if (window.console) {
           console.warn(error);

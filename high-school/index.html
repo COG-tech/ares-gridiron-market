@@ -50,19 +50,19 @@
           <p>Tracked-only recruits, schools, score feeds, commitments, and source confidence.</p>
         </div>
         <div class="hero-kpis">
-          <div class="hero-kpi"><span>Watchlist</span><strong id="hs-watch-count">Loading</strong></div>
-          <div class="hero-kpi"><span>Schools</span><strong id="hs-school-count">Loading</strong></div>
-          <div class="hero-kpi"><span>Scores</span><strong>3 hour feed</strong></div>
+          <div class="hero-kpi"><span>Watchlist</span><strong id="hs-watch-count">Tracked rows</strong></div>
+          <div class="hero-kpi"><span>Schools</span><strong id="hs-school-count">Tracked rows</strong></div>
+          <div class="hero-kpi"><span>Scores</span><strong>Setup mode</strong></div>
           <div class="hero-kpi"><span>Status</span><strong>Tracked only</strong></div>
         </div>
       </div>
     </section>
 
     <section class="ares-section top-card-grid">
-      <article id="top-hs-player" class="ares-stat-card"><span class="label">Top Tracking Score</span><span class="value">Loading</span></article>
-      <article id="top-hs-commit" class="ares-stat-card"><span class="label">Latest Commitment Signal</span><span class="value">Loading</span></article>
-      <article id="top-hs-school" class="ares-stat-card"><span class="label">Most Tracked School</span><span class="value">Loading</span></article>
-      <article id="latest-hs-score" class="ares-stat-card"><span class="label">Latest High School Score</span><span class="value">Pending</span></article>
+      <article id="top-hs-player" class="ares-stat-card"><span class="label">Top Tracking Score</span><span class="value">Setup mode</span></article>
+      <article id="top-hs-commit" class="ares-stat-card"><span class="label">Latest Commitment Signal</span><span class="value">Setup mode</span></article>
+      <article id="top-hs-school" class="ares-stat-card"><span class="label">Most Tracked School</span><span class="value">Setup mode</span></article>
+      <article id="latest-hs-score" class="ares-stat-card"><span class="label">Latest High School Score</span><span class="value">Setup mode</span></article>
     </section>
 
     <section class="ares-section ares-dashboard-grid" aria-label="High school analytics charts">
@@ -83,18 +83,18 @@
     <section class="ares-section board-grid">
       <article class="ares-card wide">
         <div class="section-heading"><h2>High School Scores</h2><a href="../scores/index.html">All scores</a></div>
-        <ul id="hs-scores-list" class="feed-list"><li class="feed-item"><span><span class="feed-title">No approved high school score feed has been connected yet.</span><span class="feed-meta">Updated every 3 hours</span></span></li></ul>
-        <p id="hs-scores-status" class="status-note">High school scores only. Updated every 3 hours.</p>
+        <ul id="hs-scores-list" class="feed-list"><li class="feed-item"><span><span class="feed-title">High school score feed setup mode.</span><span class="feed-meta">No high school score source is connected in this public build.</span></span></li></ul>
+        <p id="hs-scores-status" class="status-note">High school score feed setup mode.</p>
       </article>
 
       <article class="ares-card wide">
         <div class="section-heading"><h2>High School Watchlist</h2><a href="../watchlist/index.html#high-school">Full watchlist</a></div>
-        <div class="table-responsive"><table class="ares-table"><thead><tr><th>Player</th><th>Pos</th><th>School</th><th>State</th><th>Class</th><th>Committed</th><th>Score</th><th>Conf.</th></tr></thead><tbody id="hs-watch-body"><tr><td colspan="8" class="text-muted">Loading high school watchlist.</td></tr></tbody></table></div>
+        <div class="table-responsive"><table class="ares-table"><thead><tr><th>Player</th><th>Pos</th><th>School</th><th>State</th><th>Class</th><th>Committed</th><th>Score</th><th>Confidence</th></tr></thead><tbody id="hs-watch-body"><tr><td colspan="8" class="text-muted">High school watchlist setup mode.</td></tr></tbody></table></div>
       </article>
 
       <article class="ares-card wide">
         <div class="section-heading"><h2>High School School Board</h2><a href="school-template.html">School template</a></div>
-        <div class="table-responsive"><table class="ares-table"><thead><tr><th>School</th><th>City</th><th>State</th><th>Tracked Players</th><th>Top Player</th><th>Commit Signals</th></tr></thead><tbody id="hs-schools-body"><tr><td colspan="6" class="text-muted">Loading high school schools.</td></tr></tbody></table></div>
+        <div class="table-responsive"><table class="ares-table"><thead><tr><th>School</th><th>City</th><th>State</th><th>Tracked Players</th><th>Top Player</th><th>Commit Signals</th></tr></thead><tbody id="hs-schools-body"><tr><td colspan="6" class="text-muted">High school school board setup mode.</td></tr></tbody></table></div>
       </article>
     </section>
   </main>
@@ -121,15 +121,15 @@
         const commit=players.find(p=>p.committed_school)||{};
         const school=schools.slice().sort((a,b)=>b.players-a.players)[0]||{};
         const score=scores[0]||{};
-        document.getElementById("top-hs-player").innerHTML=`<span class="label">Top Tracking Score</span><span class="value">${playerLink(top.player_name||"Pending",top)}</span><span class="meta">${safe(top.position)} | ${schoolLink(schoolName(top)||"")}</span><span>${window.AresTables.renderScoreChip(top.tracking_score||"","ares")}</span>`;
-        document.getElementById("top-hs-commit").innerHTML=`<span class="label">Latest Commitment Signal</span><span class="value">${playerLink(commit.player_name||"Pending",commit)}</span><span class="meta">${safe(commit.status||"No connected signal")}</span><span>${window.AresTables.renderConfidenceChip(commit.confidence)}</span>`;
-        document.getElementById("top-hs-school").innerHTML=`<span class="label">Most Tracked School</span><span class="value">${schoolLink(school.school||"Pending")}</span><span class="meta">${safe(school.players||0)} tracked players</span><span>${window.AresTables.renderTierChip(school.state||"")}</span>`;
-        document.getElementById("latest-hs-score").innerHTML=`<span class="label">Latest High School Score</span><span class="value">${score.home_team?schoolLink(score.home_team):"Pending"}</span><span class="meta">${safe(score.game_status||"No connected feed")}</span><span>${window.AresTables.renderConfidenceChip(score.confidence)}</span>`;
+        document.getElementById("top-hs-player").innerHTML=`<span class="label">Top Tracking Score</span><span class="value">${playerLink(top.player_name||"Setup mode",top)}</span><span class="meta">${safe(top.position)} | ${schoolLink(schoolName(top)||"")}</span><span>${window.AresTables.renderScoreChip(top.tracking_score||"","ares")}</span>`;
+        document.getElementById("top-hs-commit").innerHTML=`<span class="label">Latest Commitment Signal</span><span class="value">${playerLink(commit.player_name||"Setup mode",commit)}</span><span class="meta">${safe(commit.status||"No connected signal")}</span><span>${window.AresTables.renderConfidenceChip(commit.confidence)}</span>`;
+        document.getElementById("top-hs-school").innerHTML=`<span class="label">Most Tracked School</span><span class="value">${schoolLink(school.school||"Setup mode")}</span><span class="meta">${safe(school.players||0)} tracked players</span><span>${window.AresTables.renderTierChip(school.state||"")}</span>`;
+        document.getElementById("latest-hs-score").innerHTML=`<span class="label">Latest High School Score</span><span class="value">${score.home_team?schoolLink(score.home_team):"Setup mode"}</span><span class="meta">${safe(score.game_status||"No connected feed")}</span><span>${window.AresTables.renderConfidenceChip(score.confidence)}</span>`;
       }
       function renderWatch(players){window.AresTables.renderTable("hs-watch-body",players.slice().sort((a,b)=>Number(b.tracking_score||0)-Number(a.tracking_score||0)).slice(0,25),[{key:"player_name",render:playerLink},{key:"position"},{key:"team_or_school",render:function(v,r){return schoolLink(schoolName(r));}},{key:"state"},{key:"class_year"},{key:"committed_school",render:schoolLink},{key:"tracking_score",render:"score",scoreType:"ares"},{key:"confidence",render:"confidence"}]);}
       function renderSchools(schools){window.AresTables.renderTable("hs-schools-body",schools.slice(0,25),[{key:"school",render:schoolLink},{key:"city"},{key:"state"},{key:"players"},{key:"top",render:function(v,r){return link(v,"player-template.html?player_id="+encodeURIComponent(r.top_id||""));}},{key:"commits"}]);}
       function commitBucket(player){const status=String(player.status||"").toLowerCase();if(status.includes("signed"))return "Signed";if(status.includes("commit")||player.committed_school)return "Committed";return "Tracked";}
-      document.addEventListener("DOMContentLoaded",async function(){try{const [watch,scores]=await Promise.all([window.AresData.loadJson("../data/tracked_players.json"),window.AresData.loadJson("../data/scores/high_school_scoreboard.json")]);const players=watch.filter(p=>String(p.level||"").toLowerCase()==="high school").map(function(p){return Object.assign({commit_bucket:commitBucket(p)},p);});const schools=buildSchools(players,scores);renderTopCards(players,schools,scores);window.AresCharts.renderScoreDistribution("hs-tracking-chart",players,"tracking_score","Tracking score rows");window.AresCharts.renderCountBy("hs-state-chart",players,"state",{limit:8,type:"donut",seriesName:"Players"});window.AresCharts.renderCountBy("hs-commit-chart",players,"commit_bucket",{limit:5,type:"donut",seriesName:"Players"});renderWatch(players);renderSchools(schools);document.getElementById("hs-scores-list").innerHTML=scores.length?scores.slice(0,6).map(scoreLine).join(""):'<li class="feed-item"><span><span class="feed-title">No approved high school score feed has been connected yet.</span><span class="feed-meta">Updated every 3 hours</span></span></li>';document.getElementById("hs-watch-count").textContent=players.length+" players";document.getElementById("hs-school-count").textContent=schools.length+" schools";document.getElementById("hs-scores-status").textContent="High school score rows shown: "+scores.length+". Updated every 3 hours.";}catch(error){if(window.console)console.warn(error);}});
+      document.addEventListener("DOMContentLoaded",async function(){try{const [watch,scores]=await Promise.all([window.AresData.loadJson("../data/tracked_players.json"),window.AresData.loadJson("../data/scores/high_school_scoreboard.json")]);const players=watch.filter(p=>String(p.level||"").toLowerCase()==="high school").map(function(p){return Object.assign({commit_bucket:commitBucket(p)},p);});const schools=buildSchools(players,scores);renderTopCards(players,schools,scores);window.AresCharts.renderScoreDistribution("hs-tracking-chart",players,"tracking_score","Tracking score rows");window.AresCharts.renderCountBy("hs-state-chart",players,"state",{limit:8,type:"donut",seriesName:"Players"});window.AresCharts.renderCountBy("hs-commit-chart",players,"commit_bucket",{limit:5,type:"donut",seriesName:"Players"});renderWatch(players);renderSchools(schools);document.getElementById("hs-scores-list").innerHTML=scores.length?scores.slice(0,6).map(scoreLine).join(""):'<li class="feed-item"><span><span class="feed-title">High school score feed setup mode.</span><span class="feed-meta">No high school score source is connected in this public build.</span></span></li>';document.getElementById("hs-watch-count").textContent=players.length+" players";document.getElementById("hs-school-count").textContent=schools.length+" schools";document.getElementById("hs-scores-status").textContent=scores.length?"High school score rows shown: "+scores.length+".":"High school score feed setup mode."; }catch(error){if(window.console)console.warn(error);}});
     }());
   </script>
   <script src="../assets/js/ares-paid-preview.js?v=20260520-logo1"></script>
