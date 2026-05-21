@@ -1,0 +1,206 @@
+{
+  "player": {
+    "player_name": "Erick Hallett",
+    "position": "DB",
+    "level": "Pro",
+    "team_id": "DET",
+    "team": "DET",
+    "school": "",
+    "league": "NFL",
+    "age": 26.0,
+    "height": 71.0,
+    "weight": 190.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|E.Hallett|DET",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_e5f155ae5846"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 22,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "TEN",
+      "opponent": "JAX",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "DET",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 10,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "DET",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 8,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "TEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 27.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 55.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 64.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 6.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Strong Safety",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Free Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Free Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Free Safety",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Strong Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Free Safety",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2023.0,
+      "team": "JAX",
+      "school": "Pittsburgh",
+      "round": 6.0,
+      "pick": 208.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

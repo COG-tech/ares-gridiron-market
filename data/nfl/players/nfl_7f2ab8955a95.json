@@ -1,0 +1,267 @@
+{
+  "player": {
+    "player_name": "Walter Nolen",
+    "position": "DT",
+    "level": "Pro",
+    "team_id": "ARI",
+    "team": "ARI",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 76.0,
+    "weight": 300.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|W.Nolen|ARI",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_7f2ab8955a95"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 10,
+      "def_sacks": 2.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "ARI",
+      "opponent": "ATL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "ARI",
+      "opponent": "HOU",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 1.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "ARI",
+      "opponent": "JAX",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "ARI",
+      "opponent": "SF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "ARI",
+      "opponent": "SEA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "ARI",
+      "opponent": "DAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 1.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 15.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "ARI",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "ARI",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 11.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 9.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Calf"
+    },
+    {
+      "season": 2025.0,
+      "week": 7.0,
+      "team": "ARI",
+      "report_status": "Out",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Calf"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 27.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 41.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 6.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 23.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 35.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 37.0,
+      "special_teams_snaps": 0.0
+    }
+  ],
+  "depth_chart_recent": [],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "ARI",
+      "school": "Mississippi",
+      "round": 1.0,
+      "pick": 16.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

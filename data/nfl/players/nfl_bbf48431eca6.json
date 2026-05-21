@@ -1,0 +1,261 @@
+{
+  "player": {
+    "player_name": "Justin Watson",
+    "position": "WR",
+    "level": "Pro",
+    "team_id": "TB",
+    "team": "HOU",
+    "school": "",
+    "league": "NFL",
+    "age": 30.0,
+    "height": 75.0,
+    "weight": 215.0,
+    "source": "nflreadpy",
+    "source_player_id": "FB|J.Watson|TB",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_bbf48431eca6"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 3,
+      "targets": 4,
+      "receiving_yards": 30,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 6.0
+    },
+    {
+      "season": 2021,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "HOU",
+      "opponent": "IND",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "HOU",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 1,
+      "targets": 2,
+      "receiving_yards": 3,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 1.3
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "HOU",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 2,
+      "targets": 2,
+      "receiving_yards": 27,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 4.7
+    },
+    {
+      "season": 2021,
+      "week": 16,
+      "team": "HOU",
+      "opponent": "LAC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 20.0,
+      "team": "HOU",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Concussion"
+    },
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "HOU",
+      "report_status": "Out",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Calf"
+    },
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "HOU",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Calf"
+    },
+    {
+      "season": 2025.0,
+      "week": 15.0,
+      "team": "HOU",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Calf"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 19,
+      "team": "HOU",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "HOU",
+      "offense_snaps": 13.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "HOU",
+      "offense_snaps": 20.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "HOU",
+      "offense_snaps": 35.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2021,
+      "week": 17,
+      "team": "HOU",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 10.0
+    },
+    {
+      "season": 2021,
+      "week": 16,
+      "team": "HOU",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 15.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "HOU",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 7.0
+    },
+    {
+      "season": 2026.0,
+      "team": "HOU",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 6.0
+    },
+    {
+      "season": 2025.0,
+      "team": "HOU",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 9.0
+    },
+    {
+      "season": 2025.0,
+      "team": "HOU",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 8.0
+    },
+    {
+      "season": 2025.0,
+      "team": "HOU",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 5.0
+    },
+    {
+      "season": 2025.0,
+      "team": "HOU",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 6.0
+    },
+    {
+      "season": 2025.0,
+      "team": "HOU",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 7.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,0 +1,417 @@
+{
+  "player": {
+    "player_name": "JT Tuimoloau",
+    "position": "DE",
+    "level": "Pro",
+    "team_id": "IND",
+    "team": "IND",
+    "school": "",
+    "league": "NFL",
+    "age": 23.0,
+    "height": 76.0,
+    "weight": 264.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|J.Tuimoloau|IND",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_2e392685094c"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 17,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "IND",
+      "opponent": "HOU",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "IND",
+      "opponent": "SEA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "IND",
+      "opponent": "JAX",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 6,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "IND",
+      "opponent": "HOU",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "IND",
+      "opponent": "KC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "IND",
+      "opponent": "ATL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "IND",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "IND",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "IND",
+      "opponent": "LAC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "IND",
+      "opponent": "LV",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "IND",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 18.0,
+      "team": "IND",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "IND",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Oblique"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 26.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 8.0,
+      "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 20.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 11.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 35.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 22.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 26.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 9.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 1.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "IND",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "IND",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "IND",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "IND",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "IND",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "IND",
+      "school": "Ohio St.",
+      "round": 2.0,
+      "pick": 45.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

@@ -1,0 +1,62 @@
+{
+  "player": {
+    "player_name": "DJ Turner II",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "CIN",
+    "team": "CIN",
+    "school": "",
+    "league": "NFL",
+    "age": 25.0,
+    "height": 71.0,
+    "weight": 185.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|D.Turner|CIN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_e4a6e7eed0d4"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "CIN",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Illness"
+    },
+    {
+      "season": 2025.0,
+      "week": 3.0,
+      "team": "CIN",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Hamstring"
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "CIN",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CIN",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CIN",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

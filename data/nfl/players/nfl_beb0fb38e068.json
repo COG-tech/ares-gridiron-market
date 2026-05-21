@@ -1,0 +1,278 @@
+{
+  "player": {
+    "player_name": "Quinnen Williams",
+    "position": "DT",
+    "level": "Pro",
+    "team_id": "DAL",
+    "team": "DAL",
+    "school": "",
+    "league": "NFL",
+    "age": 28.0,
+    "height": 75.0,
+    "weight": 303.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|Q.Williams|DAL",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_beb0fb38e068"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 21,
+      "def_sacks": 1.5,
+      "def_interceptions": 1,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "DAL",
+      "opponent": "NYG",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "DAL",
+      "opponent": "WAS",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "DAL",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 1,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "DAL",
+      "opponent": "DET",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "DAL",
+      "opponent": "KC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "DAL",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "DAL",
+      "opponent": "LV",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 1.5,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 18.0,
+      "team": "DAL",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "DAL",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Neck"
+    },
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "DAL",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Concussion"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 44.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 31.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 31.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 44.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 46.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 46.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 33.0,
+      "special_teams_snaps": 4.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "DAL",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "DAL",
+      "depth_position": "Right Defensive Tackle",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DAL",
+      "depth_position": "Right Defensive Tackle",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

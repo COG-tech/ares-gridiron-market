@@ -1,0 +1,96 @@
+{
+  "player": {
+    "player_name": "Jarvis Brownlee Jr.",
+    "position": "DB",
+    "level": "Pro",
+    "team_id": "NYJ",
+    "team": "NYJ",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 70.0,
+    "weight": 194.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|J.Brownlee|NYJ",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_52bea6080ac1"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "NYJ",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hip"
+    },
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "NYJ",
+      "report_status": "Doubtful",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hip"
+    },
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "NYJ",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 4.0,
+      "team": "NYJ",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Ankle"
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Nickel Back",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Nickel Back",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Nickel Back",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Nickel Back",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Nickel Back",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

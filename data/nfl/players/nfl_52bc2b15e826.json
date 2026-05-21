@@ -1,0 +1,98 @@
+{
+  "player": {
+    "player_name": "Dillon Wade",
+    "position": "G",
+    "level": "Pro",
+    "team_id": "GB",
+    "team": "GB",
+    "school": "",
+    "league": "NFL",
+    "age": 23.0,
+    "height": 75.0,
+    "weight": 316.0,
+    "source": "nflreadpy",
+    "source_player_id": "FB||GB",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_52bc2b15e826"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "BAL",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 5.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BAL",
+      "depth_position": "Punt Returner",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BAL",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 8.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BAL",
+      "depth_position": "Punt Returner",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BAL",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 7.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BAL",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 7.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BAL",
+      "depth_position": "Punt Returner",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BAL",
+      "depth_position": "Punt Returner",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BAL",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 9.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BAL",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 10.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": "",
+      "team": "",
+      "school": "Murray State",
+      "round": "",
+      "pick": "",
+      "height": "6-0",
+      "weight": 200.0,
+      "forty": 4.57
+    }
+  ],
+  "is_placeholder": false
+}

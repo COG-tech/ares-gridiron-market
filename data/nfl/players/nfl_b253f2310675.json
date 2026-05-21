@@ -1,0 +1,272 @@
+{
+  "player": {
+    "player_name": "Cameron Mitchell",
+    "position": "DB",
+    "level": "Pro",
+    "team_id": "IND",
+    "team": "IND",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 71.0,
+    "weight": 191.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|C.Mitchell|IND",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_b253f2310675"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 17,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "IND",
+      "opponent": "HOU",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "IND",
+      "opponent": "JAX",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 7,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "IND",
+      "opponent": "SF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "IND",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "IND",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "IND",
+      "opponent": "LAC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 24.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 43.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 43.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 3.0,
+      "special_teams_snaps": 10.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 48.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 45.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 4.0,
+      "special_teams_snaps": 1.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "IND",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "IND",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "IND",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "IND",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "IND",
+      "depth_position": "Nickel Back",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "IND",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "IND",
+      "depth_position": "Nickel Back",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "IND",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

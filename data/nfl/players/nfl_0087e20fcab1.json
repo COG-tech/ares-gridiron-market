@@ -1,0 +1,233 @@
+{
+  "player": {
+    "player_name": "Nick Whiteside",
+    "position": "DB",
+    "level": "Pro",
+    "team_id": "DET",
+    "team": "DET",
+    "school": "",
+    "league": "NFL",
+    "age": 26.0,
+    "height": 73.0,
+    "weight": 200.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|N.Whiteside|DET",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_0087e20fcab1"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 5,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "DET",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "DET",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "DET",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 6.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 1.0,
+      "special_teams_snaps": 11.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 3.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 1.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 40.0,
+      "special_teams_snaps": 11.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2023,
+      "week": 18,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2023,
+      "week": 17,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 10.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "DET",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "DET",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 4.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,0 +1,471 @@
+{
+  "player": {
+    "player_name": "Will Johnson",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "ARI",
+    "team": "ARI",
+    "school": "",
+    "league": "NFL",
+    "age": 23.0,
+    "height": 74.0,
+    "weight": 200.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|W.Johnson|ARI",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_a4b777f7e143"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 34,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "ARI",
+      "opponent": "CIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "ARI",
+      "opponent": "ATL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "ARI",
+      "opponent": "HOU",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "ARI",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "ARI",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "ARI",
+      "opponent": "DAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 5,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "ARI",
+      "opponent": "GB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "ARI",
+      "opponent": "IND",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "ARI",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "ARI",
+      "opponent": "CAR",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "ARI",
+      "opponent": "NO",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 18.0,
+      "team": "ARI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Thumb"
+    },
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "ARI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 15.0,
+      "team": "ARI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "ARI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 12.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Back"
+    },
+    {
+      "season": 2025.0,
+      "week": 11.0,
+      "team": "ARI",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Back"
+    },
+    {
+      "season": 2025.0,
+      "week": 10.0,
+      "team": "ARI",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Back"
+    },
+    {
+      "season": 2025.0,
+      "week": 9.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Groin"
+    },
+    {
+      "season": 2025.0,
+      "week": 6.0,
+      "team": "ARI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Groin"
+    },
+    {
+      "season": 2025.0,
+      "week": 4.0,
+      "team": "ARI",
+      "report_status": "Doubtful",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Groin"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 38.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 75.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 77.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 67.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 70.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 61.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 66.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 56.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 50.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 55.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 62.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 45.0,
+      "special_teams_snaps": 4.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "ARI",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "ARI",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "ARI",
+      "school": "Michigan",
+      "round": 2.0,
+      "pick": 47.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

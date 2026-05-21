@@ -1,0 +1,33 @@
+{
+  "player": {
+    "player_name": "Colbie Young",
+    "position": "WR",
+    "level": "Pro",
+    "team_id": "CIN",
+    "team": "CIN",
+    "school": "",
+    "league": "NFL",
+    "age": 23.0,
+    "height": 76.0,
+    "weight": 215.0,
+    "source": "nflreadpy",
+    "source_player_id": "FB||CIN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_dee6eac62e2e"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2025.0,
+      "team": "CIN",
+      "depth_position": "Middle Linebacker",
+      "depth_rank": 4.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

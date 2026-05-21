@@ -1,0 +1,223 @@
+{
+  "player": {
+    "player_name": "Ivan Pace Jr.",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "MIN",
+    "team": "MIN",
+    "school": "",
+    "league": "NFL",
+    "age": 25.0,
+    "height": 70.0,
+    "weight": 236.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|I.Pace|MIN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_0f77ead36488"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2022,
+      "week": 19,
+      "team": "MIN",
+      "offense_snaps": 4.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 18,
+      "team": "MIN",
+      "offense_snaps": 32.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 8,
+      "team": "MIN",
+      "offense_snaps": 34.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 6,
+      "team": "MIN",
+      "offense_snaps": 33.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2022,
+      "week": 5,
+      "team": "MIN",
+      "offense_snaps": 50.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 4,
+      "team": "MIN",
+      "offense_snaps": 46.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 3,
+      "team": "MIN",
+      "offense_snaps": 37.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 2,
+      "team": "MIN",
+      "offense_snaps": 34.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 1,
+      "team": "MIN",
+      "offense_snaps": 19.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 17,
+      "team": "MIN",
+      "offense_snaps": 63.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 16,
+      "team": "MIN",
+      "offense_snaps": 56.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 15,
+      "team": "MIN",
+      "offense_snaps": 56.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 14,
+      "team": "MIN",
+      "offense_snaps": 28.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 11,
+      "team": "MIN",
+      "offense_snaps": 33.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 9,
+      "team": "MIN",
+      "offense_snaps": 22.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "team": "MIN",
+      "offense_snaps": 41.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2020,
+      "week": 6,
+      "team": "MIN",
+      "offense_snaps": 44.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2020,
+      "week": 5,
+      "team": "MIN",
+      "offense_snaps": 59.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2020,
+      "week": 4,
+      "team": "MIN",
+      "offense_snaps": 41.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2020,
+      "week": 3,
+      "team": "MIN",
+      "offense_snaps": 36.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "MIN",
+      "depth_position": "Right Inside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIN",
+      "depth_position": "Right Inside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIN",
+      "depth_position": "Right Inside Linebacker",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIN",
+      "depth_position": "Left Inside Linebacker",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2019.0,
+      "team": "MIN",
+      "school": "Alabama",
+      "round": 2.0,
+      "pick": 50.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

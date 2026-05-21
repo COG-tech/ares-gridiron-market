@@ -1,0 +1,180 @@
+{
+  "player": {
+    "player_name": "Kyle Kennard",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "LAC",
+    "team": "LAC",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 77.0,
+    "weight": 254.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|K.Kennard|LAC",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_ed7dc29232bb"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "LAC",
+      "opponent": "MIA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "LAC",
+      "opponent": "DEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 8.0,
+      "team": "LAC",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 7.0,
+      "team": "LAC",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "LAC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 44.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "LAC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 11.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "LAC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 10.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "LAC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 8.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "LAC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 7.0,
+      "special_teams_snaps": 0.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "LAC",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LAC",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LAC",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "Los Angeles Chargers",
+      "school": "South Carolina",
+      "round": 4.0,
+      "pick": 125.0,
+      "height": "6-4",
+      "weight": 254.0,
+      "forty": 4.73
+    },
+    {
+      "draft_year": 2025.0,
+      "team": "LAC",
+      "school": "South Carolina",
+      "round": 4.0,
+      "pick": 125.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

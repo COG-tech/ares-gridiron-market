@@ -1,0 +1,206 @@
+{
+  "player": {
+    "player_name": "Greedy Vance",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "LV",
+    "team": "LV",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 69.0,
+    "weight": 177.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|G.Vance|LV",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_4f25d13bd97a"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 8,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "LV",
+      "opponent": "KC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "LV",
+      "opponent": "NYG",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "LV",
+      "opponent": "LAC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "LV",
+      "opponent": "JAX",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 22.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 35.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 10.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 7.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 13.0,
+      "special_teams_snaps": 0.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "LV",
+      "depth_position": "Nickel Back",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "LV",
+      "depth_position": "Nickel Back",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LV",
+      "depth_position": "Nickel Back",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LV",
+      "depth_position": "Nickel Back",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LV",
+      "depth_position": "Nickel Back",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LV",
+      "depth_position": "Nickel Back",
+      "depth_rank": 4.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

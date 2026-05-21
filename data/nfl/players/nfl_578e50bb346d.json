@@ -1,0 +1,190 @@
+{
+  "player": {
+    "player_name": "Darrell Baker Jr.",
+    "position": "DB",
+    "level": "Pro",
+    "team_id": "TEN",
+    "team": "TEN",
+    "school": "",
+    "league": "NFL",
+    "age": 28.0,
+    "height": 73.0,
+    "weight": 200.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|D.Baker|TEN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_578e50bb346d"
+  },
+  "season_summary": [
+    {
+      "season": 2020,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2020,
+      "week": 10,
+      "team": "TEN",
+      "opponent": "IND",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 9,
+      "team": "TEN",
+      "opponent": "CHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "TEN",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 15.0,
+      "team": "TEN",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Neck"
+    },
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "TEN",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 12.0,
+      "team": "TEN",
+      "report_status": "Questionable",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 9.0,
+      "team": "TEN",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 9.0,
+      "team": "TEN",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 4.0,
+      "team": "TEN",
+      "report_status": "Questionable",
+      "practice_status": "",
+      "injury": "Illness"
+    },
+    {
+      "season": 2025.0,
+      "week": 1.0,
+      "team": "TEN",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Left Tackle",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Left Tackle",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

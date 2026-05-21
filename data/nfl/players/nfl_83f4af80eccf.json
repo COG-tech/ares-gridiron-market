@@ -1,0 +1,190 @@
+{
+  "player": {
+    "player_name": "Loren Strickland",
+    "position": "SAF",
+    "level": "Pro",
+    "team_id": "DET",
+    "team": "DET",
+    "school": "",
+    "league": "NFL",
+    "age": 25.0,
+    "height": 70.0,
+    "weight": 202.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|L.Strickland|DET",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_83f4af80eccf"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "DET",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2024.0,
+      "week": 2.0,
+      "team": "DET",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2024.0,
+      "week": 1.0,
+      "team": "DET",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Thumb"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 14.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 17.0
+    },
+    {
+      "season": 2024,
+      "week": 16,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 12,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2024,
+      "week": 9,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "DET",
+      "depth_position": "Free Safety",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "DET",
+      "depth_position": "Free Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Free Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Strong Safety",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

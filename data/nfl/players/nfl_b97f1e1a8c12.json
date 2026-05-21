@@ -1,0 +1,39 @@
+{
+  "player": {
+    "player_name": "Demetrius Knight Jr.",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "CIN",
+    "team": "CIN",
+    "school": "",
+    "league": "NFL",
+    "age": 25.0,
+    "height": 74.0,
+    "weight": 240.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|D.Knight|CIN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_b97f1e1a8c12"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "CIN",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CIN",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

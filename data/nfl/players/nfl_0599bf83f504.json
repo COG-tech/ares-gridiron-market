@@ -1,0 +1,148 @@
+{
+  "player": {
+    "player_name": "Vernon Broughton",
+    "position": "DT",
+    "level": "Pro",
+    "team_id": "NO",
+    "team": "NO",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 77.0,
+    "weight": 311.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|V.Broughton|NO",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_0599bf83f504"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "NO",
+      "opponent": "SF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "NO",
+      "offense_snaps": 0.0,
+      "defense_snaps": 24.0,
+      "special_teams_snaps": 0.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NO",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NO",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NO",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 5.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NO",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NO",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "New Orleans Saints",
+      "school": "Texas",
+      "round": 3.0,
+      "pick": 71.0,
+      "height": "6-5",
+      "weight": 311.0,
+      "forty": ""
+    },
+    {
+      "draft_year": 2025.0,
+      "team": "NOR",
+      "school": "Texas",
+      "round": 3.0,
+      "pick": 71.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

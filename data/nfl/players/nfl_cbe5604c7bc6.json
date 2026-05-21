@@ -1,0 +1,649 @@
+{
+  "player": {
+    "player_name": "Spencer Burford",
+    "position": "G",
+    "level": "Pro",
+    "team_id": "LA",
+    "team": "LA",
+    "school": "",
+    "league": "NFL",
+    "age": 25.0,
+    "height": 76.0,
+    "weight": 300.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|S.Burford|LA",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_cbe5604c7bc6"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "SF",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "SF",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 16,
+      "team": "SF",
+      "opponent": "BAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 13,
+      "team": "SF",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 8,
+      "team": "SF",
+      "opponent": "CIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 6,
+      "team": "SF",
+      "opponent": "CLE",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 5,
+      "team": "SF",
+      "opponent": "DAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2023,
+      "week": 1,
+      "team": "SF",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 17,
+      "team": "SF",
+      "opponent": "LV",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "team": "SF",
+      "opponent": "ARI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 5,
+      "team": "SF",
+      "opponent": "CAR",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 3,
+      "team": "SF",
+      "opponent": "DEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2022,
+      "week": 1,
+      "team": "SF",
+      "opponent": "CHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "SF",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 9.0,
+      "team": "SF",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 8.0,
+      "team": "SF",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 3.0,
+      "team": "SF",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2024.0,
+      "week": 18.0,
+      "team": "SF",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Calf"
+    },
+    {
+      "season": 2024.0,
+      "week": 17.0,
+      "team": "SF",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Calf"
+    },
+    {
+      "season": 2024.0,
+      "week": 1.0,
+      "team": "SF",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2023.0,
+      "week": 16.0,
+      "team": "SF",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2023.0,
+      "week": 15.0,
+      "team": "SF",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2023.0,
+      "week": 14.0,
+      "team": "SF",
+      "report_status": "Doubtful",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2023.0,
+      "week": 13.0,
+      "team": "SF",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2023.0,
+      "week": 12.0,
+      "team": "SF",
+      "report_status": "Questionable",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 20,
+      "team": "SF",
+      "offense_snaps": 60.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 19,
+      "team": "SF",
+      "offense_snaps": 59.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "SF",
+      "offense_snaps": 42.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "SF",
+      "offense_snaps": 72.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "SF",
+      "offense_snaps": 66.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "SF",
+      "offense_snaps": 65.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "SF",
+      "offense_snaps": 46.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "SF",
+      "offense_snaps": 35.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "SF",
+      "offense_snaps": 30.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "SF",
+      "offense_snaps": 35.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "SF",
+      "offense_snaps": 66.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "SF",
+      "offense_snaps": 1.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2024,
+      "week": 16,
+      "team": "SF",
+      "offense_snaps": 31.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "SF",
+      "offense_snaps": 51.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2024,
+      "week": 12,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "team": "SF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "SF",
+      "depth_position": "Left Tackle",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "SF",
+      "depth_position": "Left Guard",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "SF",
+      "depth_position": "Left Tackle",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "SF",
+      "depth_position": "Left Guard",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "SF",
+      "depth_position": "Left Tackle",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "SF",
+      "depth_position": "Left Guard",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2022.0,
+      "team": "San Francisco 49ers",
+      "school": "Texas-San Antonio",
+      "round": 4.0,
+      "pick": 134.0,
+      "height": "6-4",
+      "weight": 304.0,
+      "forty": 5.19
+    },
+    {
+      "draft_year": 2022.0,
+      "team": "SFO",
+      "school": "Texas-San Antonio",
+      "round": 4.0,
+      "pick": 134.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    },
+    {
+      "draft_year": 2002.0,
+      "team": "SDG",
+      "school": "Cal Poly-San Luis Obispo",
+      "round": 7.0,
+      "pick": 216.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

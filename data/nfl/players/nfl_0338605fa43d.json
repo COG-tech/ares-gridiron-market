@@ -1,0 +1,458 @@
+{
+  "player": {
+    "player_name": "T.J. Sanders",
+    "position": "DT",
+    "level": "Pro",
+    "team_id": "BUF",
+    "team": "BUF",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 76.0,
+    "weight": 297.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|T.Sanders|BUF",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_0338605fa43d"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 16,
+      "def_sacks": 1.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "BUF",
+      "opponent": "NYJ",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 1.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "BUF",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "BUF",
+      "opponent": "CLE",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "BUF",
+      "opponent": "NE",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "BUF",
+      "opponent": "CIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "BUF",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "BUF",
+      "opponent": "HOU",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "BUF",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "BUF",
+      "opponent": "NO",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "BUF",
+      "opponent": "NYJ",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 19.0,
+      "team": "BUF",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "BUF",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 11.0,
+      "team": "BUF",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 6.0,
+      "team": "BUF",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "BUF",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 20,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 19,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 17.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 31.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 35.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 34.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 14.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 16.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 36.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 36.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 23.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 16.0,
+      "special_teams_snaps": 7.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Right Defensive Tackle",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Right Defensive Tackle",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Right Defensive Tackle",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Left Defensive Tackle",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Right Defensive Tackle",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Right Defensive Tackle",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "Buffalo Bills",
+      "school": "South Carolina",
+      "round": 2.0,
+      "pick": 41.0,
+      "height": "6-4",
+      "weight": 297.0,
+      "forty": ""
+    },
+    {
+      "draft_year": 2025.0,
+      "team": "BUF",
+      "school": "South Carolina",
+      "round": 2.0,
+      "pick": 41.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

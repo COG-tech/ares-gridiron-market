@@ -1,0 +1,96 @@
+{
+  "player": {
+    "player_name": "Ruben Hyppolite II",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "CHI",
+    "team": "CHI",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 72.0,
+    "weight": 236.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|R.Hyppolite|CHI",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_e28422da8fee"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 15.0,
+      "team": "CHI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "CHI",
+      "report_status": "Out",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Shoulder"
+    },
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "CHI",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Shoulder"
+    },
+    {
+      "season": 2025.0,
+      "week": 11.0,
+      "team": "CHI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "CHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "CHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CHI",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

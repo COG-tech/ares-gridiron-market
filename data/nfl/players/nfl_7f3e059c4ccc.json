@@ -1,0 +1,360 @@
+{
+  "player": {
+    "player_name": "Tyler Batty",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "MIN",
+    "team": "MIN",
+    "school": "",
+    "league": "NFL",
+    "age": 27.0,
+    "height": 77.0,
+    "weight": 271.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|T.Batty|MIN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_7f3e059c4ccc"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 12,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "MIN",
+      "opponent": "GB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "MIN",
+      "opponent": "DET",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "MIN",
+      "opponent": "NYG",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "MIN",
+      "opponent": "DAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "MIN",
+      "opponent": "GB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "MIN",
+      "opponent": "BAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "MIN",
+      "opponent": "DET",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "MIN",
+      "opponent": "LAC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "MIN",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 7.0,
+      "team": "MIN",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "MIN",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Knee"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 7.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 15.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 25.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 23.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 3.0,
+      "special_teams_snaps": 24.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 1.0,
+      "special_teams_snaps": 30.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 28.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 26.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 28.0,
+      "special_teams_snaps": 27.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 3.0,
+      "special_teams_snaps": 21.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "MIN",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIN",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIN",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIN",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIN",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 4.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,1 +1,1 @@
-Paid ARES detail data is not published in the public preview.
+Public NFL player profile data is published here. ARES and market model outputs stay locked for premium access.

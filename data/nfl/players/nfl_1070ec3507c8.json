@@ -1,0 +1,108 @@
+{
+  "player": {
+    "player_name": "James Pearce Jr.",
+    "position": "DE",
+    "level": "Pro",
+    "team_id": "ATL",
+    "team": "ATL",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 77.0,
+    "weight": 242.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|J.Pearce|ATL",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_1070ec3507c8"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "ATL",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "ATL",
+      "report_status": "Questionable",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Foot"
+    },
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "ATL",
+      "report_status": "Questionable",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Back"
+    },
+    {
+      "season": 2025.0,
+      "week": 10.0,
+      "team": "ATL",
+      "report_status": "",
+      "practice_status": "Limited Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 4.0,
+      "team": "ATL",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 3.0,
+      "team": "ATL",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 2.0,
+      "team": "ATL",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Groin"
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "ATL",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "ATL",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "ATL",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "ATL",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,0 +1,60 @@
+{
+  "player": {
+    "player_name": "Chris Rumph II",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "NO",
+    "team": "NO",
+    "school": "",
+    "league": "NFL",
+    "age": 27.0,
+    "height": 74.0,
+    "weight": 244.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|C.Rumph|NO",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_b0313b271fa9"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 15.0,
+      "team": "NO",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NO",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NO",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 4.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

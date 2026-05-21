@@ -1,0 +1,134 @@
+{
+  "player": {
+    "player_name": "Billy Bowman Jr.",
+    "position": "SAF",
+    "level": "Pro",
+    "team_id": "ATL",
+    "team": "ATL",
+    "school": "",
+    "league": "NFL",
+    "age": 23.0,
+    "height": 70.0,
+    "weight": 194.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|B.Bowman|ATL",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_5146f38f9094"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 12.0,
+      "team": "ATL",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Achilles"
+    },
+    {
+      "season": 2025.0,
+      "week": 11.0,
+      "team": "ATL",
+      "report_status": "",
+      "practice_status": "Limited Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 10.0,
+      "team": "ATL",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 9.0,
+      "team": "ATL",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 8.0,
+      "team": "ATL",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 7.0,
+      "team": "ATL",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 6.0,
+      "team": "ATL",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 2.0,
+      "team": "ATL",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Shoulder"
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "ATL",
+      "depth_position": "Nickel Back",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "ATL",
+      "depth_position": "Nickel Back",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "ATL",
+      "depth_position": "Nickel Back",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "ATL",
+      "depth_position": "Nickel Back",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "ATL",
+      "depth_position": "Nickel Back",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "ATL",
+      "depth_position": "Nickel Back",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "ATL",
+      "depth_position": "Nickel Back",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

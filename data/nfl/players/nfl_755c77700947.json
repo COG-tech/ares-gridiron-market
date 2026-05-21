@@ -1,0 +1,211 @@
+{
+  "player": {
+    "player_name": "Tyler Baron",
+    "position": "DE",
+    "level": "Pro",
+    "team_id": "NYJ",
+    "team": "NYJ",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 76.0,
+    "weight": 258.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|T.Baron|NYJ",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_755c77700947"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 8,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "NYJ",
+      "opponent": "NE",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "NYJ",
+      "opponent": "DAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "NYJ",
+      "opponent": "MIA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "NYJ",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 1.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 25.0,
+      "special_teams_snaps": 12.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 25.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 7.0,
+      "special_teams_snaps": 7.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 5.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "NYJ",
+      "school": "Miami (FL)",
+      "round": 5.0,
+      "pick": 176.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

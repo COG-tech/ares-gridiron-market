@@ -8,7 +8,7 @@
   <link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
   <link href="../assets/css/style.bundle.css" rel="stylesheet" media="print" onload="this.media='all'" type="text/css">
   <link href="../assets/css/ares-theme.css?v=20260520-nfl-local-logos1" rel="stylesheet" type="text/css">
-  <link href="../assets/css/ares-components.css?v=20260520-nfl-local-logos1" rel="stylesheet" type="text/css">
+  <link href="../assets/css/ares-components.css?v=20260521-premium1" rel="stylesheet" type="text/css">
   <style>
     .page-main{width:min(100%,1280px);margin:0 auto;padding:clamp(1rem,2.4vw,2rem)}
     .profile-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
@@ -50,7 +50,24 @@
     </section>
     <section class="profile-grid ares-section">
       <article class="ares-card"><h2>Player File</h2><div id="player-file" class="metric-list"></div></article>
-      <article class="ares-card"><h2>Paid Data Access</h2><div id="nfl-link-status" class="metric-list"></div></article>
+      <article class="ares-card"><h2>NFL Data Coverage</h2><div id="nfl-link-status" class="metric-list"></div></article>
+    </section>
+    <section class="ares-card ares-section ares-premium-teaser" data-ares-premium-lock data-premium-href="../premium.html">
+      <div class="section-heading">
+        <div><h2>ARES Premium Evaluation</h2><span>Model grades, player value, rank movement, and market signal.</span></div>
+      </div>
+      <div class="ares-premium-preview" aria-hidden="true">
+        <div><span>ARES Score</span><strong>97.8</strong><i style="width:92%"></i></div>
+        <div><span>Market Score</span><strong>94.1</strong><i style="width:88%"></i></div>
+        <div><span>Position Rank</span><strong>Top 5</strong><i style="width:81%"></i></div>
+        <div><span>Trajectory</span><strong>Rising</strong><i style="width:76%"></i></div>
+      </div>
+      <a class="ares-premium-overlay" href="../premium.html">
+        <span>Premium ARES data</span>
+        <strong>Unlock player grades</strong>
+      </a>
+    </section>
+    <section class="profile-grid ares-section">
       <article class="ares-card"><h2>Season Summary</h2><div class="table-responsive"><table class="ares-table"><thead><tr><th>Season</th><th>Pass</th><th>Rush</th><th>Rec</th><th>Defense</th><th>PPR</th></tr></thead><tbody id="season-summary"></tbody></table></div></article>
       <article class="ares-card"><h2>Recent Weekly Stats</h2><div class="table-responsive"><table class="ares-table"><thead><tr><th>Season</th><th>Week</th><th>Team</th><th>Opponent</th><th>Line</th></tr></thead><tbody id="weekly-recent"></tbody></table></div></article>
     </section>
@@ -128,6 +145,8 @@
       renderProfileCharts(details);
       document.getElementById("nfl-link-status").innerHTML = [
         metric("Linked", "Yes"),
+        metric("ARES", "Premium locked"),
+        metric("Market", "Premium locked"),
         metric("Season summaries", (details.season_summary || []).length),
         metric("Recent weekly rows", (details.weekly_recent || []).length),
         metric("Injury rows", (details.injuries_recent || []).length),
@@ -163,13 +182,13 @@
         metric("Position", "Not selected"),
         metric("Team", "Not selected"),
         metric("League", "NFL"),
-        metric("ARES", "Model output"),
-        metric("Market", "Model output")
+        metric("ARES", "Premium locked"),
+        metric("Market", "Premium locked")
       ].join("");
       document.getElementById("nfl-link-status").innerHTML = [
         metric("Public access", "Enabled"),
         metric("Player details", "Open when linked"),
-        metric("Model outputs", "ARES-controlled"),
+        metric("ARES model", "Premium locked"),
         metric("Linked NFL files", "Open when exported")
       ].join("");
       window.AresCharts.renderChart("season-production-chart", [], [], { emptyMessage: "Select a player to load season production." });
@@ -203,7 +222,7 @@
       });
     });
   </script>
-  <script src="../assets/js/ares-paid-preview.js?v=20260520-logo1"></script>
+  <script src="../assets/js/ares-paid-preview.js?v=20260521-premium1"></script>
     <script src="../assets/js/ares-mega-nav.js?v=20260520-nfl-local-logos1"></script>
 </body>
 </html>

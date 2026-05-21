@@ -1,0 +1,253 @@
+{
+  "player": {
+    "player_name": "Oluwafemi Oladejo",
+    "position": "DE",
+    "level": "Pro",
+    "team_id": "TEN",
+    "team": "TEN",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 75.0,
+    "weight": 259.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|O.Oladejo|TEN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_89b619370d91"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 10,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "TEN",
+      "opponent": "LV",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "TEN",
+      "opponent": "ARI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "TEN",
+      "opponent": "HOU",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "TEN",
+      "opponent": "IND",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "TEN",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 18.0,
+      "team": "TEN",
+      "report_status": "Out",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Fibula"
+    },
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "TEN",
+      "report_status": "Out",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Fibula"
+    },
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "TEN",
+      "report_status": "Out",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Fibula"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "TEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 23.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "TEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 43.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "TEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 37.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "TEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 39.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "TEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 46.0,
+      "special_teams_snaps": 6.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "TEN",
+      "school": "UCLA",
+      "round": 2.0,
+      "pick": 52.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

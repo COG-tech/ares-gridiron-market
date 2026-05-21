@@ -1,0 +1,228 @@
+{
+  "player": {
+    "player_name": "Dorian Strong",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "BUF",
+    "team": "BUF",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 72.0,
+    "weight": 185.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|D.Strong|BUF",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_87a64f2b372e"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 10,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "BUF",
+      "opponent": "NO",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "BUF",
+      "opponent": "MIA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "BUF",
+      "opponent": "NYJ",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "BUF",
+      "opponent": "BAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "BUF",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Neck"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 15.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 21.0,
+      "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "BUF",
+      "offense_snaps": 0.0,
+      "defense_snaps": 51.0,
+      "special_teams_snaps": 10.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 5.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "BUF",
+      "school": "Virginia Tech",
+      "round": 6.0,
+      "pick": 177.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

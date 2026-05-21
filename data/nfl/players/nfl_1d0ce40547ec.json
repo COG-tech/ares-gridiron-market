@@ -1,0 +1,66 @@
+{
+  "player": {
+    "player_name": "Sam Franklin Jr.",
+    "position": "SAF",
+    "level": "Pro",
+    "team_id": "BUF",
+    "team": "BUF",
+    "school": "",
+    "league": "NFL",
+    "age": 30.0,
+    "height": 75.0,
+    "weight": 210.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|S.Franklin|BUF",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_1d0ce40547ec"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 10.0,
+      "team": "BUF",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Free Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Free Safety",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "BUF",
+      "depth_position": "Free Safety",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,0 +1,110 @@
+{
+  "player": {
+    "player_name": "Dante Trader Jr.",
+    "position": "SAF",
+    "level": "Pro",
+    "team_id": "MIA",
+    "team": "MIA",
+    "school": "",
+    "league": "NFL",
+    "age": 23.0,
+    "height": 71.0,
+    "weight": 202.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|D.Trader|MIA",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_540668a4e273"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 10.0,
+      "team": "MIA",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 9.0,
+      "team": "MIA",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 8.0,
+      "team": "MIA",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 7.0,
+      "team": "MIA",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 1.0,
+      "team": "MIA",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "MIA",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "MIA",
+      "depth_position": "Strong Safety",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "MIA",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Nickel Back",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Nickel Back",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Free Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

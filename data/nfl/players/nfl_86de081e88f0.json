@@ -1,0 +1,79 @@
+{
+  "player": {
+    "player_name": "DeMarcus Walker",
+    "position": "DL",
+    "level": "Pro",
+    "team_id": "WAS",
+    "team": "WAS",
+    "school": "",
+    "league": "NFL",
+    "age": 31.0,
+    "height": 76.0,
+    "weight": 280.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|D.Walker|WAS",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_86de081e88f0"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "WAS",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "WAS",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 0.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2025.0,
+      "team": "WAS",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,0 +1,179 @@
+{
+  "player": {
+    "player_name": "Azeez Ojulari",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "PHI",
+    "team": "PHI",
+    "school": "",
+    "league": "NFL",
+    "age": 25.0,
+    "height": 75.0,
+    "weight": 240.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|A.Ojulari|PHI",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_53f586ce2d6c"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 6,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "PHI",
+      "opponent": "NYG",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "PHI",
+      "opponent": "DEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 19.0,
+      "team": "PHI",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 8.0,
+      "team": "PHI",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hamstring"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "PHI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 4.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "PHI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 29.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "PHI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 34.0,
+      "special_teams_snaps": 0.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "PHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "PHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "PHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "PHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "PHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "PHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "PHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "PHI",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "PHI",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

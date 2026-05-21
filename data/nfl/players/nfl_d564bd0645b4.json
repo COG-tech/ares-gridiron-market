@@ -1,0 +1,76 @@
+{
+  "player": {
+    "player_name": "Haggai Ndubuisi",
+    "position": "DL",
+    "level": "Pro",
+    "team_id": "HOU",
+    "team": "HOU",
+    "school": "",
+    "league": "NFL",
+    "age": 25.0,
+    "height": 79.0,
+    "weight": 298.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|H.Ndubuisi|HOU",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_d564bd0645b4"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "HOU",
+      "opponent": "KC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2025.0,
+      "team": "HOU",
+      "depth_position": "Left Defensive Tackle",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "HOU",
+      "depth_position": "Right Defensive Tackle",
+      "depth_rank": 4.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

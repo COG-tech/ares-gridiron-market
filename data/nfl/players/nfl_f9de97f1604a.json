@@ -1,0 +1,382 @@
+{
+  "player": {
+    "player_name": "Daniel Thomas",
+    "position": "DB",
+    "level": "Pro",
+    "team_id": "DET",
+    "team": "DET",
+    "school": "",
+    "league": "NFL",
+    "age": 27.0,
+    "height": 70.0,
+    "weight": 215.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|D.Thomas|DET",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_f9de97f1604a"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 23,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "DET",
+      "opponent": "CHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 7,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "DET",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 7,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "DET",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "DET",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "DET",
+      "opponent": "DAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "DET",
+      "opponent": "GB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "DET",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "DET",
+      "opponent": "BAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "DET",
+      "opponent": "CHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 10.0,
+      "team": "DET",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Forearm"
+    },
+    {
+      "season": 2025.0,
+      "week": 9.0,
+      "team": "DET",
+      "report_status": "Out",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Forearm"
+    },
+    {
+      "season": 2025.0,
+      "week": 4.0,
+      "team": "DET",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Forearm"
+    },
+    {
+      "season": 2025.0,
+      "week": 2.0,
+      "team": "DET",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 28.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 51.0,
+      "special_teams_snaps": 15.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 3.0,
+      "special_teams_snaps": 24.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 12.0,
+      "special_teams_snaps": 27.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 8.0,
+      "special_teams_snaps": 25.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 25.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 23.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 21.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 9.0,
+      "special_teams_snaps": 18.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "DET",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 11.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "DET",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Strong Safety",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Free Safety",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Free Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DET",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

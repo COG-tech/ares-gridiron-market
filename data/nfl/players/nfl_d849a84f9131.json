@@ -1,0 +1,45 @@
+{
+  "player": {
+    "player_name": "Chris Smith II",
+    "position": "DB",
+    "level": "Pro",
+    "team_id": "LV",
+    "team": "LV",
+    "school": "",
+    "league": "NFL",
+    "age": 26.0,
+    "height": 71.0,
+    "weight": 195.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|C.Smith|LV",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_d849a84f9131"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2025.0,
+      "team": "LV",
+      "depth_position": "Free Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LV",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LV",
+      "depth_position": "Free Safety",
+      "depth_rank": 4.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

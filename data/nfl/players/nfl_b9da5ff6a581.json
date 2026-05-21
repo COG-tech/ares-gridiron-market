@@ -1,0 +1,54 @@
+{
+  "player": {
+    "player_name": "Byron Murphy II",
+    "position": "DT",
+    "level": "Pro",
+    "team_id": "SEA",
+    "team": "SEA",
+    "school": "",
+    "league": "NFL",
+    "age": 23.0,
+    "height": 72.0,
+    "weight": 306.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|B.Murphy|SEA",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_b9da5ff6a581"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "SEA",
+      "report_status": "",
+      "practice_status": "Limited Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "SEA",
+      "depth_position": "Left Defensive Tackle",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "SEA",
+      "depth_position": "Nose Tackle",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "SEA",
+      "depth_position": "Nose Tackle",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

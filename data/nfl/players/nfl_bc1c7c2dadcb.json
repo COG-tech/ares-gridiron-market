@@ -1,0 +1,63 @@
+{
+  "player": {
+    "player_name": "F.Oladejo",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "TEN",
+    "team": "TEN",
+    "school": "",
+    "league": "NFL",
+    "age": "",
+    "height": "",
+    "weight": "",
+    "source": "nflreadpy",
+    "source_player_id": "CB|F.Oladejo|TEN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_bc1c7c2dadcb"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "TEN",
+      "opponent": "DEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [],
+  "draft_combine": [],
+  "is_placeholder": false
+}

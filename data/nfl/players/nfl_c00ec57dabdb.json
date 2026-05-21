@@ -1,0 +1,69 @@
+{
+  "player": {
+    "player_name": "Jeremiah Pharms Jr.",
+    "position": "DE",
+    "level": "Pro",
+    "team_id": "NE",
+    "team": "NE",
+    "school": "",
+    "league": "NFL",
+    "age": 29.0,
+    "height": 75.0,
+    "weight": 300.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|J.Pharms|NE",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_c00ec57dabdb"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NE",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NE",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NE",
+      "depth_position": "Strong Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NE",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NE",
+      "depth_position": "Strong Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NE",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NE",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

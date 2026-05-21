@@ -1,0 +1,90 @@
+{
+  "player": {
+    "player_name": "Will McDonald IV",
+    "position": "DE",
+    "level": "Pro",
+    "team_id": "NYJ",
+    "team": "NYJ",
+    "school": "",
+    "league": "NFL",
+    "age": 26.0,
+    "height": 76.0,
+    "weight": 245.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|W.McDonald|NYJ",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_1f52a8a71aa0"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "NYJ",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "NYJ",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 12.0,
+      "team": "NYJ",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Quadricep"
+    },
+    {
+      "season": 2025.0,
+      "week": 11.0,
+      "team": "NYJ",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Quadricep"
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,0 +1,111 @@
+{
+  "player": {
+    "player_name": "Rayuan Lane III",
+    "position": "SAF",
+    "level": "Pro",
+    "team_id": "JAX",
+    "team": "JAX",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 71.0,
+    "weight": 197.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|R.Lane|JAX",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_4fe40b09130b"
+  },
+  "season_summary": [
+    {
+      "season": 2014,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2014,
+      "week": 9,
+      "team": "JAX",
+      "opponent": "CIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "JAX",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "JAX",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "JAX",
+      "depth_position": "Strong Safety",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "JAX",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "JAX",
+      "depth_position": "Strong Safety",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "JAX",
+      "depth_position": "Strong Safety",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2001.0,
+      "team": "JAX",
+      "school": "Chattanooga",
+      "round": 7.0,
+      "pick": 235.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

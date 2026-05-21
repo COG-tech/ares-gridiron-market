@@ -1,0 +1,132 @@
+{
+  "player": {
+    "player_name": "Kevin Winston Jr.",
+    "position": "SAF",
+    "level": "Pro",
+    "team_id": "TEN",
+    "team": "TEN",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 74.0,
+    "weight": 213.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|K.Winston|TEN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_70823e79d641"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 7.0,
+      "team": "TEN",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 6.0,
+      "team": "TEN",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "TEN",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 4.0,
+      "team": "TEN",
+      "report_status": "Doubtful",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 3.0,
+      "team": "TEN",
+      "report_status": "Doubtful",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 2.0,
+      "team": "TEN",
+      "report_status": "Doubtful",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 1.0,
+      "team": "TEN",
+      "report_status": "Doubtful",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Hamstring"
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Free Safety",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Nickel Back",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "TEN",
+      "depth_position": "Nickel Back",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Nickel Back",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Nickel Back",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Nickel Back",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

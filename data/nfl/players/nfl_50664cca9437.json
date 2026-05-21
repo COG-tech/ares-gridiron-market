@@ -1,0 +1,178 @@
+{
+  "player": {
+    "player_name": "Jay Toia",
+    "position": "DT",
+    "level": "Pro",
+    "team_id": "DAL",
+    "team": "DAL",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 74.0,
+    "weight": 342.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|J.Toia|DAL",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_50664cca9437"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "DAL",
+      "opponent": "ARI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "DAL",
+      "opponent": "CAR",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "DAL",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 13.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 20.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 19.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "DAL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 20.0,
+      "special_teams_snaps": 4.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "DAL",
+      "depth_position": "Nose Tackle",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "DAL",
+      "depth_position": "Left Defensive Tackle",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DAL",
+      "depth_position": "Left Defensive Tackle",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DAL",
+      "depth_position": "Left Defensive Tackle",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "DAL",
+      "school": "UCLA",
+      "round": 7.0,
+      "pick": 217.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

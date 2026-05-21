@@ -1,0 +1,498 @@
+{
+  "player": {
+    "player_name": "Marcelino McCrary-Ball",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "NYJ",
+    "team": "NYJ",
+    "school": "",
+    "league": "NFL",
+    "age": 27.0,
+    "height": 72.0,
+    "weight": 214.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|M.McCrary-Ball|NYJ",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_4b28e22abab5"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 23,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 7,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "NYJ",
+      "opponent": "ATL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 5,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "NYJ",
+      "opponent": "BAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "NYJ",
+      "opponent": "TB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 7,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "NYJ",
+      "opponent": "BUF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 5,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "NYJ",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 5,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "team": "NYJ",
+      "opponent": "BUF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 16,
+      "team": "NYJ",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "team": "NYJ",
+      "opponent": "JAX",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "NYJ",
+      "opponent": "MIA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "NYJ",
+      "opponent": "IND",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "NYJ",
+      "opponent": "DEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "NYJ",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 12.0,
+      "team": "NYJ",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 3.0,
+      "team": "NYJ",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 2.0,
+      "team": "NYJ",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 29.0,
+      "special_teams_snaps": 23.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 22.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 38.0,
+      "special_teams_snaps": 23.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 28.0,
+      "special_teams_snaps": 26.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 11.0,
+      "special_teams_snaps": 26.0
+    },
+    {
+      "season": 2024,
+      "week": 18,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 18.0
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 16,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 17.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 1.0,
+      "special_teams_snaps": 21.0
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 2.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 9,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 5,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 21.0
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 18.0
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 14.0
+    },
+    {
+      "season": 2023,
+      "week": 16,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 24.0
+    },
+    {
+      "season": 2023,
+      "week": 11,
+      "team": "NYJ",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 19.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NYJ",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

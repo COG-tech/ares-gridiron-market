@@ -1,0 +1,369 @@
+{
+  "player": {
+    "player_name": "Tristin McCollum",
+    "position": "DB",
+    "level": "Pro",
+    "team_id": "LV",
+    "team": "LV",
+    "school": "",
+    "league": "NFL",
+    "age": 27.0,
+    "height": 75.0,
+    "weight": 195.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|T.McCollum|LV",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_f52a74c93e70"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 14,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "LV",
+      "opponent": "KC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "LV",
+      "opponent": "NYG",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "LV",
+      "opponent": "DEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "LV",
+      "opponent": "JAX",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "LV",
+      "opponent": "KC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "LV",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "LV",
+      "opponent": "IND",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "LV",
+      "opponent": "CHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "LV",
+      "opponent": "WAS",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 43.0,
+      "special_teams_snaps": 27.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 27.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 18.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 1.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 29.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 21.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 56.0,
+      "special_teams_snaps": 21.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 12.0,
+      "special_teams_snaps": 18.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 4.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 4.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 21.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 2.0,
+      "special_teams_snaps": 27.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "LV",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "LV",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LV",
+      "depth_position": "Free Safety",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LV",
+      "depth_position": "Strong Safety",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "LV",
+      "depth_position": "Strong Safety",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

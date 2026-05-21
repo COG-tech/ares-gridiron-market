@@ -1,0 +1,245 @@
+{
+  "player": {
+    "player_name": "Julius Brents",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "MIA",
+    "team": "MIA",
+    "school": "",
+    "league": "NFL",
+    "age": 26.0,
+    "height": 75.0,
+    "weight": 198.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|J.Brents|MIA",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_61076138274f"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 14,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "MIA",
+      "opponent": "WAS",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 5,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "MIA",
+      "opponent": "BUF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 5,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "MIA",
+      "opponent": "CLE",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "MIA",
+      "opponent": "LAC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "MIA",
+      "opponent": "CAR",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 49.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 52.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 6.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 3.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "MIA",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 7.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "MIA",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "MIA",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "MIA",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,0 +1,86 @@
+{
+  "player": {
+    "player_name": "Will Anderson Jr.",
+    "position": "DE",
+    "level": "Pro",
+    "team_id": "HOU",
+    "team": "HOU",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 76.0,
+    "weight": 243.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|W.Anderson|HOU",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_0bfb5f68c5d8"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "HOU",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "HOU",
+      "report_status": "",
+      "practice_status": "Limited Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 12.0,
+      "team": "HOU",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 10.0,
+      "team": "HOU",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "HOU",
+      "report_status": "",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "HOU",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "HOU",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "HOU",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

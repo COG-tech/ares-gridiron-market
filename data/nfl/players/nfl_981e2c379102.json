@@ -1,0 +1,280 @@
+{
+  "player": {
+    "player_name": "Dwight McGlothern",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "MIN",
+    "team": "MIN",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 74.0,
+    "weight": 185.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|D.McGlothern|MIN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_981e2c379102"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "MIN",
+      "opponent": "BAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "MIN",
+      "opponent": "CIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "team": "MIN",
+      "opponent": "CHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 18.0,
+      "team": "MIN",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Hip"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 1.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 4.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 15.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 11.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2024,
+      "week": 19,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2024,
+      "week": 18,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 3.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2024,
+      "week": 16,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 10.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "MIN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 6.0,
+      "special_teams_snaps": 0.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "MIN",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "MIN",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIN",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIN",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

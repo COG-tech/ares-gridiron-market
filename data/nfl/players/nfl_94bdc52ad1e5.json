@@ -1,0 +1,119 @@
+{
+  "player": {
+    "player_name": "Durell Nchami",
+    "position": "DE",
+    "level": "Pro",
+    "team_id": "IND",
+    "team": "IND",
+    "school": "",
+    "league": "NFL",
+    "age": 26.0,
+    "height": 76.0,
+    "weight": 258.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|D.Nchami|IND",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_94bdc52ad1e5"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "IND",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 2.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 2.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "IND",
+      "offense_snaps": 0.0,
+      "defense_snaps": 29.0,
+      "special_teams_snaps": 7.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "IND",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "IND",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "IND",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "IND",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "IND",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 4.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

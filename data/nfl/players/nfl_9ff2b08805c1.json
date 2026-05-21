@@ -1,0 +1,151 @@
+{
+  "player": {
+    "player_name": "Elijah Garcia",
+    "position": "DE",
+    "level": "Pro",
+    "team_id": "ATL",
+    "team": "ATL",
+    "school": "",
+    "league": "NFL",
+    "age": 28.0,
+    "height": 77.0,
+    "weight": 302.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|E.Garcia|ATL",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_9ff2b08805c1"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 5,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "ATL",
+      "opponent": "NO",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "ATL",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "ATL",
+      "opponent": "SEA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 7.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 22.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "ATL",
+      "offense_snaps": 0.0,
+      "defense_snaps": 16.0,
+      "special_teams_snaps": 10.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "ATL",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "ATL",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "ATL",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "ATL",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,0 +1,408 @@
+{
+  "player": {
+    "player_name": "Benjamin Morrison",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "TB",
+    "team": "TB",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 72.0,
+    "weight": 190.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|B.Morrison|TB",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_e8880beba640"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 25,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "TB",
+      "opponent": "CAR",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "TB",
+      "opponent": "MIA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "TB",
+      "opponent": "CAR",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 6,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "TB",
+      "opponent": "BUF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "TB",
+      "opponent": "NE",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "TB",
+      "opponent": "NO",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "TB",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "TB",
+      "opponent": "NYJ",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "TB",
+      "opponent": "HOU",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 18.0,
+      "team": "TB",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 15.0,
+      "team": "TB",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "TB",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "TB",
+      "report_status": "Out",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 12.0,
+      "team": "TB",
+      "report_status": "Questionable",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 7.0,
+      "team": "TB",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 6.0,
+      "team": "TB",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "TB",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 2.0,
+      "team": "TB",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Quadricep"
+    },
+    {
+      "season": 2025.0,
+      "week": 1.0,
+      "team": "TB",
+      "report_status": "Out",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Quadricep"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "TB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 51.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "TB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 55.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "TB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 54.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "TB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 54.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "TB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 10.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "TB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 43.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "TB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 22.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "TB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 39.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "TB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "TB",
+      "offense_snaps": 0.0,
+      "defense_snaps": 13.0,
+      "special_teams_snaps": 4.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "TB",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "TB",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TB",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TB",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "TB",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

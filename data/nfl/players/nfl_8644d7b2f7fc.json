@@ -1,0 +1,33 @@
+{
+  "player": {
+    "player_name": "Leonard Taylor III",
+    "position": "DL",
+    "level": "Pro",
+    "team_id": "NYJ",
+    "team": "NYJ",
+    "school": "",
+    "league": "NFL",
+    "age": 23.0,
+    "height": 75.0,
+    "weight": 305.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|L.Taylor|NYJ",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_8644d7b2f7fc"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2025.0,
+      "team": "NYJ",
+      "depth_position": "Right Defensive Tackle",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,0 +1,468 @@
+{
+  "player": {
+    "player_name": "Isaiah Adams",
+    "position": "G",
+    "level": "Pro",
+    "team_id": "SF",
+    "team": "ARI",
+    "school": "",
+    "league": "NFL",
+    "age": 25.0,
+    "height": 76.0,
+    "weight": 316.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|I.Adams|SF",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_b95914f7bd0a"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "ARI",
+      "opponent": "HOU",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "ARI",
+      "opponent": "SF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "ARI",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "ARI",
+      "opponent": "CAR",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "ARI",
+      "opponent": "NO",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "team": "ARI",
+      "opponent": "LA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "ARI",
+      "opponent": "SEA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "team": "ARI",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2024.0,
+      "week": 12.0,
+      "team": "ARI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2024.0,
+      "week": 8.0,
+      "team": "ARI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2024.0,
+      "week": 7.0,
+      "team": "ARI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2024.0,
+      "week": 6.0,
+      "team": "ARI",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2024.0,
+      "week": 5.0,
+      "team": "ARI",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Thumb"
+    },
+    {
+      "season": 2024.0,
+      "week": 4.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Thumb"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "ARI",
+      "offense_snaps": 55.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "ARI",
+      "offense_snaps": 57.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "ARI",
+      "offense_snaps": 57.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 7.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "ARI",
+      "offense_snaps": 66.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "ARI",
+      "offense_snaps": 62.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "ARI",
+      "offense_snaps": 61.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "ARI",
+      "offense_snaps": 52.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "ARI",
+      "offense_snaps": 28.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "ARI",
+      "offense_snaps": 3.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "ARI",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "ARI",
+      "offense_snaps": 68.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "ARI",
+      "offense_snaps": 67.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "ARI",
+      "offense_snaps": 66.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "ARI",
+      "offense_snaps": 55.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "ARI",
+      "offense_snaps": 66.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2024,
+      "week": 18,
+      "team": "ARI",
+      "offense_snaps": 65.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "team": "ARI",
+      "offense_snaps": 79.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2024,
+      "week": 16,
+      "team": "ARI",
+      "offense_snaps": 70.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 6.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "ARI",
+      "depth_position": "Right Guard",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "ARI",
+      "depth_position": "Right Guard",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "ARI",
+      "depth_position": "Right Guard",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "ARI",
+      "depth_position": "Right Guard",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2024.0,
+      "team": "Arizona Cardinals",
+      "school": "Illinois",
+      "round": 3.0,
+      "pick": 71.0,
+      "height": "6-4",
+      "weight": 315.0,
+      "forty": 5.22
+    },
+    {
+      "draft_year": 2024.0,
+      "team": "ARI",
+      "school": "Illinois",
+      "round": 3.0,
+      "pick": 71.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

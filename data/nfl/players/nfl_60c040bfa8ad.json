@@ -1,0 +1,142 @@
+{
+  "player": {
+    "player_name": "Harold Landry III",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "NE",
+    "team": "NE",
+    "school": "",
+    "league": "NFL",
+    "age": 29.0,
+    "height": 74.0,
+    "weight": 252.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|H.Landry|NE",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_60c040bfa8ad"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 22.0,
+      "team": "NE",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 21.0,
+      "team": "NE",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 20.0,
+      "team": "NE",
+      "report_status": "Questionable",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 19.0,
+      "team": "NE",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 18.0,
+      "team": "NE",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "NE",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "NE",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 15.0,
+      "team": "NE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "NE",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 12.0,
+      "team": "NE",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 8.0,
+      "team": "NE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 7.0,
+      "team": "NE",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Ankle"
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NE",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NE",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NE",
+      "depth_position": "Weakside Linebacker",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

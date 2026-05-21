@@ -1,6 +1,14 @@
 {
-  "public_preview": "locked",
-  "player_detail_files": 0,
-  "note": "Set ARES_PUBLISH_REAL_SITE_DATA=1 only when publishing to a protected paid surface.",
-  "is_placeholder": true
+  "source": "local nflverse cache normalized into compact site JSON",
+  "public_access": "nfl_player_detail",
+  "premium_locked": true,
+  "premium_note": "ARES and market model outputs stay locked unless published to a protected paid surface.",
+  "linked_players": 935,
+  "weekly_players": 891,
+  "injury_players": 809,
+  "snap_players": 892,
+  "depth_players": 901,
+  "draft_players": 462,
+  "detail_path": "data/nfl/players/{player_id}.json",
+  "is_placeholder": false
 }

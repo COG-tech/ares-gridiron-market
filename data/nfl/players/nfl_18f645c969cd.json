@@ -1,0 +1,72 @@
+{
+  "player": {
+    "player_name": "BJ Green II",
+    "position": "DE",
+    "level": "Pro",
+    "team_id": "JAX",
+    "team": "JAX",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 73.0,
+    "weight": 270.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|B.Green|JAX",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_18f645c969cd"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 15.0,
+      "team": "JAX",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "JAX",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "JAX",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "JAX",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "JAX",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "JAX",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "JAX",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 5.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

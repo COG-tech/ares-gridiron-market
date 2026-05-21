@@ -1,0 +1,37 @@
+{
+  "player": {
+    "player_name": "Collin Wright",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "HOU",
+    "team": "HOU",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 72.0,
+    "weight": 190.0,
+    "source": "nflreadpy",
+    "source_player_id": "FB||HOU",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_3f6acd864b16"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [],
+  "draft_combine": [
+    {
+      "draft_year": "",
+      "team": "",
+      "school": "Tennessee State",
+      "round": "",
+      "pick": "",
+      "height": "6-1",
+      "weight": 203.0,
+      "forty": 4.65
+    }
+  ],
+  "is_placeholder": false
+}

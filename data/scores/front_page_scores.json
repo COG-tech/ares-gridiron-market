@@ -1,1 +1,10 @@
-﻿{"label":"Updated every 3 hours","last_refreshed":"","empty_message":"No approved public score feed has been connected yet.","nfl_latest":[],"college_latest":[],"high_school_latest":[],"items":[],"is_placeholder":true}
+{
+  "label": "Updated every 3 hours",
+  "last_refreshed": "2026-05-21T01:23:33+00:00",
+  "empty_message": "No approved score feed has been connected yet.",
+  "nfl_latest": [],
+  "college_latest": [],
+  "high_school_latest": [],
+  "items": [],
+  "is_placeholder": false
+}

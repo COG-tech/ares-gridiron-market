@@ -1,0 +1,366 @@
+{
+  "player": {
+    "player_name": "Swayze Bozeman",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "NYG",
+    "team": "NYG",
+    "school": "",
+    "league": "NFL",
+    "age": 27.0,
+    "height": 73.0,
+    "weight": 225.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|S.Bozeman|NYG",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_4a77a6134dad"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 6,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 6,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "NYG",
+      "opponent": "DET",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "NYG",
+      "opponent": "NO",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "NYG",
+      "opponent": "KC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "NYG",
+      "opponent": "DAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 22,
+      "team": "KC",
+      "opponent": "PHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 21,
+      "team": "KC",
+      "opponent": "BUF",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "team": "KC",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "NYG",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Hip"
+    },
+    {
+      "season": 2025.0,
+      "week": 8.0,
+      "team": "NYG",
+      "report_status": "",
+      "practice_status": "Limited Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 7.0,
+      "team": "NYG",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Ankle"
+    },
+    {
+      "season": 2025.0,
+      "week": 6.0,
+      "team": "NYG",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Ankle"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 18.0,
+      "special_teams_snaps": 20.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 11.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 21.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 12.0,
+      "special_teams_snaps": 19.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "NYG",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 24.0
+    },
+    {
+      "season": 2024,
+      "week": 22,
+      "team": "KC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 21.0
+    },
+    {
+      "season": 2024,
+      "week": 21,
+      "team": "KC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 20,
+      "team": "KC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 16.0
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "team": "KC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 7.0,
+      "special_teams_snaps": 18.0
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "team": "KC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 21.0
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "team": "KC",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 18.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NYG",
+      "depth_position": "Left Inside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NYG",
+      "depth_position": "Left Inside Linebacker",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NYG",
+      "depth_position": "Left Inside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYG",
+      "depth_position": "Right Inside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYG",
+      "depth_position": "Right Inside Linebacker",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NYG",
+      "depth_position": "Left Inside Linebacker",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CHI",
+      "depth_position": "Strongside Linebacker",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,0 +1,124 @@
+{
+  "player": {
+    "player_name": "Jason Marshall Jr.",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "MIA",
+    "team": "MIA",
+    "school": "",
+    "league": "NFL",
+    "age": 23.0,
+    "height": 72.0,
+    "weight": 204.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|J.Marshall|MIA",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_5ef21b88ff3a"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 9.0,
+      "team": "MIA",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 8.0,
+      "team": "MIA",
+      "report_status": "Out",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Hamstring"
+    },
+    {
+      "season": 2025.0,
+      "week": 4.0,
+      "team": "MIA",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Hamstring"
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "MIA",
+      "depth_position": "Running Back",
+      "depth_rank": 5.0
+    },
+    {
+      "season": 2026.0,
+      "team": "MIA",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Nickel Back",
+      "depth_rank": 5.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Nickel Back",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Nickel Back",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Running Back",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Nickel Back",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Free Safety",
+      "depth_rank": 4.0
+    },
+    {
+      "season": 2025.0,
+      "team": "MIA",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

@@ -1,1 +1,11 @@
-﻿{"label":"Updated every 3 hours","empty_message":"No approved public NFL transaction feed has been connected yet.","items":[],"latest_trade":[],"latest_signing":[],"latest_release":[],"latest_practice_squad":[],"latest_roster_status":[],"is_placeholder":true}
+{
+  "label": "Updated every 3 hours",
+  "empty_message": "No approved NFL transaction feed has been connected yet.",
+  "items": [],
+  "latest_trade": [],
+  "latest_signing": [],
+  "latest_release": [],
+  "latest_practice_squad": [],
+  "latest_roster_status": [],
+  "is_placeholder": false
+}

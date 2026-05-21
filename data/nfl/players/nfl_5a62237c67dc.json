@@ -1,0 +1,433 @@
+{
+  "player": {
+    "player_name": "Will Campbell",
+    "position": "OT",
+    "level": "Pro",
+    "team_id": "PIT",
+    "team": "NE",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 78.0,
+    "weight": 319.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|W.Campbell|PIT",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_5a62237c67dc"
+  },
+  "season_summary": [
+    {
+      "season": 2025,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 2,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2025,
+      "week": 22,
+      "team": "NE",
+      "opponent": "SEA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 21,
+      "team": "NE",
+      "opponent": "DEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 20,
+      "team": "NE",
+      "opponent": "HOU",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "NE",
+      "opponent": "NYJ",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "NE",
+      "opponent": "ATL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "NE",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "NE",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "NE",
+      "opponent": "MIA",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "NE",
+      "opponent": "LV",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 18.0,
+      "team": "NE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "NE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 1.0,
+      "team": "NE",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Ankle"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 22,
+      "team": "NE",
+      "offense_snaps": 71.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 21,
+      "team": "NE",
+      "offense_snaps": 64.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 20,
+      "team": "NE",
+      "offense_snaps": 65.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 19,
+      "team": "NE",
+      "offense_snaps": 64.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "NE",
+      "offense_snaps": 45.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "NE",
+      "offense_snaps": 43.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "team": "NE",
+      "offense_snaps": 67.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "NE",
+      "offense_snaps": 61.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "NE",
+      "offense_snaps": 68.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "NE",
+      "offense_snaps": 68.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "NE",
+      "offense_snaps": 59.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "NE",
+      "offense_snaps": 64.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "NE",
+      "offense_snaps": 60.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "NE",
+      "offense_snaps": 43.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "NE",
+      "offense_snaps": 74.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "NE",
+      "offense_snaps": 60.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "NE",
+      "offense_snaps": 71.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 4.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NE",
+      "depth_position": "Left Tackle",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NE",
+      "depth_position": "Left Tackle",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NE",
+      "depth_position": "Left Tackle",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NE",
+      "depth_position": "Left Tackle",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2025.0,
+      "team": "New England Patriots",
+      "school": "LSU",
+      "round": 1.0,
+      "pick": 4.0,
+      "height": "6-6",
+      "weight": 319.0,
+      "forty": 4.98
+    },
+    {
+      "draft_year": 2025.0,
+      "team": "NWE",
+      "school": "LSU",
+      "round": 1.0,
+      "pick": 4.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    },
+    {
+      "draft_year": 2013.0,
+      "team": "NYJ",
+      "school": "Michigan",
+      "round": 6.0,
+      "pick": 178.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

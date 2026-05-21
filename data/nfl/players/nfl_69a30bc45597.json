@@ -1,0 +1,113 @@
+{
+  "player": {
+    "player_name": "Joe Tryon-Shoyinka",
+    "position": "LB",
+    "level": "Pro",
+    "team_id": "CLE",
+    "team": "CLE",
+    "school": "",
+    "league": "NFL",
+    "age": 27.0,
+    "height": 77.0,
+    "weight": 259.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|J.Tryon|CLE",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_69a30bc45597"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 7.0,
+      "team": "CLE",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Hip"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "CLE",
+      "offense_snaps": 0.0,
+      "defense_snaps": 2.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "CLE",
+      "offense_snaps": 0.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "CLE",
+      "offense_snaps": 0.0,
+      "defense_snaps": 7.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "CLE",
+      "offense_snaps": 0.0,
+      "defense_snaps": 1.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "CLE",
+      "offense_snaps": 0.0,
+      "defense_snaps": 7.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "CLE",
+      "offense_snaps": 0.0,
+      "defense_snaps": 7.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "CLE",
+      "offense_snaps": 0.0,
+      "defense_snaps": 5.0,
+      "special_teams_snaps": 9.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "CLE",
+      "offense_snaps": 0.0,
+      "defense_snaps": 2.0,
+      "special_teams_snaps": 9.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2025.0,
+      "team": "CLE",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CLE",
+      "depth_position": "Right Defensive End",
+      "depth_rank": 2.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

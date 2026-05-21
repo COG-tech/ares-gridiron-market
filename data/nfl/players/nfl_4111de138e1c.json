@@ -1,0 +1,244 @@
+{
+  "player": {
+    "player_name": "Pat Surtain II",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "DEN",
+    "team": "DEN",
+    "school": "",
+    "league": "NFL",
+    "age": 26.0,
+    "height": 74.0,
+    "weight": 202.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|P.Surtain|DEN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_4111de138e1c"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "DEN",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 11.0,
+      "team": "DEN",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Pectoral"
+    },
+    {
+      "season": 2025.0,
+      "week": 10.0,
+      "team": "DEN",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Pectoral"
+    },
+    {
+      "season": 2025.0,
+      "week": 9.0,
+      "team": "DEN",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Pectoral"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 21,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 64.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 20,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 72.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 54.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 43.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 70.0,
+      "special_teams_snaps": 6.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 65.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 50.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 90.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 36.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 77.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 57.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 61.0,
+      "special_teams_snaps": 3.0
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 48.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 86.0,
+      "special_teams_snaps": 5.0
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 70.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 57.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 19,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 76.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 18,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 29.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 90.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2024,
+      "week": 16,
+      "team": "DEN",
+      "offense_snaps": 0.0,
+      "defense_snaps": 65.0,
+      "special_teams_snaps": 0.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "DEN",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "DEN",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2021.0,
+      "team": "DEN",
+      "school": "Alabama",
+      "round": 1.0,
+      "pick": 9.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

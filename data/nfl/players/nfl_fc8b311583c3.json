@@ -1,0 +1,42 @@
+{
+  "player": {
+    "player_name": "Jarvis Brownlee Jr.",
+    "position": "DB",
+    "level": "Pro",
+    "team_id": "TEN",
+    "team": "TEN",
+    "school": "",
+    "league": "NFL",
+    "age": 24.0,
+    "height": 70.0,
+    "weight": 190.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|J.Brownlee|TEN",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_fc8b311583c3"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 3.0,
+      "team": "TEN",
+      "report_status": "Questionable",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Ankle"
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2025.0,
+      "team": "TEN",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

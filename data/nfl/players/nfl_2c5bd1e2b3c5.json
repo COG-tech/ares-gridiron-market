@@ -1,0 +1,74 @@
+{
+  "player": {
+    "player_name": "Bobby Brown III",
+    "position": "DT",
+    "level": "Pro",
+    "team_id": "CAR",
+    "team": "CAR",
+    "school": "",
+    "league": "NFL",
+    "age": 25.0,
+    "height": 76.0,
+    "weight": 332.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|B.Brown|CAR",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_2c5bd1e2b3c5"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 19.0,
+      "team": "CAR",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 3.0,
+      "team": "CAR",
+      "report_status": "",
+      "practice_status": "Limited Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "CAR",
+      "depth_position": "Nose Tackle",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "CAR",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CAR",
+      "depth_position": "Left Defensive End",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CAR",
+      "depth_position": "Nose Tackle",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2025.0,
+      "team": "CAR",
+      "depth_position": "Nose Tackle",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}

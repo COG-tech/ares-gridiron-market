@@ -1,0 +1,686 @@
+{
+  "player": {
+    "player_name": "Mike Hall Jr.",
+    "position": "DT",
+    "level": "Pro",
+    "team_id": "CLE",
+    "team": "CLE",
+    "school": "",
+    "league": "NFL",
+    "age": 22.0,
+    "height": 75.0,
+    "weight": 300.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|M.Hall|CLE",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_9b348d963861"
+  },
+  "season_summary": [
+    {
+      "season": 2020,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 27,
+      "def_sacks": 0.0,
+      "def_interceptions": 3,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2019,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 11,
+      "targets": 24,
+      "receiving_yards": 124,
+      "receiving_tds": 1,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 29.4
+    },
+    {
+      "season": 2017,
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 7,
+      "targets": 10,
+      "receiving_yards": 131,
+      "receiving_tds": 1,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 26.1
+    }
+  ],
+  "weekly_recent": [
+    {
+      "season": 2020,
+      "week": 19,
+      "team": "CLE",
+      "opponent": "KC",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 18,
+      "team": "CLE",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 10,
+      "def_sacks": 0.0,
+      "def_interceptions": 1,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 17,
+      "team": "CLE",
+      "opponent": "PIT",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 1,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 14,
+      "team": "CLE",
+      "opponent": "BAL",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 4,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 13,
+      "team": "CLE",
+      "opponent": "TEN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 3,
+      "def_sacks": 0.0,
+      "def_interceptions": 1,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 12,
+      "team": "CLE",
+      "opponent": "JAX",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2020,
+      "week": 7,
+      "team": "CLE",
+      "opponent": "CIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 0,
+      "targets": 0,
+      "receiving_yards": 0,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 0.0
+    },
+    {
+      "season": 2019,
+      "week": 14,
+      "team": "DET",
+      "opponent": "MIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 3,
+      "targets": 7,
+      "receiving_yards": 38,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 6.8
+    },
+    {
+      "season": 2019,
+      "week": 13,
+      "team": "DET",
+      "opponent": "CHI",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 3,
+      "targets": 6,
+      "receiving_yards": 40,
+      "receiving_tds": 1,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 13.0
+    },
+    {
+      "season": 2019,
+      "week": 12,
+      "team": "DET",
+      "opponent": "WAS",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 5,
+      "targets": 11,
+      "receiving_yards": 46,
+      "receiving_tds": 0,
+      "def_tackles": 1,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 9.6
+    },
+    {
+      "season": 2017,
+      "week": 17,
+      "team": "DET",
+      "opponent": "GB",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 4,
+      "targets": 5,
+      "receiving_yards": 81,
+      "receiving_tds": 1,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 18.1
+    },
+    {
+      "season": 2017,
+      "week": 16,
+      "team": "DET",
+      "opponent": "CIN",
+      "passing_yards": 0,
+      "passing_tds": 0,
+      "passing_interceptions": 0,
+      "rushing_yards": 0,
+      "rushing_tds": 0,
+      "receptions": 3,
+      "targets": 5,
+      "receiving_yards": 50,
+      "receiving_tds": 0,
+      "def_tackles": 0,
+      "def_sacks": 0.0,
+      "def_interceptions": 0,
+      "fantasy_points_ppr": 8.0
+    }
+  ],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 18.0,
+      "team": "ARI",
+      "report_status": "",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 18.0,
+      "team": "CLE",
+      "report_status": "",
+      "practice_status": "Limited Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Heel"
+    },
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "CLE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Heel"
+    },
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "CLE",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Illness"
+    },
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "DEN",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 15.0,
+      "team": "ARI",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Heel"
+    },
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "ARI",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Heel"
+    },
+    {
+      "season": 2025.0,
+      "week": 14.0,
+      "team": "CLE",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Knee"
+    },
+    {
+      "season": 2025.0,
+      "week": 13.0,
+      "team": "ARI",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Illness"
+    },
+    {
+      "season": 2025.0,
+      "week": 12.0,
+      "team": "ARI",
+      "report_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "injury": "Illness"
+    }
+  ],
+  "snap_counts_recent": [
+    {
+      "season": 2025,
+      "week": 18,
+      "team": "IND",
+      "offense_snaps": 58.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "ARI",
+      "offense_snaps": 19.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "team": "IND",
+      "offense_snaps": 49.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "ARI",
+      "offense_snaps": 29.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "CLE",
+      "offense_snaps": 0.0,
+      "defense_snaps": 8.0,
+      "special_teams_snaps": 4.0
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "team": "IND",
+      "offense_snaps": 56.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "CLE",
+      "offense_snaps": 0.0,
+      "defense_snaps": 4.0,
+      "special_teams_snaps": 8.0
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "team": "IND",
+      "offense_snaps": 56.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "team": "IND",
+      "offense_snaps": 61.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 1.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "ARI",
+      "offense_snaps": 37.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "team": "IND",
+      "offense_snaps": 45.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "team": "IND",
+      "offense_snaps": 42.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "ARI",
+      "offense_snaps": 69.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "team": "IND",
+      "offense_snaps": 62.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "ARI",
+      "offense_snaps": 48.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "team": "IND",
+      "offense_snaps": 69.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 2.0
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "team": "IND",
+      "offense_snaps": 42.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "ARI",
+      "offense_snaps": 65.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "team": "IND",
+      "offense_snaps": 52.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "team": "IND",
+      "offense_snaps": 50.0,
+      "defense_snaps": 0.0,
+      "special_teams_snaps": 0.0
+    }
+  ],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "SEA",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 8.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 6.0
+    },
+    {
+      "season": 2026.0,
+      "team": "HOU",
+      "depth_position": "Left Defensive Tackle",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "KC",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "NE",
+      "depth_position": "Right Cornerback",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "SEA",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 9.0
+    },
+    {
+      "season": 2026.0,
+      "team": "PIT",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 2.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Kick Returner",
+      "depth_rank": 3.0
+    },
+    {
+      "season": 2026.0,
+      "team": "BUF",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 9.0
+    },
+    {
+      "season": 2026.0,
+      "team": "SEA",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 10.0
+    },
+    {
+      "season": 2026.0,
+      "team": "ARI",
+      "depth_position": "Wide Receiver",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2026.0,
+      "team": "ATL",
+      "depth_position": "Nickel Back",
+      "depth_rank": 3.0
+    }
+  ],
+  "draft_combine": [
+    {
+      "draft_year": 2024.0,
+      "team": "Cleveland Browns",
+      "school": "Ohio St.",
+      "round": 2.0,
+      "pick": 54.0,
+      "height": "6-3",
+      "weight": 290.0,
+      "forty": ""
+    },
+    {
+      "draft_year": 2024.0,
+      "team": "Atlanta Falcons",
+      "school": "Washington",
+      "round": 1.0,
+      "pick": 8.0,
+      "height": "6-2",
+      "weight": 216.0,
+      "forty": ""
+    },
+    {
+      "draft_year": 2024.0,
+      "team": "ARI",
+      "school": "Ohio St.",
+      "round": 1.0,
+      "pick": 4.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    },
+    {
+      "draft_year": 2020.0,
+      "team": "IND",
+      "school": "USC",
+      "round": 2.0,
+      "pick": 34.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    },
+    {
+      "draft_year": 2018.0,
+      "team": "OAK",
+      "school": "Michigan",
+      "round": 5.0,
+      "pick": 140.0,
+      "height": "",
+      "weight": "",
+      "forty": ""
+    }
+  ],
+  "is_placeholder": false
+}

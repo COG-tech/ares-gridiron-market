@@ -1,0 +1,88 @@
+{
+  "player": {
+    "player_name": "Carlton Davis III",
+    "position": "CB",
+    "level": "Pro",
+    "team_id": "NE",
+    "team": "NE",
+    "school": "",
+    "league": "NFL",
+    "age": 29.0,
+    "height": 73.0,
+    "weight": 206.0,
+    "source": "nflreadpy",
+    "source_player_id": "CB|C.Davis|NE",
+    "source_confidence": "Medium",
+    "is_placeholder": false,
+    "player_id": "nfl_a416f581dd56"
+  },
+  "season_summary": [],
+  "weekly_recent": [],
+  "injuries_recent": [
+    {
+      "season": 2025.0,
+      "week": 21.0,
+      "team": "NE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 17.0,
+      "team": "NE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 16.0,
+      "team": "NE",
+      "report_status": "Questionable",
+      "practice_status": "Limited Participation in Practice",
+      "injury": "Hip"
+    },
+    {
+      "season": 2025.0,
+      "week": 5.0,
+      "team": "NE",
+      "report_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "injury": "Illness"
+    },
+    {
+      "season": 2025.0,
+      "week": 4.0,
+      "team": "NE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    },
+    {
+      "season": 2025.0,
+      "week": 3.0,
+      "team": "NE",
+      "report_status": "",
+      "practice_status": "Full Participation in Practice",
+      "injury": ""
+    }
+  ],
+  "snap_counts_recent": [],
+  "depth_chart_recent": [
+    {
+      "season": 2026.0,
+      "team": "NE",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    },
+    {
+      "season": 2025.0,
+      "team": "NE",
+      "depth_position": "Left Cornerback",
+      "depth_rank": 1.0
+    }
+  ],
+  "draft_combine": [],
+  "is_placeholder": false
+}
