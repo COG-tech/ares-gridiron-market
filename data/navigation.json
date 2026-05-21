@@ -6,178 +6,1683 @@
       "label": "Players",
       "summary": "Search NFL player profiles, public stats, snap counts, injuries, and premium score previews.",
       "sidebar": [
-        {"label": "NFL Players", "href": "players/index.html"},
-        {"label": "Player Compare", "href": "players/compare.html"},
-        {"label": "Premium Player Reports", "href": "premium.html"}
+        {
+          "label": "NFL Players",
+          "href": "players/index.html"
+        },
+        {
+          "label": "Player Compare",
+          "href": "players/compare.html"
+        },
+        {
+          "label": "Premium Player Reports",
+          "href": "premium.html"
+        }
       ],
       "groups": [
-        {"title": "Player Boards", "items": [
-          {"label": "NFL Players", "href": "players/index.html"},
-          {"label": "Player Comparison", "href": "players/compare.html"},
-          {"label": "Injured Players", "href": "players/index.html?filter=injury"},
-          {"label": "Rising Players", "href": "rankings/ares.html?trend=rising"},
-          {"label": "Falling Players", "href": "rankings/ares.html?trend=falling"}
-        ]},
-        {"title": "Development", "items": [
-          {"label": "College Players", "href": "college/index.html"},
-          {"label": "Draft Class Board", "href": "rankings/draft.html"},
-          {"label": "High School Watchlist", "href": "watchlist/index.html"},
-          {"label": "Free Agents", "href": "rankings/free-agents.html"}
-        ]}
+        {
+          "title": "Player Boards",
+          "items": [
+            {
+              "label": "NFL Players",
+              "href": "players/index.html"
+            },
+            {
+              "label": "Player Comparison",
+              "href": "players/compare.html"
+            },
+            {
+              "label": "Injured Players",
+              "href": "players/index.html?filter=injury"
+            },
+            {
+              "label": "Rising Players",
+              "href": "rankings/ares.html?trend=rising"
+            },
+            {
+              "label": "Falling Players",
+              "href": "rankings/ares.html?trend=falling"
+            }
+          ]
+        },
+        {
+          "title": "Development",
+          "items": [
+            {
+              "label": "College Players",
+              "href": "college/index.html"
+            },
+            {
+              "label": "Draft Class Board",
+              "href": "rankings/draft.html"
+            },
+            {
+              "label": "High School Watchlist",
+              "href": "watchlist/index.html"
+            },
+            {
+              "label": "Free Agents",
+              "href": "rankings/free-agents.html"
+            }
+          ]
+        }
       ],
-      "footer": {"label": "Search NFL players, teams, positions, and market boards", "href": "players/index.html"}
+      "footer": {
+        "label": "Search NFL players, teams, positions, and market boards",
+        "href": "players/index.html"
+      }
     },
     {
       "id": "ares-rankings",
       "label": "ARES Rankings",
       "summary": "Public production leaders with premium ARES component grades locked.",
       "sidebar": [
-        {"label": "ARES Overall", "href": "rankings/ares.html"},
-        {"label": "Methodology", "href": "methodology.html"}
+        {
+          "label": "ARES Overall",
+          "href": "rankings/ares.html"
+        },
+        {
+          "label": "Methodology",
+          "href": "methodology.html"
+        }
       ],
       "groups": [
-        {"title": "Quality Boards", "items": [
-          {"label": "ARES Overall", "href": "rankings/ares.html"},
-          {"label": "ARES by Position", "href": "rankings/ares.html#position"},
-          {"label": "Draft Class Board", "href": "rankings/draft.html"},
-          {"label": "Undervalued Starters", "href": "rankings/market.html?view=undervalued"},
-          {"label": "Risk Board", "href": "rankings/market.html?view=risk"}
-        ]}
+        {
+          "title": "Quality Boards",
+          "items": [
+            {
+              "label": "ARES Overall",
+              "href": "rankings/ares.html"
+            },
+            {
+              "label": "ARES by Position",
+              "href": "rankings/ares.html#position"
+            },
+            {
+              "label": "Draft Class Board",
+              "href": "rankings/draft.html"
+            },
+            {
+              "label": "Undervalued Starters",
+              "href": "rankings/market.html?view=undervalued"
+            },
+            {
+              "label": "Risk Board",
+              "href": "rankings/market.html?view=risk"
+            }
+          ]
+        }
       ],
-      "footer": {"label": "Premium unlocks component grades and position ranks", "href": "premium.html"}
+      "footer": {
+        "label": "Premium unlocks component grades and position ranks",
+        "href": "premium.html"
+      }
     },
     {
       "id": "market-rankings",
       "label": "Market Rankings",
       "summary": "Football asset value tiers, public market signal, and premium Market Score previews.",
       "sidebar": [
-        {"label": "Market Overall", "href": "rankings/market.html"},
-        {"label": "Premium Market Score", "href": "premium.html"}
+        {
+          "label": "Market Overall",
+          "href": "rankings/market.html"
+        },
+        {
+          "label": "Premium Market Score",
+          "href": "premium.html"
+        }
       ],
       "groups": [
-        {"title": "Asset Boards", "items": [
-          {"label": "Most Valuable NFL Assets", "href": "rankings/market.html"},
-          {"label": "Best Young Assets", "href": "rankings/market.html?view=young"},
-          {"label": "Contract Bargains", "href": "rankings/market.html?view=bargains"},
-          {"label": "Aging Stars", "href": "rankings/market.html?view=aging"},
-          {"label": "Trade Targets", "href": "rankings/market.html?view=trade-targets"}
-        ]}
+        {
+          "title": "Asset Boards",
+          "items": [
+            {
+              "label": "Most Valuable NFL Assets",
+              "href": "rankings/market.html"
+            },
+            {
+              "label": "Best Young Assets",
+              "href": "rankings/market.html?view=young"
+            },
+            {
+              "label": "Contract Bargains",
+              "href": "rankings/market.html?view=bargains"
+            },
+            {
+              "label": "Aging Stars",
+              "href": "rankings/market.html?view=aging"
+            },
+            {
+              "label": "Trade Targets",
+              "href": "rankings/market.html?view=trade-targets"
+            }
+          ]
+        }
       ],
-      "footer": {"label": "Market Score is an analytical asset score, not salary", "href": "methodology.html"}
+      "footer": {
+        "label": "Market Score is an analytical asset score, not salary",
+        "href": "methodology.html"
+      }
     },
     {
       "id": "teams",
       "label": "Teams",
-      "summary": "NFL roster value, public team signal, top assets, and premium roster strategy.",
+      "summary": "NFL teams, FBS college teams, and high school state boards.",
       "sidebar": [
-        {"label": "Team Value Board", "href": "teams/index.html"},
-        {"label": "Premium Team Strategy", "href": "premium.html"}
+        {
+          "label": "NFL Team Value Board",
+          "href": "teams/index.html"
+        },
+        {
+          "label": "College Team Board",
+          "href": "college/index.html"
+        },
+        {
+          "label": "High School Team Board",
+          "href": "high-school/index.html"
+        },
+        {
+          "label": "Premium Team Strategy",
+          "href": "premium.html"
+        }
       ],
       "groups": [
-        {"title": "Roster Work", "items": [
-          {"label": "Team Value Board", "href": "teams/index.html"},
-          {"label": "Roster Strength", "href": "teams/index.html#strength"},
-          {"label": "Position Groups", "href": "teams/index.html#positions"},
-          {"label": "Depth Charts", "href": "teams/index.html#depth"},
-          {"label": "Needs Board", "href": "teams/index.html#needs"}
-        ]}
+        {
+          "title": "AFC Teams",
+          "items": [
+            {
+              "label": "Buffalo Bills",
+              "href": "teams/team-template.html?team_id=BUF",
+              "abbr": "BUF"
+            },
+            {
+              "label": "Miami Dolphins",
+              "href": "teams/team-template.html?team_id=MIA",
+              "abbr": "MIA"
+            },
+            {
+              "label": "New England Patriots",
+              "href": "teams/team-template.html?team_id=NE",
+              "abbr": "NE"
+            },
+            {
+              "label": "New York Jets",
+              "href": "teams/team-template.html?team_id=NYJ",
+              "abbr": "NYJ"
+            },
+            {
+              "label": "Baltimore Ravens",
+              "href": "teams/team-template.html?team_id=BAL",
+              "abbr": "BAL"
+            },
+            {
+              "label": "Cincinnati Bengals",
+              "href": "teams/team-template.html?team_id=CIN",
+              "abbr": "CIN"
+            },
+            {
+              "label": "Cleveland Browns",
+              "href": "teams/team-template.html?team_id=CLE",
+              "abbr": "CLE"
+            },
+            {
+              "label": "Pittsburgh Steelers",
+              "href": "teams/team-template.html?team_id=PIT",
+              "abbr": "PIT"
+            },
+            {
+              "label": "Houston Texans",
+              "href": "teams/team-template.html?team_id=HOU",
+              "abbr": "HOU"
+            },
+            {
+              "label": "Indianapolis Colts",
+              "href": "teams/team-template.html?team_id=IND",
+              "abbr": "IND"
+            },
+            {
+              "label": "Jacksonville Jaguars",
+              "href": "teams/team-template.html?team_id=JAX",
+              "abbr": "JAX"
+            },
+            {
+              "label": "Tennessee Titans",
+              "href": "teams/team-template.html?team_id=TEN",
+              "abbr": "TEN"
+            },
+            {
+              "label": "Denver Broncos",
+              "href": "teams/team-template.html?team_id=DEN",
+              "abbr": "DEN"
+            },
+            {
+              "label": "Kansas City Chiefs",
+              "href": "teams/team-template.html?team_id=KC",
+              "abbr": "KC"
+            },
+            {
+              "label": "Los Angeles Chargers",
+              "href": "teams/team-template.html?team_id=LAC",
+              "abbr": "LAC"
+            },
+            {
+              "label": "Las Vegas Raiders",
+              "href": "teams/team-template.html?team_id=LV",
+              "abbr": "LV"
+            }
+          ]
+        },
+        {
+          "title": "NFC Teams",
+          "items": [
+            {
+              "label": "Dallas Cowboys",
+              "href": "teams/team-template.html?team_id=DAL",
+              "abbr": "DAL"
+            },
+            {
+              "label": "New York Giants",
+              "href": "teams/team-template.html?team_id=NYG",
+              "abbr": "NYG"
+            },
+            {
+              "label": "Philadelphia Eagles",
+              "href": "teams/team-template.html?team_id=PHI",
+              "abbr": "PHI"
+            },
+            {
+              "label": "Washington Commanders",
+              "href": "teams/team-template.html?team_id=WAS",
+              "abbr": "WAS"
+            },
+            {
+              "label": "Chicago Bears",
+              "href": "teams/team-template.html?team_id=CHI",
+              "abbr": "CHI"
+            },
+            {
+              "label": "Detroit Lions",
+              "href": "teams/team-template.html?team_id=DET",
+              "abbr": "DET"
+            },
+            {
+              "label": "Green Bay Packers",
+              "href": "teams/team-template.html?team_id=GB",
+              "abbr": "GB"
+            },
+            {
+              "label": "Minnesota Vikings",
+              "href": "teams/team-template.html?team_id=MIN",
+              "abbr": "MIN"
+            },
+            {
+              "label": "Atlanta Falcons",
+              "href": "teams/team-template.html?team_id=ATL",
+              "abbr": "ATL"
+            },
+            {
+              "label": "Carolina Panthers",
+              "href": "teams/team-template.html?team_id=CAR",
+              "abbr": "CAR"
+            },
+            {
+              "label": "New Orleans Saints",
+              "href": "teams/team-template.html?team_id=NO",
+              "abbr": "NO"
+            },
+            {
+              "label": "Tampa Bay Buccaneers",
+              "href": "teams/team-template.html?team_id=TB",
+              "abbr": "TB"
+            },
+            {
+              "label": "Arizona Cardinals",
+              "href": "teams/team-template.html?team_id=ARI",
+              "abbr": "ARI"
+            },
+            {
+              "label": "Los Angeles Rams",
+              "href": "teams/team-template.html?team_id=LA",
+              "abbr": "LAR"
+            },
+            {
+              "label": "San Francisco 49ers",
+              "href": "teams/team-template.html?team_id=SF",
+              "abbr": "SF"
+            },
+            {
+              "label": "Seattle Seahawks",
+              "href": "teams/team-template.html?team_id=SEA",
+              "abbr": "SEA"
+            }
+          ]
+        },
+        {
+          "title": "ACC",
+          "items": [
+            {
+              "label": "Boston College",
+              "href": "college/school-template.html?school=Boston%20College",
+              "abbr": "BC"
+            },
+            {
+              "label": "California",
+              "href": "college/school-template.html?school=California",
+              "abbr": "CAL"
+            },
+            {
+              "label": "Clemson",
+              "href": "college/school-template.html?school=Clemson",
+              "abbr": "CLEM"
+            },
+            {
+              "label": "Duke",
+              "href": "college/school-template.html?school=Duke",
+              "abbr": "DUKE"
+            },
+            {
+              "label": "Florida State",
+              "href": "college/school-template.html?school=Florida%20State",
+              "abbr": "FSU"
+            },
+            {
+              "label": "Georgia Tech",
+              "href": "college/school-template.html?school=Georgia%20Tech",
+              "abbr": "GT"
+            },
+            {
+              "label": "Louisville",
+              "href": "college/school-template.html?school=Louisville",
+              "abbr": "LOU"
+            },
+            {
+              "label": "Miami",
+              "href": "college/school-template.html?school=Miami",
+              "abbr": "MIA"
+            },
+            {
+              "label": "NC State",
+              "href": "college/school-template.html?school=NC%20State",
+              "abbr": "NCSU"
+            },
+            {
+              "label": "North Carolina",
+              "href": "college/school-template.html?school=North%20Carolina",
+              "abbr": "UNC"
+            },
+            {
+              "label": "Pittsburgh",
+              "href": "college/school-template.html?school=Pittsburgh",
+              "abbr": "PITT"
+            },
+            {
+              "label": "SMU",
+              "href": "college/school-template.html?school=SMU",
+              "abbr": "SMU"
+            },
+            {
+              "label": "Stanford",
+              "href": "college/school-template.html?school=Stanford",
+              "abbr": "STAN"
+            },
+            {
+              "label": "Syracuse",
+              "href": "college/school-template.html?school=Syracuse",
+              "abbr": "SYR"
+            },
+            {
+              "label": "Virginia",
+              "href": "college/school-template.html?school=Virginia",
+              "abbr": "UVA"
+            },
+            {
+              "label": "Virginia Tech",
+              "href": "college/school-template.html?school=Virginia%20Tech",
+              "abbr": "VT"
+            },
+            {
+              "label": "Wake Forest",
+              "href": "college/school-template.html?school=Wake%20Forest",
+              "abbr": "WAKE"
+            }
+          ]
+        },
+        {
+          "title": "Big Ten",
+          "items": [
+            {
+              "label": "Illinois",
+              "href": "college/school-template.html?school=Illinois",
+              "abbr": "ILL"
+            },
+            {
+              "label": "Indiana",
+              "href": "college/school-template.html?school=Indiana",
+              "abbr": "IU"
+            },
+            {
+              "label": "Iowa",
+              "href": "college/school-template.html?school=Iowa",
+              "abbr": "IOWA"
+            },
+            {
+              "label": "Maryland",
+              "href": "college/school-template.html?school=Maryland",
+              "abbr": "MD"
+            },
+            {
+              "label": "Michigan",
+              "href": "college/school-template.html?school=Michigan",
+              "abbr": "MICH"
+            },
+            {
+              "label": "Michigan State",
+              "href": "college/school-template.html?school=Michigan%20State",
+              "abbr": "MSU"
+            },
+            {
+              "label": "Minnesota",
+              "href": "college/school-template.html?school=Minnesota",
+              "abbr": "MINN"
+            },
+            {
+              "label": "Nebraska",
+              "href": "college/school-template.html?school=Nebraska",
+              "abbr": "NEB"
+            },
+            {
+              "label": "Northwestern",
+              "href": "college/school-template.html?school=Northwestern",
+              "abbr": "NU"
+            },
+            {
+              "label": "Ohio State",
+              "href": "college/school-template.html?school=Ohio%20State",
+              "abbr": "OSU"
+            },
+            {
+              "label": "Oregon",
+              "href": "college/school-template.html?school=Oregon",
+              "abbr": "ORE"
+            },
+            {
+              "label": "Penn State",
+              "href": "college/school-template.html?school=Penn%20State",
+              "abbr": "PSU"
+            },
+            {
+              "label": "Purdue",
+              "href": "college/school-template.html?school=Purdue",
+              "abbr": "PUR"
+            },
+            {
+              "label": "Rutgers",
+              "href": "college/school-template.html?school=Rutgers",
+              "abbr": "RUTG"
+            },
+            {
+              "label": "UCLA",
+              "href": "college/school-template.html?school=UCLA",
+              "abbr": "UCLA"
+            },
+            {
+              "label": "USC",
+              "href": "college/school-template.html?school=USC",
+              "abbr": "USC"
+            },
+            {
+              "label": "Washington",
+              "href": "college/school-template.html?school=Washington",
+              "abbr": "WASH"
+            },
+            {
+              "label": "Wisconsin",
+              "href": "college/school-template.html?school=Wisconsin",
+              "abbr": "WIS"
+            }
+          ]
+        },
+        {
+          "title": "Big 12",
+          "items": [
+            {
+              "label": "Arizona",
+              "href": "college/school-template.html?school=Arizona",
+              "abbr": "ARIZ"
+            },
+            {
+              "label": "Arizona State",
+              "href": "college/school-template.html?school=Arizona%20State",
+              "abbr": "ASU"
+            },
+            {
+              "label": "BYU",
+              "href": "college/school-template.html?school=BYU",
+              "abbr": "BYU"
+            },
+            {
+              "label": "Baylor",
+              "href": "college/school-template.html?school=Baylor",
+              "abbr": "BAY"
+            },
+            {
+              "label": "Cincinnati",
+              "href": "college/school-template.html?school=Cincinnati",
+              "abbr": "CIN"
+            },
+            {
+              "label": "Colorado",
+              "href": "college/school-template.html?school=Colorado",
+              "abbr": "COLO"
+            },
+            {
+              "label": "Houston",
+              "href": "college/school-template.html?school=Houston",
+              "abbr": "HOU"
+            },
+            {
+              "label": "Iowa State",
+              "href": "college/school-template.html?school=Iowa%20State",
+              "abbr": "ISU"
+            },
+            {
+              "label": "Kansas",
+              "href": "college/school-template.html?school=Kansas",
+              "abbr": "KU"
+            },
+            {
+              "label": "Kansas State",
+              "href": "college/school-template.html?school=Kansas%20State",
+              "abbr": "KSU"
+            },
+            {
+              "label": "Oklahoma State",
+              "href": "college/school-template.html?school=Oklahoma%20State",
+              "abbr": "OKST"
+            },
+            {
+              "label": "TCU",
+              "href": "college/school-template.html?school=TCU",
+              "abbr": "TCU"
+            },
+            {
+              "label": "Texas Tech",
+              "href": "college/school-template.html?school=Texas%20Tech",
+              "abbr": "TTU"
+            },
+            {
+              "label": "UCF",
+              "href": "college/school-template.html?school=UCF",
+              "abbr": "UCF"
+            },
+            {
+              "label": "Utah",
+              "href": "college/school-template.html?school=Utah",
+              "abbr": "UTAH"
+            },
+            {
+              "label": "West Virginia",
+              "href": "college/school-template.html?school=West%20Virginia",
+              "abbr": "WVU"
+            }
+          ]
+        },
+        {
+          "title": "SEC",
+          "items": [
+            {
+              "label": "Alabama",
+              "href": "college/school-template.html?school=Alabama",
+              "abbr": "ALA"
+            },
+            {
+              "label": "Arkansas",
+              "href": "college/school-template.html?school=Arkansas",
+              "abbr": "ARK"
+            },
+            {
+              "label": "Auburn",
+              "href": "college/school-template.html?school=Auburn",
+              "abbr": "AUB"
+            },
+            {
+              "label": "Florida",
+              "href": "college/school-template.html?school=Florida",
+              "abbr": "FLA"
+            },
+            {
+              "label": "Georgia",
+              "href": "college/school-template.html?school=Georgia",
+              "abbr": "UGA"
+            },
+            {
+              "label": "Kentucky",
+              "href": "college/school-template.html?school=Kentucky",
+              "abbr": "UK"
+            },
+            {
+              "label": "LSU",
+              "href": "college/school-template.html?school=LSU",
+              "abbr": "LSU"
+            },
+            {
+              "label": "Mississippi State",
+              "href": "college/school-template.html?school=Mississippi%20State",
+              "abbr": "MSST"
+            },
+            {
+              "label": "Missouri",
+              "href": "college/school-template.html?school=Missouri",
+              "abbr": "MIZ"
+            },
+            {
+              "label": "Oklahoma",
+              "href": "college/school-template.html?school=Oklahoma",
+              "abbr": "OU"
+            },
+            {
+              "label": "Ole Miss",
+              "href": "college/school-template.html?school=Ole%20Miss",
+              "abbr": "MISS"
+            },
+            {
+              "label": "South Carolina",
+              "href": "college/school-template.html?school=South%20Carolina",
+              "abbr": "SC"
+            },
+            {
+              "label": "Tennessee",
+              "href": "college/school-template.html?school=Tennessee",
+              "abbr": "TENN"
+            },
+            {
+              "label": "Texas",
+              "href": "college/school-template.html?school=Texas",
+              "abbr": "TEX"
+            },
+            {
+              "label": "Texas A&M",
+              "href": "college/school-template.html?school=Texas%20A&M",
+              "abbr": "TA&M"
+            },
+            {
+              "label": "Vanderbilt",
+              "href": "college/school-template.html?school=Vanderbilt",
+              "abbr": "VAN"
+            }
+          ]
+        },
+        {
+          "title": "American Athletic",
+          "items": [
+            {
+              "label": "Army",
+              "href": "college/school-template.html?school=Army",
+              "abbr": "ARMY"
+            },
+            {
+              "label": "Charlotte",
+              "href": "college/school-template.html?school=Charlotte",
+              "abbr": "CLT"
+            },
+            {
+              "label": "East Carolina",
+              "href": "college/school-template.html?school=East%20Carolina",
+              "abbr": "ECU"
+            },
+            {
+              "label": "Florida Atlantic",
+              "href": "college/school-template.html?school=Florida%20Atlantic",
+              "abbr": "FAU"
+            },
+            {
+              "label": "Memphis",
+              "href": "college/school-template.html?school=Memphis",
+              "abbr": "MEM"
+            },
+            {
+              "label": "Navy",
+              "href": "college/school-template.html?school=Navy",
+              "abbr": "NAVY"
+            },
+            {
+              "label": "North Texas",
+              "href": "college/school-template.html?school=North%20Texas",
+              "abbr": "UNT"
+            },
+            {
+              "label": "Rice",
+              "href": "college/school-template.html?school=Rice",
+              "abbr": "RICE"
+            },
+            {
+              "label": "South Florida",
+              "href": "college/school-template.html?school=South%20Florida",
+              "abbr": "USF"
+            },
+            {
+              "label": "Temple",
+              "href": "college/school-template.html?school=Temple",
+              "abbr": "TEM"
+            },
+            {
+              "label": "Tulane",
+              "href": "college/school-template.html?school=Tulane",
+              "abbr": "TULN"
+            },
+            {
+              "label": "Tulsa",
+              "href": "college/school-template.html?school=Tulsa",
+              "abbr": "TLSA"
+            },
+            {
+              "label": "UAB",
+              "href": "college/school-template.html?school=UAB",
+              "abbr": "UAB"
+            },
+            {
+              "label": "UTSA",
+              "href": "college/school-template.html?school=UTSA",
+              "abbr": "UTSA"
+            }
+          ]
+        },
+        {
+          "title": "Conference USA",
+          "items": [
+            {
+              "label": "Delaware",
+              "href": "college/school-template.html?school=Delaware",
+              "abbr": "DEL"
+            },
+            {
+              "label": "Florida International",
+              "href": "college/school-template.html?school=Florida%20International",
+              "abbr": "FIU"
+            },
+            {
+              "label": "Jacksonville State",
+              "href": "college/school-template.html?school=Jacksonville%20State",
+              "abbr": "JXST"
+            },
+            {
+              "label": "Kennesaw State",
+              "href": "college/school-template.html?school=Kennesaw%20State",
+              "abbr": "KENN"
+            },
+            {
+              "label": "Liberty",
+              "href": "college/school-template.html?school=Liberty",
+              "abbr": "LIB"
+            },
+            {
+              "label": "Louisiana Tech",
+              "href": "college/school-template.html?school=Louisiana%20Tech",
+              "abbr": "LT"
+            },
+            {
+              "label": "Middle Tennessee",
+              "href": "college/school-template.html?school=Middle%20Tennessee",
+              "abbr": "MTSU"
+            },
+            {
+              "label": "Missouri State",
+              "href": "college/school-template.html?school=Missouri%20State",
+              "abbr": "MOST"
+            },
+            {
+              "label": "New Mexico State",
+              "href": "college/school-template.html?school=New%20Mexico%20State",
+              "abbr": "NMSU"
+            },
+            {
+              "label": "Sam Houston",
+              "href": "college/school-template.html?school=Sam%20Houston",
+              "abbr": "SHSU"
+            },
+            {
+              "label": "UTEP",
+              "href": "college/school-template.html?school=UTEP",
+              "abbr": "UTEP"
+            },
+            {
+              "label": "Western Kentucky",
+              "href": "college/school-template.html?school=Western%20Kentucky",
+              "abbr": "WKU"
+            }
+          ]
+        },
+        {
+          "title": "Mid-American",
+          "items": [
+            {
+              "label": "Akron",
+              "href": "college/school-template.html?school=Akron",
+              "abbr": "AKR"
+            },
+            {
+              "label": "Ball State",
+              "href": "college/school-template.html?school=Ball%20State",
+              "abbr": "BALL"
+            },
+            {
+              "label": "Bowling Green",
+              "href": "college/school-template.html?school=Bowling%20Green",
+              "abbr": "BGSU"
+            },
+            {
+              "label": "Buffalo",
+              "href": "college/school-template.html?school=Buffalo",
+              "abbr": "BUF"
+            },
+            {
+              "label": "Central Michigan",
+              "href": "college/school-template.html?school=Central%20Michigan",
+              "abbr": "CMU"
+            },
+            {
+              "label": "Eastern Michigan",
+              "href": "college/school-template.html?school=Eastern%20Michigan",
+              "abbr": "EMU"
+            },
+            {
+              "label": "Kent State",
+              "href": "college/school-template.html?school=Kent%20State",
+              "abbr": "KENT"
+            },
+            {
+              "label": "Massachusetts",
+              "href": "college/school-template.html?school=Massachusetts",
+              "abbr": "MASS"
+            },
+            {
+              "label": "Miami (OH)",
+              "href": "college/school-template.html?school=Miami%20(OH)",
+              "abbr": "M-OH"
+            },
+            {
+              "label": "Northern Illinois",
+              "href": "college/school-template.html?school=Northern%20Illinois",
+              "abbr": "NIU"
+            },
+            {
+              "label": "Ohio",
+              "href": "college/school-template.html?school=Ohio",
+              "abbr": "OHIO"
+            },
+            {
+              "label": "Toledo",
+              "href": "college/school-template.html?school=Toledo",
+              "abbr": "TOL"
+            },
+            {
+              "label": "Western Michigan",
+              "href": "college/school-template.html?school=Western%20Michigan",
+              "abbr": "WMU"
+            }
+          ]
+        },
+        {
+          "title": "Mountain West",
+          "items": [
+            {
+              "label": "Air Force",
+              "href": "college/school-template.html?school=Air%20Force",
+              "abbr": "AF"
+            },
+            {
+              "label": "Boise State",
+              "href": "college/school-template.html?school=Boise%20State",
+              "abbr": "BOIS"
+            },
+            {
+              "label": "Colorado State",
+              "href": "college/school-template.html?school=Colorado%20State",
+              "abbr": "CSU"
+            },
+            {
+              "label": "Fresno State",
+              "href": "college/school-template.html?school=Fresno%20State",
+              "abbr": "FRES"
+            },
+            {
+              "label": "Hawai'i",
+              "href": "college/school-template.html?school=Hawai'i",
+              "abbr": "HAW"
+            },
+            {
+              "label": "Nevada",
+              "href": "college/school-template.html?school=Nevada",
+              "abbr": "NEV"
+            },
+            {
+              "label": "New Mexico",
+              "href": "college/school-template.html?school=New%20Mexico",
+              "abbr": "UNM"
+            },
+            {
+              "label": "San Diego State",
+              "href": "college/school-template.html?school=San%20Diego%20State",
+              "abbr": "SDSU"
+            },
+            {
+              "label": "San Jos\u00e9 State",
+              "href": "college/school-template.html?school=San%20Jos\u00e9%20State",
+              "abbr": "SJSU"
+            },
+            {
+              "label": "UNLV",
+              "href": "college/school-template.html?school=UNLV",
+              "abbr": "UNLV"
+            },
+            {
+              "label": "Utah State",
+              "href": "college/school-template.html?school=Utah%20State",
+              "abbr": "USU"
+            },
+            {
+              "label": "Wyoming",
+              "href": "college/school-template.html?school=Wyoming",
+              "abbr": "WYO"
+            }
+          ]
+        },
+        {
+          "title": "Pac-12",
+          "items": [
+            {
+              "label": "Oregon State",
+              "href": "college/school-template.html?school=Oregon%20State",
+              "abbr": "ORST"
+            },
+            {
+              "label": "Washington State",
+              "href": "college/school-template.html?school=Washington%20State",
+              "abbr": "WSU"
+            }
+          ]
+        },
+        {
+          "title": "Sun Belt",
+          "items": [
+            {
+              "label": "App State",
+              "href": "college/school-template.html?school=App%20State",
+              "abbr": "APP"
+            },
+            {
+              "label": "Arkansas State",
+              "href": "college/school-template.html?school=Arkansas%20State",
+              "abbr": "ARST"
+            },
+            {
+              "label": "Coastal Carolina",
+              "href": "college/school-template.html?school=Coastal%20Carolina",
+              "abbr": "CCU"
+            },
+            {
+              "label": "Georgia Southern",
+              "href": "college/school-template.html?school=Georgia%20Southern",
+              "abbr": "GASO"
+            },
+            {
+              "label": "Georgia State",
+              "href": "college/school-template.html?school=Georgia%20State",
+              "abbr": "GAST"
+            },
+            {
+              "label": "James Madison",
+              "href": "college/school-template.html?school=James%20Madison",
+              "abbr": "JMU"
+            },
+            {
+              "label": "Louisiana",
+              "href": "college/school-template.html?school=Louisiana",
+              "abbr": "UL"
+            },
+            {
+              "label": "Marshall",
+              "href": "college/school-template.html?school=Marshall",
+              "abbr": "MRSH"
+            },
+            {
+              "label": "Old Dominion",
+              "href": "college/school-template.html?school=Old%20Dominion",
+              "abbr": "ODU"
+            },
+            {
+              "label": "South Alabama",
+              "href": "college/school-template.html?school=South%20Alabama",
+              "abbr": "USA"
+            },
+            {
+              "label": "Southern Miss",
+              "href": "college/school-template.html?school=Southern%20Miss",
+              "abbr": "USM"
+            },
+            {
+              "label": "Texas State",
+              "href": "college/school-template.html?school=Texas%20State",
+              "abbr": "TXST"
+            },
+            {
+              "label": "Troy",
+              "href": "college/school-template.html?school=Troy",
+              "abbr": "TROY"
+            },
+            {
+              "label": "UL Monroe",
+              "href": "college/school-template.html?school=UL%20Monroe",
+              "abbr": "ULM"
+            }
+          ]
+        },
+        {
+          "title": "Independents",
+          "items": [
+            {
+              "label": "Notre Dame",
+              "href": "college/school-template.html?school=Notre%20Dame",
+              "abbr": "ND"
+            },
+            {
+              "label": "UConn",
+              "href": "college/school-template.html?school=UConn",
+              "abbr": "CONN"
+            }
+          ]
+        },
+        {
+          "title": "High School States A-M",
+          "items": [
+            {
+              "label": "Alabama High Schools",
+              "href": "high-school/state-template.html?state=AL",
+              "abbr": "AL"
+            },
+            {
+              "label": "Alaska High Schools",
+              "href": "high-school/state-template.html?state=AK",
+              "abbr": "AK"
+            },
+            {
+              "label": "Arizona High Schools",
+              "href": "high-school/state-template.html?state=AZ",
+              "abbr": "AZ"
+            },
+            {
+              "label": "Arkansas High Schools",
+              "href": "high-school/state-template.html?state=AR",
+              "abbr": "AR"
+            },
+            {
+              "label": "California High Schools",
+              "href": "high-school/state-template.html?state=CA",
+              "abbr": "CA"
+            },
+            {
+              "label": "Colorado High Schools",
+              "href": "high-school/state-template.html?state=CO",
+              "abbr": "CO"
+            },
+            {
+              "label": "Connecticut High Schools",
+              "href": "high-school/state-template.html?state=CT",
+              "abbr": "CT"
+            },
+            {
+              "label": "Delaware High Schools",
+              "href": "high-school/state-template.html?state=DE",
+              "abbr": "DE"
+            },
+            {
+              "label": "Florida High Schools",
+              "href": "high-school/state-template.html?state=FL",
+              "abbr": "FL"
+            },
+            {
+              "label": "Georgia High Schools",
+              "href": "high-school/state-template.html?state=GA",
+              "abbr": "GA"
+            },
+            {
+              "label": "Hawaii High Schools",
+              "href": "high-school/state-template.html?state=HI",
+              "abbr": "HI"
+            },
+            {
+              "label": "Idaho High Schools",
+              "href": "high-school/state-template.html?state=ID",
+              "abbr": "ID"
+            },
+            {
+              "label": "Illinois High Schools",
+              "href": "high-school/state-template.html?state=IL",
+              "abbr": "IL"
+            },
+            {
+              "label": "Indiana High Schools",
+              "href": "high-school/state-template.html?state=IN",
+              "abbr": "IN"
+            },
+            {
+              "label": "Iowa High Schools",
+              "href": "high-school/state-template.html?state=IA",
+              "abbr": "IA"
+            },
+            {
+              "label": "Kansas High Schools",
+              "href": "high-school/state-template.html?state=KS",
+              "abbr": "KS"
+            },
+            {
+              "label": "Kentucky High Schools",
+              "href": "high-school/state-template.html?state=KY",
+              "abbr": "KY"
+            },
+            {
+              "label": "Louisiana High Schools",
+              "href": "high-school/state-template.html?state=LA",
+              "abbr": "LA"
+            },
+            {
+              "label": "Maine High Schools",
+              "href": "high-school/state-template.html?state=ME",
+              "abbr": "ME"
+            },
+            {
+              "label": "Maryland High Schools",
+              "href": "high-school/state-template.html?state=MD",
+              "abbr": "MD"
+            },
+            {
+              "label": "Massachusetts High Schools",
+              "href": "high-school/state-template.html?state=MA",
+              "abbr": "MA"
+            },
+            {
+              "label": "Michigan High Schools",
+              "href": "high-school/state-template.html?state=MI",
+              "abbr": "MI"
+            },
+            {
+              "label": "Minnesota High Schools",
+              "href": "high-school/state-template.html?state=MN",
+              "abbr": "MN"
+            },
+            {
+              "label": "Mississippi High Schools",
+              "href": "high-school/state-template.html?state=MS",
+              "abbr": "MS"
+            },
+            {
+              "label": "Missouri High Schools",
+              "href": "high-school/state-template.html?state=MO",
+              "abbr": "MO"
+            },
+            {
+              "label": "Montana High Schools",
+              "href": "high-school/state-template.html?state=MT",
+              "abbr": "MT"
+            },
+            {
+              "label": "Nebraska High Schools",
+              "href": "high-school/state-template.html?state=NE",
+              "abbr": "NE"
+            }
+          ]
+        },
+        {
+          "title": "High School States N-W",
+          "items": [
+            {
+              "label": "Nevada High Schools",
+              "href": "high-school/state-template.html?state=NV",
+              "abbr": "NV"
+            },
+            {
+              "label": "New Hampshire High Schools",
+              "href": "high-school/state-template.html?state=NH",
+              "abbr": "NH"
+            },
+            {
+              "label": "New Jersey High Schools",
+              "href": "high-school/state-template.html?state=NJ",
+              "abbr": "NJ"
+            },
+            {
+              "label": "New Mexico High Schools",
+              "href": "high-school/state-template.html?state=NM",
+              "abbr": "NM"
+            },
+            {
+              "label": "New York High Schools",
+              "href": "high-school/state-template.html?state=NY",
+              "abbr": "NY"
+            },
+            {
+              "label": "North Carolina High Schools",
+              "href": "high-school/state-template.html?state=NC",
+              "abbr": "NC"
+            },
+            {
+              "label": "North Dakota High Schools",
+              "href": "high-school/state-template.html?state=ND",
+              "abbr": "ND"
+            },
+            {
+              "label": "Ohio High Schools",
+              "href": "high-school/state-template.html?state=OH",
+              "abbr": "OH"
+            },
+            {
+              "label": "Oklahoma High Schools",
+              "href": "high-school/state-template.html?state=OK",
+              "abbr": "OK"
+            },
+            {
+              "label": "Oregon High Schools",
+              "href": "high-school/state-template.html?state=OR",
+              "abbr": "OR"
+            },
+            {
+              "label": "Pennsylvania High Schools",
+              "href": "high-school/state-template.html?state=PA",
+              "abbr": "PA"
+            },
+            {
+              "label": "Rhode Island High Schools",
+              "href": "high-school/state-template.html?state=RI",
+              "abbr": "RI"
+            },
+            {
+              "label": "South Carolina High Schools",
+              "href": "high-school/state-template.html?state=SC",
+              "abbr": "SC"
+            },
+            {
+              "label": "South Dakota High Schools",
+              "href": "high-school/state-template.html?state=SD",
+              "abbr": "SD"
+            },
+            {
+              "label": "Tennessee High Schools",
+              "href": "high-school/state-template.html?state=TN",
+              "abbr": "TN"
+            },
+            {
+              "label": "Texas High Schools",
+              "href": "high-school/state-template.html?state=TX",
+              "abbr": "TX"
+            },
+            {
+              "label": "Utah High Schools",
+              "href": "high-school/state-template.html?state=UT",
+              "abbr": "UT"
+            },
+            {
+              "label": "Vermont High Schools",
+              "href": "high-school/state-template.html?state=VT",
+              "abbr": "VT"
+            },
+            {
+              "label": "Virginia High Schools",
+              "href": "high-school/state-template.html?state=VA",
+              "abbr": "VA"
+            },
+            {
+              "label": "Washington High Schools",
+              "href": "high-school/state-template.html?state=WA",
+              "abbr": "WA"
+            },
+            {
+              "label": "Washington DC High Schools",
+              "href": "high-school/state-template.html?state=DC",
+              "abbr": "DC"
+            },
+            {
+              "label": "West Virginia High Schools",
+              "href": "high-school/state-template.html?state=WV",
+              "abbr": "WV"
+            },
+            {
+              "label": "Wisconsin High Schools",
+              "href": "high-school/state-template.html?state=WI",
+              "abbr": "WI"
+            },
+            {
+              "label": "Wyoming High Schools",
+              "href": "high-school/state-template.html?state=WY",
+              "abbr": "WY"
+            }
+          ]
+        },
+        {
+          "title": "Team Boards",
+          "items": [
+            {
+              "label": "Roster Strength",
+              "href": "teams/index.html#strength"
+            },
+            {
+              "label": "Position Groups",
+              "href": "teams/index.html#positions"
+            },
+            {
+              "label": "Depth Charts",
+              "href": "teams/index.html#depth"
+            },
+            {
+              "label": "Needs Board",
+              "href": "teams/index.html#needs"
+            }
+          ]
+        }
       ],
-      "footer": {"label": "Browse all NFL team summaries", "href": "teams/index.html"}
+      "footer": {
+        "label": "Browse NFL teams, FBS teams, and high school state boards",
+        "href": "teams/index.html"
+      }
     },
     {
       "id": "scores",
       "label": "Scores",
       "summary": "NFL schedule results with college and high school setup states separated.",
       "sidebar": [
-        {"label": "Scores Home", "href": "scores/index.html"},
-        {"label": "NFL Scores", "href": "scores/index.html#nfl"}
+        {
+          "label": "Scores Home",
+          "href": "scores/index.html"
+        },
+        {
+          "label": "NFL Scores",
+          "href": "scores/index.html#nfl"
+        }
       ],
       "groups": [
-        {"title": "Scoreboards", "items": [
-          {"label": "NFL Scores", "href": "scores/index.html#nfl"},
-          {"label": "College Scores", "href": "scores/index.html#college"},
-          {"label": "High School Scores", "href": "scores/index.html#high-school"},
-          {"label": "Recent Finals", "href": "scores/index.html#finals"}
-        ]}
+        {
+          "title": "Scoreboards",
+          "items": [
+            {
+              "label": "NFL Scores",
+              "href": "scores/index.html#nfl"
+            },
+            {
+              "label": "College Scores",
+              "href": "scores/index.html#college"
+            },
+            {
+              "label": "High School Scores",
+              "href": "scores/index.html#high-school"
+            },
+            {
+              "label": "Recent Finals",
+              "href": "scores/index.html#finals"
+            }
+          ]
+        }
       ],
-      "footer": {"label": "Live score feed is not enabled yet", "href": "scores/index.html"}
+      "footer": {
+        "label": "Live score feed is not enabled yet",
+        "href": "scores/index.html"
+      }
     },
     {
       "id": "moves",
       "label": "Moves",
       "summary": "Trades, signings, releases, waivers, and premium movement impact.",
       "sidebar": [
-        {"label": "NFL Movement", "href": "nfl-moves/index.html"},
-        {"label": "Market Movers", "href": "nfl-moves/index.html#market"}
+        {
+          "label": "NFL Movement",
+          "href": "nfl-moves/index.html"
+        },
+        {
+          "label": "Market Movers",
+          "href": "nfl-moves/index.html#market"
+        }
       ],
       "groups": [
-        {"title": "Movement", "items": [
-          {"label": "Trades", "href": "nfl-moves/index.html#trades"},
-          {"label": "Signings", "href": "nfl-moves/index.html#signings"},
-          {"label": "Releases", "href": "nfl-moves/index.html#releases"},
-          {"label": "Waivers", "href": "nfl-moves/index.html#waivers"},
-          {"label": "Injured Reserve", "href": "nfl-moves/index.html#reserve"},
-          {"label": "Market Movers", "href": "nfl-moves/index.html#market"}
-        ]}
+        {
+          "title": "Movement",
+          "items": [
+            {
+              "label": "Trades",
+              "href": "nfl-moves/index.html#trades"
+            },
+            {
+              "label": "Signings",
+              "href": "nfl-moves/index.html#signings"
+            },
+            {
+              "label": "Releases",
+              "href": "nfl-moves/index.html#releases"
+            },
+            {
+              "label": "Waivers",
+              "href": "nfl-moves/index.html#waivers"
+            },
+            {
+              "label": "Injured Reserve",
+              "href": "nfl-moves/index.html#reserve"
+            },
+            {
+              "label": "Market Movers",
+              "href": "nfl-moves/index.html#market"
+            }
+          ]
+        }
       ],
-      "footer": {"label": "Premium unlocks ARES and Market impact", "href": "premium.html"}
+      "footer": {
+        "label": "Premium unlocks ARES and Market impact",
+        "href": "premium.html"
+      }
     },
     {
       "id": "watchlist",
       "label": "Watchlist",
       "summary": "Tracked development players, high school watchlist, and premium saved boards.",
       "sidebar": [
-        {"label": "Watchlist", "href": "watchlist/index.html"},
-        {"label": "Saved Watchlist", "href": "watchlist/saved.html"},
-        {"label": "High School", "href": "high-school/index.html"}
+        {
+          "label": "Watchlist",
+          "href": "watchlist/index.html"
+        },
+        {
+          "label": "Saved Watchlist",
+          "href": "watchlist/saved.html"
+        },
+        {
+          "label": "High School",
+          "href": "high-school/index.html"
+        }
       ],
       "groups": [
-        {"title": "Watch Boards", "items": [
-          {"label": "High School Watchlist", "href": "watchlist/index.html#high-school"},
-          {"label": "Saved Watchlist", "href": "watchlist/saved.html"},
-          {"label": "College Watchlist", "href": "watchlist/index.html#college"},
-          {"label": "Development Assets", "href": "rankings/market.html?view=development"}
-        ]}
+        {
+          "title": "Watch Boards",
+          "items": [
+            {
+              "label": "High School Watchlist",
+              "href": "watchlist/index.html#high-school"
+            },
+            {
+              "label": "Saved Watchlist",
+              "href": "watchlist/saved.html"
+            },
+            {
+              "label": "College Watchlist",
+              "href": "watchlist/index.html#college"
+            },
+            {
+              "label": "Development Assets",
+              "href": "rankings/market.html?view=development"
+            }
+          ]
+        },
+        {
+          "title": "High School Teams",
+          "items": [
+            {
+              "label": "Alabama High Schools",
+              "href": "high-school/state-template.html?state=AL",
+              "abbr": "AL"
+            },
+            {
+              "label": "Alaska High Schools",
+              "href": "high-school/state-template.html?state=AK",
+              "abbr": "AK"
+            },
+            {
+              "label": "Arizona High Schools",
+              "href": "high-school/state-template.html?state=AZ",
+              "abbr": "AZ"
+            },
+            {
+              "label": "Arkansas High Schools",
+              "href": "high-school/state-template.html?state=AR",
+              "abbr": "AR"
+            },
+            {
+              "label": "California High Schools",
+              "href": "high-school/state-template.html?state=CA",
+              "abbr": "CA"
+            },
+            {
+              "label": "Colorado High Schools",
+              "href": "high-school/state-template.html?state=CO",
+              "abbr": "CO"
+            },
+            {
+              "label": "Connecticut High Schools",
+              "href": "high-school/state-template.html?state=CT",
+              "abbr": "CT"
+            },
+            {
+              "label": "Delaware High Schools",
+              "href": "high-school/state-template.html?state=DE",
+              "abbr": "DE"
+            },
+            {
+              "label": "Florida High Schools",
+              "href": "high-school/state-template.html?state=FL",
+              "abbr": "FL"
+            },
+            {
+              "label": "Georgia High Schools",
+              "href": "high-school/state-template.html?state=GA",
+              "abbr": "GA"
+            },
+            {
+              "label": "Hawaii High Schools",
+              "href": "high-school/state-template.html?state=HI",
+              "abbr": "HI"
+            },
+            {
+              "label": "Idaho High Schools",
+              "href": "high-school/state-template.html?state=ID",
+              "abbr": "ID"
+            },
+            {
+              "label": "All High School State Boards",
+              "href": "high-school/index.html",
+              "abbr": "HS"
+            }
+          ]
+        }
       ],
-      "footer": {"label": "High school players are tracked only", "href": "watchlist/index.html"}
+      "footer": {
+        "label": "High school players are tracked only",
+        "href": "watchlist/index.html"
+      }
     },
     {
       "id": "methodology",
       "label": "Methodology",
       "summary": "What ARES measures, what Market Score means, and what stays premium.",
       "sidebar": [
-        {"label": "Methodology", "href": "methodology.html"},
-        {"label": "Premium", "href": "premium.html"}
+        {
+          "label": "Methodology",
+          "href": "methodology.html"
+        },
+        {
+          "label": "Premium",
+          "href": "premium.html"
+        }
       ],
       "groups": [
-        {"title": "Model Notes", "items": [
-          {"label": "ARES Score", "href": "methodology.html#ares-score"},
-          {"label": "Market Score", "href": "methodology.html#market-score"},
-        {"label": "Source Policy", "href": "methodology.html#sources"},
-          {"label": "Data Exports", "href": "data/index.html"},
-          {"label": "Premium Fields", "href": "premium.html"}
-        ]}
+        {
+          "title": "Model Notes",
+          "items": [
+            {
+              "label": "ARES Score",
+              "href": "methodology.html#ares-score"
+            },
+            {
+              "label": "Market Score",
+              "href": "methodology.html#market-score"
+            },
+            {
+              "label": "Source Policy",
+              "href": "methodology.html#sources"
+            },
+            {
+              "label": "Data Exports",
+              "href": "data/index.html"
+            },
+            {
+              "label": "Premium Fields",
+              "href": "premium.html"
+            }
+          ]
+        }
       ],
-      "footer": {"label": "ARES Score is player quality. Market Score is asset value.", "href": "methodology.html"}
+      "footer": {
+        "label": "ARES Score is player quality. Market Score is asset value.",
+        "href": "methodology.html"
+      }
     },
     {
       "id": "premium",
       "label": "Premium",
       "summary": "Unlock ARES grades, Market Scores, age curves, trade-value signals, and roster impact.",
       "sidebar": [
-        {"label": "Premium Access", "href": "premium.html"},
-        {"label": "Sample Player Report", "href": "premium.html#sample-report"}
+        {
+          "label": "Premium Access",
+          "href": "premium.html"
+        },
+        {
+          "label": "Sample Player Report",
+          "href": "premium.html#sample-report"
+        }
       ],
       "groups": [
-        {"title": "Unlock", "items": [
-          {"label": "Full ARES Score", "href": "premium.html#ares"},
-          {"label": "Market Score Breakdown", "href": "premium.html#market"},
-          {"label": "Trade Value Signal", "href": "premium.html#movement"},
-          {"label": "Team Fit", "href": "premium.html#team-fit"},
-          {"label": "Risk Score", "href": "premium.html#risk"}
-        ]}
+        {
+          "title": "Unlock",
+          "items": [
+            {
+              "label": "Full ARES Score",
+              "href": "premium.html#ares"
+            },
+            {
+              "label": "Market Score Breakdown",
+              "href": "premium.html#market"
+            },
+            {
+              "label": "Trade Value Signal",
+              "href": "premium.html#movement"
+            },
+            {
+              "label": "Team Fit",
+              "href": "premium.html#team-fit"
+            },
+            {
+              "label": "Risk Score",
+              "href": "premium.html#risk"
+            }
+          ]
+        }
       ],
-      "footer": {"label": "Unlock the football asset terminal", "href": "premium.html"}
+      "footer": {
+        "label": "Unlock the football asset terminal",
+        "href": "premium.html"
+      }
     }
   ]
 }

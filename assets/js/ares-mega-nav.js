@@ -55,9 +55,16 @@
     return abbr || String(label || "AR").split(/\s+/).map(function (word) { return word[0]; }).join("").slice(0, 3);
   }
 
+  const NFL_LOGO_KEYS = {
+    ARI: true, ATL: true, BAL: true, BUF: true, CAR: true, CHI: true, CIN: true, CLE: true,
+    DAL: true, DEN: true, DET: true, GB: true, HOU: true, IND: true, JAX: true, KC: true,
+    LAC: true, LAR: true, LV: true, MIA: true, MIN: true, NE: true, NO: true, NYG: true,
+    NYJ: true, PHI: true, PIT: true, SEA: true, SF: true, TB: true, TEN: true, WAS: true
+  };
+
   function nflLogoUrl(abbr) {
     const key = String(abbr || "").toUpperCase();
-    return key ? "assets/media/teams/nfl/" + encodeURIComponent(key) + ".png" : "";
+    return NFL_LOGO_KEYS[key] ? "assets/media/teams/nfl/" + encodeURIComponent(key) + ".png" : "";
   }
 
   function imageTag(root, src, label) {
