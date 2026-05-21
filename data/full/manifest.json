@@ -234,7 +234,7 @@
     {
       "source_csv": "scores/nfl_scoreboard.csv",
       "path": "full/scores/nfl_scoreboard",
-      "rows": 0,
+      "rows": 7276,
       "shards": 1,
       "columns": [
         "game_id",
@@ -330,7 +330,7 @@
     {
       "source_csv": "scores/unified_scoreboard.csv",
       "path": "full/scores/unified_scoreboard",
-      "rows": 0,
+      "rows": 7276,
       "shards": 1,
       "columns": [
         "game_id",
@@ -362,7 +362,7 @@
     {
       "source_csv": "transactions/nfl_transactions.csv",
       "path": "full/transactions/nfl_transactions",
-      "rows": 0,
+      "rows": 4840,
       "shards": 1,
       "columns": [
         "transaction_id",
@@ -407,7 +407,7 @@
     {
       "source_csv": "transactions/nfl_front_page_moves.csv",
       "path": "full/transactions/nfl_front_page_moves",
-      "rows": 0,
+      "rows": 25,
       "shards": 1,
       "columns": [
         "date",
